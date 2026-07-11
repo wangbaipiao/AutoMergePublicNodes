@@ -1,0 +1,38 @@
+proxies:
+- name: 11,12|美国|@ripaojiedian
+  network: tcp
+  password: b1a42ca60884057bf527d8d38b618cfb
+  port: 17005
+  server: 18.163.105.231
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|美国2|@ripaojiedian
+  network: tcp
+  password: b1a42ca60884057bf527d8d38b618cfb
+  port: 17005
+  server: 18.166.63.229
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12|美国3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 44265
+  server: 18.163.115.109
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 13|US_speednode_0063
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn

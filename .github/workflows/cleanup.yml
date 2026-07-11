@@ -1,0 +1,29 @@
+name: 每月清理历史数据
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: 清理历史
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "Cleanup Bot"
+          git checkout --orphan temp-branch
+          git add -A
+          git commit -m "$(date '+%Y-%m-%d') 清理历史节点数据"
+          git branch -D master
+          git branch -m master
+          git push origin master --force
+          git reflog expire --expire=now --all
+          git gc --aggressive --prune=now
+          git push origin master --force

@@ -1,0 +1,21 @@
+name: 自动同步上游
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: 同步上游
+        run: |
+          git remote add upstream https://github.com/chengaopan/AutoMergePublicNodes.git
+          git fetch upstream master
+          git checkout master
+          git merge upstream/master
+          git push origin master
