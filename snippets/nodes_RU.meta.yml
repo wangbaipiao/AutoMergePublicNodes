@@ -11,6 +11,28 @@ proxies:
   ws-headers:
     host: insaneguo2333.top
   ws-path: /okoovws
+- name: 19|俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 8882
+  server: gr1.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: gr1.fifapes.monster
+    path: '%2F'
+- name: '19|俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 29148
+  server: it.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI'
+    path: '%2F'
 - alterId: 0
   cipher: auto
   name: 43|俄羅斯
