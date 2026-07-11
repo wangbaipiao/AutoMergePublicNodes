@@ -1,5 +1,261 @@
 proxies:
-- name: 11,12|日本|@ripaojiedian
+- cipher: aes-256-gcm
+  name: 15,16|360_日本-2.28MB
+  password: TEzjfAYq2IjtuoS
+  port: '6679'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|361_日本-673.5KB
+  password: faBAoD54k87UJG7
+  port: '2376'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|362_日本-817.9KB
+  password: XKFKl2rULjIp74
+  port: '8008'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|363_日本-1.46MB
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|365_日本-824.8KB
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|366_日本-1.07MB
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|367_日本-952.6KB
+  password: Y6R9pAtvxxzmGC
+  port: '5000'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 15,16|369_日本-514.1KB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.120.229
+  type: ss
+- cipher: aes-256-cfb
+  name: 15,16|370_日本-4.55MB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.205.208
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|372_日本-3.60MB
+  password: e4FCWrgpkji3QY
+  port: '9102'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|373_日本-2.73MB
+  password: Y6R9pAtvxxzmGC
+  port: '5001'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|375_日本-2.02MB
+  password: Y6R9pAtvxxzmGC
+  port: '3306'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 15,16|376_日本-2.75MB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.108.0
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|378_日本-979.7KB
+  password: kDWvXYZoTBcGkC4
+  port: '8882'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 15,16|379_日本-780.8KB
+  password: amazonskr05
+  port: '443'
+  server: 43.206.194.235
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|380_日本-1.52MB
+  password: PCnnH6SQSnfoS27
+  port: '8091'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|381_日本-1.43MB
+  password: RexnBgU7EV5ADxG
+  port: '7002'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|382_日本-2.12MB
+  password: zDNVedRFPQexG9v
+  port: '6379'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|383_日本-1.85MB
+  password: kDWvXYZoTBcGkC4
+  port: '8881'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|384_日本-1.89MB
+  password: KixLvKzwjekG00rm
+  port: '8000'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 15,16|385_日本-2.19MB
+  password: amazonskr05
+  port: '443'
+  server: 54.250.243.47
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|388_日本-1.03MB
+  password: faBAoD54k87UJG7
+  port: '2375'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|389_日本-289.6KB
+  password: RexnBgU7EV5ADxG
+  port: '7001'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 15,16|390_日本-931.5KB
+  password: Y6R9pAtvxxzmGC
+  port: '8888'
+  server: 85.208.108.60
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 15,16|463_日本-1.79MB
+  network: ws
+  port: '443'
+  server: suzhihan.eu.org
+  tls: 1
+  type: vmess
+  uuid: 0b873cff-11ab-4716-c41a-04f886135091
+  ws-headers:
+    host: suzhihan.eu.org
+  ws-path: /roewesu
+- cipher: aes-256-gcm
+  name: 16|347_日本-1.13MB
+  password: XKFKl2rULjIp74
+  port: '8009'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 16|348_日本-350.3KB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.66.114
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|349_日本-1.80MB
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 85.208.108.60
+  type: ss
+- cipher: aes-256-cfb
+  name: 16|350_日本-3.16MB
+  password: amazonskr05
+  port: '443'
+  server: 43.207.110.173
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|351_日本-167.0KB
+  password: FoOiGlkAA9yPEGP
+  port: '7307'
+  server: 85.208.108.60
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: 16|393_日本-2.23MB
+  network: tcp
+  port: '33421'
+  server: www.kuromi.eu.org
+  tls: 0
+  type: vmess
+  uuid: 94e56ff9-ccf1-414e-a114-46e0a79f6614
+  ws-headers:
+    host: holyquran18.store
+  ws-path: /current_time
+- alterId: '0'
+  cipher: auto
+  name: 16|414_日本-5.46MB
+  network: ws
+  port: '443'
+  server: jp4.microsoftjs.top
+  tls: 0
+  type: vmess
+  uuid: bfd69e87-386d-4206-903e-9c0df8a8bfcf
+  ws-headers:
+    host: jp4.microsoftjs.top
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: '0'
+  cipher: auto
+  name: 16|417_日本-1.60MB
+  network: ws
+  port: '443'
+  server: jp11.microsoftjs.top
+  tls: 0
+  type: vmess
+  uuid: bfd69e87-386d-4206-903e-9c0df8a8bfcf
+  ws-headers:
+    host: jp11.microsoftjs.top
+  ws-path: /filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b
+- alterId: '0'
+  cipher: auto
+  name: 16|418_日本-4.61MB
+  network: ws
+  port: '8080'
+  server: 168.138.204.253
+  tls: 0
+  type: vmess
+  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 16|425_日本-1.65MB
+  network: ws
+  port: '80'
+  server: japam01.aws01cdn.xn--57q977p.com
+  tls: 0
+  type: vmess
+  uuid: b261a984-f165-4b2d-92ca-e75d051f1238
+  ws-headers:
+    host: japam01.aws01cdn.xn--57q977p.com
+  ws-path: /images
+- cipher: aes-256-cfb
+  name: 16,51|8J%2BHr%2FCfh7VKUC0xMy4yMzEuMT...
+  obfs: tls1.2_ticket_auth
+  obfs-param: ''
+  password: eAokbaDN6
+  port: '8081'
+  protocol: origin
+  protocol-param: ''
+  server: jp-am48-6.eqnode.net
+  type: ssr
+- name: '32,43,46,48,49|日本|@ripaojiedian #1'
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -7,7 +263,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 11,12|日本2|@ripaojiedian
+- name: '32,43,46,48,49|日本2|@ripaojiedian #1'
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
@@ -15,7 +271,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 11,12|日本3|@ripaojiedian
+- name: '32,43,46,48,49|日本3|@ripaojiedian #1'
   network: tcp
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
@@ -23,3 +279,63 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 43|🇯🇵 JP日本(mibei77.com 米贝节点分享)
+  password: '!!str 666'
+  port: 443
+  server: 18.180.0.203
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+- name: '43|🇯🇵 JP日本(mibei77.com 米贝节点分享) #1'
+  password: '!!str 666'
+  port: 443
+  server: 212.135.212.26
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+- name: 43|🇯🇵_JP_日本
+  password: HW85960347
+  port: 443
+  server: happy-monkfish.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵JP-152.69.197.74-3356
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵日本 01
+  network: ws
+  port: '2086'
+  server: linode.appleid.bf
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
+    path: /CAT
+- alterId: 0
+  cipher: auto
+  name: 51|🇯🇵日本 02
+  network: ws
+  port: '2086'
+  server: cf.335570.xyz
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: linode.appleid.bf
+    path: /CAT

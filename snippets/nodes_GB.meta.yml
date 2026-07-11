@@ -1,5 +1,113 @@
 proxies:
-- name: 13|GB_speednode_0005
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 19|英国+伦敦Virgin+Media
+  network: ws
+  port: 443
+  server: 82.21.84.97
+  servername: ww1.aniuge.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.aniuge.qzz.io
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 43|英國
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 43|英國節點
+  network: tcp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 51|🇬🇧+GB+英国+3
+  network: ws
+  port: 8443
+  server: 194.36.55.198
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- alterId: 0
+  cipher: auto
+  name: 51|🇬🇧 United Kingdom 01 @nodpai
+  network: ws
+  port: '443'
+  server: 172.99.190.109
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: linkvws
+- name: 51|🇬🇧+GB+英国+76
+  network: ws
+  port: 8443
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 51|🇬🇧+GB+英国+4
+  network: ws
+  port: 2096
+  server: 31.22.116.134
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 51|🇬🇧+GB+英国+13
+  network: ws
+  port: 2096
+  server: 94.247.142.245
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 51|🇬🇧+GB+英国+68
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 53|GB_speednode_0005
   network: ws
   password: MITIVPN
   port: 443
@@ -12,7 +120,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 13|GB_speednode_0006
+- name: 53|GB_speednode_0006
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: 663a898a-t9zts0-tatrrz-yjq0.uk.oshuawei.com
@@ -20,7 +128,7 @@ proxies:
   type: http
   udp: true
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: 13|GB_speednode_0007
+- name: 53|GB_speednode_0007
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 443
   server: 48997541-t9zts0-tan99f-1rdqg.uk.oshuawei.com

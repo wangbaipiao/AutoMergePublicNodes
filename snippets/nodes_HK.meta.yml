@@ -1,5 +1,161 @@
 proxies:
-- name: 8| HK
+- alterId: '64'
+  cipher: auto
+  name: 15,16|446_香港-857.2KB
+  network: tcp
+  port: '44659'
+  server: 156.245.8.53
+  tls: 0
+  type: vmess
+  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
+  ws-headers:
+    host: hax-us1-sudoxin.imnibaba.wiki
+  ws-path: /tg@sudoxin
+- alterId: '0'
+  cipher: auto
+  name: 15,16|447_香港-1.24MB
+  network: ws
+  port: '80'
+  server: hkt5.amazonwebservicess.com
+  tls: 0
+  type: vmess
+  uuid: 34210e77-a8e7-401c-887b-9ef81c1d6f5e
+  ws-headers:
+    host: media.amazonwebservices.com
+  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
+- alterId: '64'
+  cipher: auto
+  name: 15,16|455_香港-3.10MB
+  network: tcp
+  port: '40519'
+  server: 156.245.8.66
+  tls: 0
+  type: vmess
+  uuid: 5a4d69ad-20a9-4941-b223-87bbd09f5f52
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 15,16|465_香港-1.88MB
+  network: tcp
+  port: '58356'
+  server: 156.245.8.165
+  tls: 0
+  type: vmess
+  uuid: b8df3ef1-887f-4ee4-855f-4f80416c2464
+  ws-headers:
+    host: kr-207-239.shoptunnel.live
+  ws-path: /8cda48b3
+- alterId: '2'
+  cipher: auto
+  name: 15,16|467_香港-7.30MB
+  network: ws
+  port: '30776'
+  server: hkthome2.iggfastweb.com
+  tls: 0
+  type: vmess
+  uuid: 9e0822c2-75ea-4d30-8895-9fe59da9935c
+  ws-headers:
+    host: images-cn.ssl-images-amazon.com
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 15,16|473_香港-2.94MB
+  network: tcp
+  port: '44884'
+  server: 156.245.8.227
+  tls: 0
+  type: vmess
+  uuid: 078eb24d-8d1d-4fbd-b914-ee58a897a35e
+  ws-headers:
+    host: 66.42.40.132
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 15,16|486_(1)香港-355.8KB
+  network: tcp
+  port: '44111'
+  server: 156.245.8.53
+  tls: 0
+  type: vmess
+  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
+  ws-headers:
+    host: z61.hongkongnode.top
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 16|405_香港-2.66MB
+  network: tcp
+  port: '42076'
+  server: 156.245.8.26
+  tls: 0
+  type: vmess
+  uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949
+  ws-headers:
+    host: jp1117.ljydw.top
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 16|407_香港-1.05MB
+  network: tcp
+  port: '53434'
+  server: 156.245.8.139
+  tls: 0
+  type: vmess
+  uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9
+  ws-headers:
+    host: us01.163453.xyz
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 16|408_香港-306.7KB
+  network: ws
+  port: '80'
+  server: hkt8.amazonwebservicess.com
+  tls: 0
+  type: vmess
+  uuid: 9d19115a-476f-40d4-b815-2bdaaa68a691
+  ws-headers:
+    host: media.amazonwebservices.com
+  ws-path: /aws-china-media/Y699Gjx2rNw.mp4
+- alterId: '64'
+  cipher: auto
+  name: 16|419_香港-1.83MB
+  network: tcp
+  port: '59592'
+  server: 156.245.8.121
+  tls: 0
+  type: vmess
+  uuid: 20b30916-e203-412e-8ec0-900f3acd5128
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 16|420_香港-4.49MB
+  network: ws
+  port: '8080'
+  server: 20.2.80.106
+  tls: 0
+  type: vmess
+  uuid: 95a17ae9-207d-4f63-b5f2-c00430bee1bb
+  ws-headers:
+    host: ''
+  ws-path: /
+- alterId: '64'
+  cipher: auto
+  name: 16|426_香港-1.28MB
+  network: tcp
+  port: '38930'
+  server: 156.245.8.246
+  tls: 0
+  type: vmess
+  uuid: 964bf499-9ec0-4378-92b6-87d8d861b2d0
+  ws-headers:
+    host: vc-fi1.imnibaba.wiki
+  ws-path: /tg@sudoxin
+- name: 22,32,46|🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
   server: ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com
@@ -8,40 +164,7 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: 11|🇭🇰 香港|@ripaojiedian
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 11,12|香港3|@ripaojiedian
-  network: tcp
-  password: b1a42ca60884057bf527d8d38b618cfb
-  port: 32583
-  server: 54.46.117.102
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 11,12|香港4|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 27161
-  server: 54.46.14.230
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 11,12|香港5|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 29443
-  server: 43.199.252.80
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 12|香港|@ripaojiedian
+  name: '32,43,46,49|香港|@ripaojiedian #1'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -49,7 +172,446 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 13|HK_speednode_0008
+- name: '32,43,46,48,49|香港3|@ripaojiedian #1'
+  network: tcp
+  password: b1a42ca60884057bf527d8d38b618cfb
+  port: 32583
+  server: 54.46.117.102
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '32,43,46,48,49|香港4|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 27161
+  server: 54.46.14.230
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '32,43,46,48,49|香港5|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 29443
+  server: 43.199.252.80
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 43|香港丨yoyapai.com\r
+  password: 65fQmPHHbPcBCfvSHt
+  port: 443
+  server: au-4.tr202605.com
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 46|🇭🇰HK_1|4.5MB/s
+  port: 32134
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 46|🇭🇰HK_2|3.1MB/s
+  port: 32342
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
+- alterId: 2
+  cipher: auto
+  name: '48|🇭🇰 香港|@ripaojiedian #2'
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong8
+  network: ws
+  port: 9988
+  server: 101.36.118.159
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- alterId: 0
+  cipher: auto
+  name: 51|🇭🇰HK-47.76.35.246-0787
+  network: ws
+  port: 24101
+  server: 47.76.35.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 51|🇭🇰+HK+香港+65
+  network: ws
+  port: 443
+  server: 129.227.139.137
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong5
+  network: ws
+  port: 443
+  server: 45.78.16.178
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong1
+  network: ws
+  port: 443
+  server: 129.227.139.137
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong10
+  network: ws
+  port: 443
+  server: 16.162.37.167
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong2
+  network: ws
+  port: 26925
+  server: 38.207.164.31
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇭🇰+HK+香港+67
+  network: ws
+  port: 9988
+  server: 101.36.118.159
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong12
+  network: ws
+  port: 18888
+  server: 112.168.91.60
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong14
+  network: ws
+  port: 50394
+  server: 218.204.179.53
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- alterId: 64
+  cipher: auto
+  name: 51|香港1|@ripaojiedian
+  network: tcp
+  port: '54402'
+  server: 120.233.43.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 51|🇭🇰+HK+香港+32
+  network: ws
+  port: 443
+  server: 16.162.37.167
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong16
+  network: ws
+  port: 2083
+  server: 47.242.232.14
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇭🇰+HK+香港+31
+  network: ws
+  port: 9004
+  server: 154.3.37.27
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong4
+  network: ws
+  port: 3443
+  server: 47.75.101.0
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇭🇰+HK+香港+62
+  network: ws
+  port: 13380
+  server: 47.242.149.43
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- alterId: 64
+  cipher: auto
+  name: '51|香港|@ripaojiedian #2'
+  network: tcp
+  port: '41492'
+  server: 120.232.242.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 51|香港2|@ripaojiedian
+  network: tcp
+  port: '44805'
+  server: hkjcdn03.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1528295e-c497-43ac-a08d-c040662b9344
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong3
+  network: ws
+  port: 2096
+  server: 45.80.111.38
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇭🇰+HK+香港+60
+  network: ws
+  port: 2096
+  server: 8.210.21.65
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong6
+  network: ws
+  port: 2096
+  server: 8.210.21.65
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: "51|TG频道:@hkaa0▓香港\r"
+  network: tcp
+  password: 6685b4eb-aa84-454a-8049-5f5d39f0d9a0
+  port: 7004
+  server: dx.xxmd.online
+  skip-cert-verify: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '51|香港5|@ripaojiedian #2'
+  network: ws
+  port: '26925'
+  server: 38.207.164.31
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- name: 51|🇭🇰+HK+香港+58
+  network: ws
+  port: 65432
+  server: 43.154.196.20
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- alterId: 64
+  cipher: auto
+  name: 51|🇭🇰HK-182.16.1.194-8978
+  network: ws
+  port: 80
+  server: hrgdvpn.flycdnedc55.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+  ws-opts:
+    headers:
+      Host: hrgdvpn.flycdnedc55.vip
+    path: /opt/video/images
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong15
+  network: ws
+  port: 2083
+  server: 47.242.17.250
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong11
+  network: ws
+  port: 65432
+  server: 43.154.196.20
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong7
+  network: ws
+  port: 443
+  server: 43.198.53.11
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇭🇰+HK+香港+45
+  network: ws
+  port: 58916
+  server: 38.55.99.62
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -HK-Hong Kong9
+  network: ws
+  port: 13380
+  server: 47.242.149.43
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇭🇰+HK+香港+8
+  network: ws
+  port: 3443
+  server: 47.75.101.0
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 53|HK_speednode_0008
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 8443
   server: 19016135-te7og0-tfo5nb-yjq0.hkt.cdnhuawei.com

@@ -1,5 +1,328 @@
 proxies:
-- name: 13|KR_speednode_0014
+- alterId: '0'
+  cipher: auto
+  name: 15,16|489_韩国-395.9KB
+  network: tcp
+  port: '53140'
+  server: sr.v2ssr.xyz
+  tls: 0
+  type: vmess
+  uuid: d4d60924-e920-4fb7-abd6-aa78ade5b3a9
+  ws-headers:
+    host: sr.v2ssr.xyz
+  ws-path: /
+- name: 43|KR韓國丨yoyapai.com\r
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.179
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+- name: 43|🇰🇷 KR韩国(mibei77.com 米贝节点分享)
+  password: '!!str 3632736327'
+  port: 1622
+  server: kr04231525.tmdsb.org
+  skip-cert-verify: false
+  sni: kr04231525.tmdsb.org
+  type: trojan
+- name: '43|🇰🇷 KR韩国(mibei77.com 米贝节点分享) #1'
+  password: '!!str 3632736327'
+  port: 2648
+  server: kr04212339.tmdsb.org
+  skip-cert-verify: false
+  sni: kr04212339.tmdsb.org
+  type: trojan
+- name: 51|🇰🇷+KR+韩国+44
+  network: ws
+  port: 18888
+  server: 112.168.91.60
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷KR-152.67.218.38-0746
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: 152.67.218.38
+    path: /
+- name: 51|🇰🇷+KR+韩国+53
+  network: ws
+  port: 20010
+  server: 129.154.222.116
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 51|🇰🇷+KR+韩国+46
+  network: ws
+  port: 10082
+  server: 14.52.249.135
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- name: 51|🇰🇷+KR+韩国+39
+  network: ws
+  port: 10548
+  server: 211.52.190.145
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 51|🇰🇷+KR+韩国+22
+  network: ws
+  port: 8443
+  server: 20.249.83.244
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷韩国 01
+  network: ws
+  port: '2086'
+  server: cf.iepl1.me
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR1
+  network: ws
+  port: 44699
+  server: 129.154.212.181
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷KR-152.67.218.38-0747
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR5
+  network: ws
+  port: 443
+  server: 129.154.198.48
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR4
+  network: ws
+  port: 10548
+  server: 211.52.190.145
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR6
+  network: ws
+  port: 20010
+  server: 129.154.222.116
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR3
+  network: ws
+  port: 2053
+  server: 193.122.125.174
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇰🇷+KR+韩国+17
+  network: ws
+  port: 40377
+  server: 193.122.122.16
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 51|🇰🇷+KR+韩国+43
+  network: ws
+  port: 30040
+  server: 59.4.80.188
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzibaipiao.5112233.xyz
+    path: '%2f%3fed%3d2048'
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR2
+  network: ws
+  port: 2096
+  server: 91.193.58.98
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇰🇷+KR+韩国+26
+  network: ws
+  port: 2053
+  server: 193.122.125.174
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 51|🇰🇷+KR+韩国+50
+  network: ws
+  port: 443
+  server: 140.238.13.96
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR7
+  network: ws
+  port: 40377
+  server: 193.122.122.16
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷韩国 02
+  network: ws
+  port: '2086'
+  server: cf.335570.xyz
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
+- client-fingerprint: random
+  name: 51|TG@ZDYZ2 -KR8
+  network: ws
+  port: 8443
+  server: 132.145.91.171
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: TG%40ZDYZ2
+- name: 51|🇰🇷+KR+韩国+47
+  network: ws
+  port: 44699
+  server: 129.154.212.181
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 51|🇰🇷+KR+韩国+40
+  network: ws
+  port: 20010
+  server: 146.56.130.56
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      Host: cfed.tgzdyz2.top
+    path: tg%40zdyz2
+- name: 53|KR_speednode_0014
   password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
   port: 31433
   server: 701489ed-t9zts0-tan99f-1rdqg.kr.oshuawei.com

@@ -1,1 +1,88 @@
-proxies: []
+proxies:
+- alterId: '0'
+  cipher: auto
+  name: 15,16|489_韩国-395.9KB
+  network: tcp
+  port: '53140'
+  server: sr.v2ssr.xyz
+  tls: 0
+  type: vmess
+  uuid: d4d60924-e920-4fb7-abd6-aa78ade5b3a9
+  ws-headers:
+    host: sr.v2ssr.xyz
+  ws-path: /
+- name: 43|KR韓國丨yoyapai.com\r
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.179
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+- name: 43|🇰🇷 KR韩国(mibei77.com 米贝节点分享)
+  password: '!!str 3632736327'
+  port: 1622
+  server: kr04231525.tmdsb.org
+  skip-cert-verify: false
+  sni: kr04231525.tmdsb.org
+  type: trojan
+- name: '43|🇰🇷 KR韩国(mibei77.com 米贝节点分享) #1'
+  password: '!!str 3632736327'
+  port: 2648
+  server: kr04212339.tmdsb.org
+  skip-cert-verify: false
+  sni: kr04212339.tmdsb.org
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷KR-152.67.218.38-0746
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: 152.67.218.38
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷韩国 01
+  network: ws
+  port: '2086'
+  server: cf.iepl1.me
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷KR-152.67.218.38-0747
+  network: ws
+  port: 443
+  server: 152.67.218.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 51|🇰🇷韩国 02
+  network: ws
+  port: '2086'
+  server: cf.335570.xyz
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048

@@ -1,5 +1,5 @@
 proxies:
-- name: 8|DE
+- name: '22,32,46|DE #1'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
   server: de.eyucdn.xyz
@@ -7,7 +7,7 @@ proxies:
   sni: de.eyucdn.xyz
   tls: false
   type: hysteria2
-- name: 8,9|@KAFING_2
+- name: '22,23,32,46|@KAFING_2 #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -17,7 +17,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn🇩🇪
+- name: '23,32,46|🇩🇪@V2RayyNGvpn🇩🇪 #2'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: MjLSEZj2IW
@@ -27,7 +27,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn🇩🇪 #1'
+- name: '23,32,46|🇩🇪@V2RayyNGvpn🇩🇪 #1 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: QjdEEystFJ
@@ -37,17 +37,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2RayyNGvpn
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: TGzLlWQaFb
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '9|🇩🇪@V2RayyNGvpn #1'
+- name: '23,32,46|🇩🇪@V2RayyNGvpn #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: y4nJ8poIsh
@@ -57,7 +47,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 9|🇩🇪@V2raybazi
+- name: '23,32,46|🇩🇪@V2raybazi #1'
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -65,3 +55,108 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
+- name: 32|9|🇩🇪@V2RayyNGvpn
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: TGzLlWQaFb
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: 46|🇩🇪DE_1|2.1MB/s
+  network: ws
+  port: 80
+  server: 188.114.97.6
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 7a4e9c21-b3d8-4f6a-9e52-1c8d5f0a6b73
+  ws-opts:
+    headers:
+      Host: srv75.configur.name.ng
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 51|🇩🇪DE-194.87.71.23-0109
+  network: ws
+  port: 23742
+  server: 194.87.71.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8706bdb-335e-4631-a2af-3052ad93b10d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wp-admin
+- alterId: 0
+  cipher: auto
+  name: 51|🇩🇪DE-130.162.47.123-9798
+  network: ws
+  port: 6854
+  server: 130.162.47.123
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: b5f7e932-f730-4ad2-b425-40977b9db332
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zBLPou
+- alterId: 0
+  cipher: auto
+  name: 51|🇩🇪德国 01
+  network: ws
+  port: '2086'
+  server: cf.iepl1.me
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: deamd1.topf6.com
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 51|🇩🇪德国 02
+  network: ws
+  port: '2086'
+  server: cf.335570.xyz
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: deamd1.topf6.com
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 51|🇩🇪DE-217.160.45.31-0340
+  network: ws
+  port: 8880
+  server: 217.160.45.31
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e186678-fcca-4325-e4bc-b2916bdf6708
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: 51|🇩🇪_DE_德国
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 18.196.39.57
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: '51|🇩🇪_DE_德国 #1'
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.68.139.230
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
