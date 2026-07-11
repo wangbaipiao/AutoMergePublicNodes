@@ -1,7 +1,7 @@
 proxies:
 - alterId: '0'
   cipher: auto
-  name: 15,16|489_韩国-395.9KB
+  name: 16,17|489_韩国-395.9KB
   network: tcp
   port: '53140'
   server: sr.v2ssr.xyz
@@ -11,21 +11,98 @@ proxies:
   ws-headers:
     host: sr.v2ssr.xyz
   ws-path: /
-- name: 43|KR韓國丨yoyapai.com\r
+- alterId: 0
+  cipher: auto
+  name: 30|韩国春川-甲骨文云
+  network: ws
+  port: 443
+  server: a.hehedada.tk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 5235e3dd-187a-4eae-af33-9222a5f67f09
+  ws-headers:
+    Host: a.hehedada.tk
+  ws-path: /nncjvws
+- alterId: 0
+  cipher: auto
+  name: 30|韩国春川-甲骨文云2
+  network: ws
+  port: 443
+  server: c.hehedada.tk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: e0ccc96c-3b92-4251-92d6-bc94208574ba
+  ws-headers:
+    Host: c.hehedada.tk
+  ws-path: /wwmgvws
+- name: 52|韩国_1
+  network: ws
+  password: NISHIKUITAN222
+  port: 17057
+  server: 125.139.249.241
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: t033.ylks.link
+    path: /
+- name: 52|韩国_26
+  network: ws
+  password: NISHIKUITAN222
+  port: 39308
+  server: 61.247.83.116
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: t033.ylks.link
+    path: /
+- name: 56|South+Korea
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: sincere-stud.adder289.quest
+  type: trojan
+- name: '56|South+Korea #1'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: humble-rodent.treefrog761.one
+  type: trojan
+- name: '56|South+Korea #2'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: 43.202.142.243
+  type: trojan
+- name: '56|South+Korea #3'
+  password: '!!str 3782591447421952000'
+  port: 443
+  server: 13.125.25.144
+  type: trojan
+- name: '56|South+Korea #4'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: 13.125.85.5
+  type: trojan
+- name: 58,71|韩国_0710007
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
   server: 211.49.57.179
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: tjsp.hhxaf.cc.cd
   type: trojan
-- name: 43|🇰🇷 KR韩国(mibei77.com 米贝节点分享)
+- name: 58,68|KR韩国(mibei77.com 米贝节点分享)
+  network: tcp
   password: '!!str 3632736327'
   port: 1622
   server: kr04231525.tmdsb.org
   skip-cert-verify: false
   sni: kr04231525.tmdsb.org
   type: trojan
-- name: '43|🇰🇷 KR韩国(mibei77.com 米贝节点分享) #1'
+- name: '58,68|KR韩国(mibei77.com 米贝节点分享) #1'
+  network: tcp
   password: '!!str 3632736327'
   port: 2648
   server: kr04212339.tmdsb.org
@@ -34,9 +111,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 51|🇰🇷KR-152.67.218.38-0746
+  name: 67,71|韩国_0710003
   network: ws
-  port: 443
+  port: '443'
   server: 152.67.218.38
   servername: ''
   tls: false
@@ -48,7 +125,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 51|🇰🇷韩国 01
+  name: 67|🇰🇷韩国 01
   network: ws
   port: '2086'
   server: cf.iepl1.me
@@ -61,7 +138,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: 51|🇰🇷KR-152.67.218.38-0747
+  name: 67|🇰🇷KR-152.67.218.38-0747
   network: ws
   port: 443
   server: 152.67.218.38
@@ -75,7 +152,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 51|🇰🇷韩国 02
+  name: 67|🇰🇷韩国 02
   network: ws
   port: '2086'
   server: cf.335570.xyz
@@ -86,3 +163,127 @@ proxies:
     headers:
       Host: krcc1.topf6.com
     path: /ws?ed=2048
+- name: 68|KR韓國丨yoyapai.com
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 211.49.57.179
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: '%2F'
+- name: 71|韩国_0710004
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 152.67.210.234
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 71|韩国_0710008
+  network: ws
+  port: '443'
+  server: fullaccesstokoreannetsubnode1.azurewebsites.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 274f11c6-f69b-40b9-8966-f39e06e97be7
+  ws-opts:
+    headers:
+      Host: fullaccesstokoreannetsubnode1.azurewebsites.net
+    path: /ws
+- alterId: 0
+  cipher: auto
+  name: 71|韩国_0710009
+  network: ws
+  port: '443'
+  server: kr-arm2.018999.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e98fc1a0-9c52-4091-91a5-c159b0aa274e
+  ws-opts:
+    headers:
+      Host: kr-arm2.018999.xyz
+    path: /e98fc1a0-9c52-4091-91a5-c159b0aa274e
+- alterId: 0
+  cipher: auto
+  name: 71|韩国_0710010
+  network: ws
+  port: '80'
+  server: 92.223.61.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22aa72b1-605b-4807-8a81-fb414cbb409c
+  ws-opts:
+    headers:
+      Host: mizban888.servecounterstrike.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 71|韩国_0710011
+  network: ws
+  port: '80'
+  server: 132.145.80.230
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: kr02.a0a.xyz
+    path: /cctv13.m3u8
+- name: 71|韩国_0710012
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcitygovernment.com.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|韩国_0710013
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.seoulcityhall.com.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|韩国_0710014
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 2053
+  server: official.seoulcityhall.com.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|韩国_0710015
+  password: xxoo
+  port: 443
+  server: 3.34.6.217
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|韩国_0710016
+  password: IL37892054
+  port: 443
+  server: enhanced-crayfish.rooster465.autos
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|韩国_0710017
+  password: WF42809561
+  port: 443
+  server: evolving-kangaroo.rooster465.autos
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|韩国_0710018
+  password: WF42809561
+  port: 443
+  server: funky-platypus.rooster465.autos
+  skip-cert-verify: false
+  sni: ''
+  type: trojan

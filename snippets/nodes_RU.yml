@@ -1,7 +1,7 @@
 proxies:
 - alterId: '0'
   cipher: auto
-  name: 15,16|490_俄罗斯联邦-4.38MB
+  name: 16,17|490_俄罗斯联邦-4.38MB
   network: ws
   port: '443'
   server: insaneguo2333.top
@@ -11,12 +11,92 @@ proxies:
   ws-headers:
     host: insaneguo2333.top
   ws-path: /okoovws
+- name: 56|Russia
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: better-crappie.treefrog761.one
+  type: trojan
+- name: '56|Russia #1'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: 77.73.70.64
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 43|俄羅斯
+  name: 58,68,71|俄罗斯联邦_0710008
   network: ws
-  port: 443
+  port: '443'
   server: renderer-stream-1-411.mirra.now
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 71|俄罗斯联邦_0710003
+  network: ws
+  port: '443'
+  server: 37.220.161.249
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: df9c9355-b02c-4c12-909d-0dbeb725d52b
+  ws-opts:
+    headers:
+      Host: renderer-stream-1-411.mirra.now
+    path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 71|俄罗斯联邦_0710004
+  network: ws
+  port: '2082'
+  server: 45.142.120.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 71|俄罗斯联邦_0710005
+  network: ws
+  port: '443'
+  server: 194.76.18.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+    path: /obdii.cfd:443/linkws
+- alterId: 0
+  cipher: auto
+  name: 71|俄罗斯联邦_0710006
+  network: ws
+  port: '443'
+  server: 194.76.18.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 71|俄罗斯联邦_0710007
+  network: ws
+  port: '443'
+  server: 93.93.89.118
   servername: ''
   tls: false
   type: vmess

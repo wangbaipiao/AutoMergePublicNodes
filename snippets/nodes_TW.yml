@@ -1,7 +1,7 @@
 proxies:
 - alterId: '0'
   cipher: auto
-  name: 15,16|460_台湾-855.3KB
+  name: 16,17|460_台湾-855.3KB
   network: tcp
   port: '56568'
   server: polotw1.applebench.tech
@@ -13,7 +13,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 15,16|461_台湾-1.44MB
+  name: 16,17|461_台湾-1.44MB
   network: http
   port: '20715'
   server: 45.121.51.103
@@ -25,7 +25,7 @@ proxies:
   ws-path: /
 - alterId: '0'
   cipher: auto
-  name: 16|400_台湾-2.65MB
+  name: 17|400_台湾-2.65MB
   network: ws
   port: '443'
   server: t3.bestcloud.tk
@@ -37,7 +37,7 @@ proxies:
   ws-path: /2
 - alterId: 0
   cipher: auto
-  name: 51|🇹🇼台湾 01
+  name: 67|🇹🇼台湾 01
   network: ws
   port: '443'
   server: cf.335570.xyz
@@ -51,7 +51,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 0
   cipher: auto
-  name: 51|🇹🇼TW-103.159.206.35-0342
+  name: 67|🇹🇼TW-103.159.206.35-0342
   network: ws
   port: 31945
   server: 103.159.206.35
@@ -65,7 +65,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 51|🇹🇼台湾 02
+  name: 67|🇹🇼台湾 02
   network: ws
   port: '13080'
   server: 182.160.14.145
@@ -77,3 +77,108 @@ proxies:
     headers:
       Host: tw.appleid.bf
     path: /ws?ed=2048
+- alterId: 64
+  cipher: auto
+  name: 71|台湾_0710001
+  network: ws
+  port: '443'
+  server: 211.22.180.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.82131333.xyz
+    path: /path/191019072927
+- name: 71|台湾_0710002
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.co.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710003
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kiev.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710004
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.if.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710005
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.org.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710006
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.kyiv.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710007
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.dp.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710008
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.ivano-frankivsk.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710009
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.biz.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710010
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.cn.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710011
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.chernovtsy.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710012
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.net.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710013
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
+  port: 8443
+  server: official.taipeicitygovernment.com.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|台湾_0710014
+  password: 736cd94d-7b94-3e44-8106-3419f64eaf09
+  port: 3462
+  server: a12.taipeicitygovernment.org.ua
+  skip-cert-verify: false
+  sni: ''
+  type: trojan

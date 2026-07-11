@@ -1,9 +1,41 @@
 proxies:
+- name: 30|英国-UK1-1-流量倍率:1.0
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: uk1-1.nrojat.com
+  skip-cert-verify: true
+  sni: uk1-1.nrojat.com
+  type: trojan
+  udp: true
+- name: 30|英国-UK1-2-流量倍率:1.0
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: uk1-2.nrojat.com
+  skip-cert-verify: true
+  sni: uk1-2.nrojat.com
+  type: trojan
+  udp: true
+- name: 30|英国-UK1-3-流量倍率:1.0
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: uk1-3.nrojat.com
+  skip-cert-verify: true
+  sni: uk1-3.nrojat.com
+  type: trojan
+  udp: true
+- name: 30|英国-UK1-4-流量倍率:1.0
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: uk1-4.nrojat.com
+  skip-cert-verify: true
+  sni: uk1-4.nrojat.com
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 43|英國
+  name: '58,68|英國 #1'
   network: tcp
-  port: 180
+  port: '180'
   server: 82.198.246.37
   servername: ''
   tls: false
@@ -11,17 +43,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 43|英國節點
-  network: tcp
-  port: 180
-  server: 82.198.246.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 51|🇬🇧 United Kingdom 01 @nodpai
+  name: 67|🇬🇧 United Kingdom 01 @nodpai
   network: ws
   port: '443'
   server: 172.99.190.109
@@ -32,7 +54,7 @@ proxies:
     headers:
       Host: ''
     path: linkvws
-- name: 53|GB_speednode_0005
+- name: 70|GB_speednode_0005
   network: ws
   password: MITIVPN
   port: 443
@@ -45,3 +67,171 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
+- name: 71|英国_0710019
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0710036
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+- name: 71|英国_0710038
+  password: MiTiVPN
+  port: 443
+  server: 91.193.58.201
+  skip-cert-verify: false
+  sni: Fl.App-Cloud.ir
+  type: trojan
+- name: 71|英国_0710039
+  password: humanity
+  port: 443
+  server: 91.193.58.77
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 71|英国_0710040
+  network: ws
+  port: '443'
+  server: uk2-full.privateip.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e35347c5-cf24-417a-9f78-fee217850aaa
+  ws-opts:
+    headers:
+      Host: uk2-full.privateip.net
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 71|英国_0710041
+  network: ws
+  port: '12883'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
+  ws-opts:
+    headers:
+      Host: gtm1.ktmwan.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 71|英国_0710042
+  network: ws
+  port: '443'
+  server: 172.99.190.209
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 172.99.190.209
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 71|英国_0710043
+  network: ws
+  port: '443'
+  server: 217.163.76.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
+    path: /
+- name: 71|英国_0710044
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.151
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0710045
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.128
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 71|英国_0710046
+  network: ws
+  port: '80'
+  server: 51.75.160.126
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b739a204-ea0d-428b-bbf5-a632ec05edcf
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 71|英国_0710050
+  network: ws
+  port: '443'
+  server: 149.7.16.73
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 71|英属维尔京群岛_0710001
+  network: ws
+  port: '443'
+  server: 203.34.80.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wss51068
+- alterId: 0
+  cipher: auto
+  name: 71|英属维尔京群岛_0710002
+  network: ws
+  port: '443'
+  server: 203.34.80.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 824c58b1-65ba-4680-a609-663a000dbb92
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wss13889
+- alterId: 0
+  cipher: auto
+  name: 71|英属维尔京群岛_0710003
+  network: ws
+  port: '443'
+  server: 203.24.103.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3a21def-5fcc-47a8-a6a0-a34e29d5288a
+  ws-opts:
+    headers:
+      Host: ''
+    path: /wss51068

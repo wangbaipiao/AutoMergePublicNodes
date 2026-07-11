@@ -1,19 +1,43 @@
 proxies:
-- name: 43|🇨🇦 CA加拿大(mibei77.com 米贝节点分享)
+- alterId: 0
+  cipher: auto
+  name: '45,55|www.youneed.win #839'
+  network: ws
+  port: '443'
+  server: 23.227.38.11
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 9379fea0-006d-4fd3-8e35-d45a5af72aa2
+  ws-opts:
+    headers:
+      Host: frgt1.ssr-free2.xyz
+    path: /UMW36262
+- name: 56|Canada
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: dynamic-liger.adder289.quest
+  type: trojan
+- name: '56|Canada #1'
+  password: '!!str 3747000103274291200'
+  port: 443
+  server: 15.156.168.85
+  type: trojan
+- name: 58|🇨🇦 CA加拿大(mibei77.com 米贝节点分享)
   password: '!!str 666'
   port: 443
   server: 104.18.39.216
   skip-cert-verify: false
   sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
   type: trojan
-- name: '43|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
+- name: '58|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #1'
   password: '!!str 666'
   port: 443
   server: 104.18.33.209
   skip-cert-verify: false
   sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
   type: trojan
-- name: '43|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #2'
+- name: '58|🇨🇦 CA加拿大(mibei77.com 米贝节点分享) #2'
   password: '!!str 666'
   port: 443
   server: saas.sin.fan
@@ -22,7 +46,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 51|🇨🇦_CA_加拿大
+  name: 67|🇨🇦_CA_加拿大
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -35,7 +59,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '51|🇨🇦_CA_加拿大 #2'
+  name: '67|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -48,10 +72,214 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '51|🇨🇦_CA_加拿大 #3'
+  name: '67|🇨🇦_CA_加拿大 #3'
   network: http
   port: 3389
   server: 134.122.41.160
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- name: '68|CA加拿大(mibei77.com 米贝节点分享) #6'
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.39.216
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: '%2Fglasspanel%2Fguest000_0_5de14443985f%2F'
+- name: '68|CA加拿大(mibei77.com 米贝节点分享) #10'
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.33.209
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: '%2Fglasspanel%2Fguest000_0_5de14443985f%2F'
+- name: '68|CA加拿大(mibei77.com 米贝节点分享) #23'
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: saas.sin.fan
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: '%2Fglasspanel%2Fguest000_0_5de14443985f%2F'
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710003
+  network: ws
+  port: '443'
+  server: 158.51.121.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: seribus.org
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710004
+  network: ws
+  port: '2086'
+  server: 23.227.38.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710005
+  network: ws
+  port: '2086'
+  server: 23.227.38.5
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip006.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710006
+  network: ws
+  port: '2086'
+  server: 23.227.38.6
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip006.dtku47.xyz
+    path: github.com/Alvin9999
+- name: 71|加拿大_0710007
+  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+  port: 443
+  server: 23.227.38.11
+  skip-cert-verify: false
+  sni: syndication-statutes-wanted-logo.trycloudflare.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710011
+  network: ws
+  port: '443'
+  server: 23.227.38.21
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710012
+  network: ws
+  port: '443'
+  server: 23.227.38.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710018
+  network: ws
+  port: '443'
+  server: 23.227.38.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7
+  ws-opts:
+    headers:
+      Host: oplg1.cfcdn2.xyz
+    path: /AUIKN8AU
+- name: 71|加拿大_0710019
+  password: HdsUZmsHQW
+  port: 443
+  server: 148.113.141.99
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710020
+  network: ws
+  port: '443'
+  server: 23.227.38.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /UMW36262
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710021
+  network: ws
+  port: '443'
+  server: 158.51.121.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710022
+  network: ws
+  port: '443'
+  server: 23.227.38.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+  ws-opts:
+    headers:
+      Host: ''
+    path: /ECTCJ0DF
+- alterId: 0
+  cipher: auto
+  name: 71|加拿大_0710023
+  network: ws
+  port: '80'
+  server: 137.184.164.233
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess

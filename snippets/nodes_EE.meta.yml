@@ -1,1 +1,33 @@
-proxies: []
+proxies:
+- name: 30|爱沙尼亚-EE1-1-流量倍率:0.1
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: ee1-1.nrojat.com
+  skip-cert-verify: true
+  sni: ee1-1.nrojat.com
+  type: trojan
+  udp: true
+- name: 30|爱沙尼亚-EE1-2-流量倍率:0.1
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: ee1-2.nrojat.com
+  skip-cert-verify: true
+  sni: ee1-2.nrojat.com
+  type: trojan
+  udp: true
+- name: 30|爱沙尼亚-EE1-3-流量倍率:0.1
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: ee1-3.nrojat.com
+  skip-cert-verify: true
+  sni: ee1-3.nrojat.com
+  type: trojan
+  udp: true
+- name: 30|爱沙尼亚-EE1-4-流量倍率:0.1
+  password: EJBsFzWnEgXZnmzHq8
+  port: 443
+  server: ee1-4.nrojat.com
+  skip-cert-verify: true
+  sni: ee1-4.nrojat.com
+  type: trojan
+  udp: true
