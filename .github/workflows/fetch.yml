@@ -3,7 +3,6 @@ name: Fetch
 on:
   workflow_dispatch:
   schedule:
-    # 表达式生成 https://crontab.guru/
     - cron: '30 */1 * * *'
   push:
     paths:
@@ -31,7 +30,8 @@ jobs:
       run: pip install -r requirements.txt
     - name: 执行任务
       run: python ./fetch.py
-      
+    - name: 节点连通性过滤
+      run: python ./test_nodes.py
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
@@ -44,7 +44,6 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: master
-
     - name: 计算要清除缓存的文件
       id: purge_urls
       run: |
