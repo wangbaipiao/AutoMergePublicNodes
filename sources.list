@@ -1,6 +1,6 @@
 # ============================================================
 # AutoMergePublicNodes - sources.list
-# 增强版：激活了更多源 + 新增一批高质量源
+# 超强版：50+ 高质量节点源
 # 自用 Fork: wangbaipiao/AutoMergePublicNodes
 #
 # 语法说明：
@@ -12,7 +12,7 @@
 #  行尾 '#ignore=vmess,ss' = 忽略某些协议
 # ============================================================
 
-# ---- 基础稳定源（原项目活跃源，保留） ----
+# ---- 基础稳定源 ----
 https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
 https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess#ignore=vmess
@@ -28,7 +28,7 @@ https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hy2
 https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/python/hysteria2
 https://raw.githubusercontent.com/qjlxg/hy2/main/splitted/hy2
 
-# ---- 重新激活的源（原项目注释掉的，质量不错的） ----
+# ---- 经典免费节点（重新激活） ----
 https://raw.githubusercontent.com/freefq/free/master/v2
 https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml
@@ -48,39 +48,62 @@ https://raw.githubusercontent.com/Junely/clash/main/clash_near.txt
 https://raw.githubusercontent.com/Junely/clash/main/template3.yaml
 https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1
 https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
+https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 
-# ---- 新增的优质源 ----
-# 知名免费节点合集 NoMoreWalls（本项目上游）
+# ---- 知名节点合集（自引用） ----
+# 包含上游所有节点（高质量聚合池）
 https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt
 https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt
 
-# 多个活跃节点池
+# ---- barry-far 多协议合集（活跃更新） ----
 https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Subscriptions/vless_sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Subscriptions/v2ray_sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Subscriptions/trojan_sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Subscriptions/ss_sub.txt
 https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/Subscriptions/hy2_sub.txt
+https://raw.githubusercontent.com/barry-far/V2ray-Configs/refs/heads/main/All_Configs_Sub.txt
 
-# yebekhe 伊朗集群（节点多且新）
+# ---- 伊朗节点集群（更新频繁） ----
 https://raw.githubusercontent.com/yebekhe/TVC/main/README.md
+https://raw.githubusercontent.com/iranscored/FreeConfig/main/sub
 
-# 其他活跃源
+# ---- mermeroo 多仓库订阅池 ----
+https://raw.githubusercontent.com/mermeroo/Loon/main/node
+https://raw.githubusercontent.com/mermeroo/Loon/main/node%202
+https://raw.githubusercontent.com/mermeroo/Clash-V2ray/main/v2ray
+https://raw.githubusercontent.com/mermeroo/QX/refs/heads/main/Nodes
+https://raw.githubusercontent.com/mermeroo/Loon/refs/heads/main/all.nodes.txt
+https://raw.githubusercontent.com/mermeroo/QuantumultX/refs/heads/main/Trojan.nodes
+https://raw.githubusercontent.com/personqianduixue/SubCrawler/main/sub/share/all
+https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/all3
+
+# ---- 类似 SubCrawler 聚合池 ----
+https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all
+https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all
+https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all
+https://raw.githubusercontent.com/QQnight/SubCrawler/main/sub/share/all
+https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md
+
+# ---- mahdibland 高星级聚合器 ----
+https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt
+https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt
+
+# ---- 其他活跃源 ----
 https://raw.githubusercontent.com/a2470982985/getNode/main/v2.txt
 https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/free_v2ray
 https://raw.githubusercontent.com/sashalsk/V2Ray/main/V2Ray
 https://raw.githubusercontent.com/free_node/free_node/master/README.md
+https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt
+https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt
 
-# 老旧但可能还有活的
-https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml
-https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
-
-# ---- 动态日期源（每天跑一次） ----
+# ---- 动态日期源（每天抓） ----
 +date https://nodefree.org/dy/%Y/%m/%Y%m%d.txt
 +date https://nodefree.org/dy/%Y/%m/%Y%m%d.yaml
 +date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.txt
 +date https://v2rayshare.com/wp-content/uploads/%Y/%m/%Y%m%d.yaml
 
-# ---- 忽略（国内下载不了）的 ----
+# ---- 国内下载不了（标记 ! 跳过） ----
 !https://sub.nicevpn.top/long
 !https://sub.nicevpn.top/Clash.yaml
 !https://clash.221207.xyz/pubclashyaml
@@ -88,7 +111,7 @@ https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.txt
 !+date https://node.oneclash.cc/%Y/%m/%Y%m%d.yaml
 
-# ---- 以下为不稳定/已停更源，保留作为参考 ----
+# ---- 以下为不稳定/已停更，保留参考 ----
 # https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml
 # https://raw.githubusercontent.com/lflflf999/0516/main/BX-JD # 循环引用
 # https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt
@@ -96,4 +119,5 @@ https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml
 # https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 # https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml
 # https://raw.githubusercontent.com/imohammadkhalili/V2RAY/main/Mkhalili
-# *https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist # 挂了
+# *https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist
+# https://raw.githubusercontent.com/junjun266/FreeProxyGo/main/README.md
