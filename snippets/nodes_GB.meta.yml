@@ -296,6 +296,13 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
+- name: 71|英国_0710018
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
 - name: 71|英国_0710019
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
@@ -309,6 +316,13 @@ proxies:
   server: 164.38.155.135
   skip-cert-verify: false
   sni: 95r.ir
+  type: trojan
+- name: 71|英国_0710037
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  skip-cert-verify: false
+  sni: ''
   type: trojan
 - name: 71|英国_0710038
   password: MiTiVPN

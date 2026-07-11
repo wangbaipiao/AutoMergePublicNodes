@@ -1,20 +1,31 @@
 proxies:
-- name: 14,68|未知 VLESS-534 | free-nodes
+- name: 14|🇫🇷+FR+5
   network: tcp
-  port: 8888
-  server: 45.13.119.219
+  port: 22223
+  server: 15.188.191.198
   tls: false
   type: vless
-  uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   ws-opts:
     path: '%2F'
-- name: 14|🇫🇷FR-15.237.112.177-0141
+- name: 14|🇫🇷+FR+1
   network: tcp
-  password: XG59623478
-  port: 443
-  server: intense-basilisk.rooster465.autos
-  sni: intense-basilisk.rooster465.autos
-  type: trojan
+  port: 22222
+  server: 15.188.191.198
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts:
+    path: '%2F'
+- name: 14|🇫🇷+FR+9
+  network: tcp
+  port: 22224
+  server: 15.188.191.198
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts:
+    path: '%2F'
 - alterId: '64'
   cipher: auto
   name: 16,17|482_法国-883.9KB

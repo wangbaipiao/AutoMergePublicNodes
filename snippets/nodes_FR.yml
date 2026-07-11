@@ -1,11 +1,4 @@
 proxies:
-- name: 14|🇫🇷FR-15.237.112.177-0141
-  network: tcp
-  password: XG59623478
-  port: 443
-  server: intense-basilisk.rooster465.autos
-  sni: intense-basilisk.rooster465.autos
-  type: trojan
 - alterId: '64'
   cipher: auto
   name: 16,17|482_法国-883.9KB
