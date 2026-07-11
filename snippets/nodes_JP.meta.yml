@@ -13,6 +13,12 @@ proxies:
     headers:
       Host: www.bing.com
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
+- name: 14|🇯🇵JP-13.231.237.144-0104
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: rich-mule.rooster465.autos
+  type: trojan
 - client-fingerprint: firefox
   name: 14|🇯🇵+JP+7
   network: tcp
@@ -29,7 +35,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 14|🇯🇵JP-140.83.51.161-1390
+  name: 14|🇯🇵JP-140.83.51.161-1388
   network: ws
   port: '25686'
   server: 140.83.51.161
@@ -41,18 +47,25 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- name: 14|🇯🇵+JP+3
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: rich-mule.rooster465.autos
-  type: trojan
-- name: 14|🇯🇵JP-52.199.163.138-0159
+- name: 14|🇯🇵JP-52.199.163.138-0105
   network: tcp
   password: HW85960347
   port: 443
   server: happy-monkfish.rooster465.autos
   type: trojan
+- client-fingerprint: chrome
+  name: 14|日本东京+Oracle+Cloud
+  network: ws
+  port: 443
+  server: 141.147.174.243
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
 - cipher: aes-256-gcm
   name: 16,17|360_日本-2.28MB
   password: TEzjfAYq2IjtuoS
@@ -309,6 +322,19 @@ proxies:
   protocol-param: ''
   server: jp-am48-6.eqnode.net
   type: ssr
+- client-fingerprint: chrome
+  name: '21|日本东京+Oracle+Cloud #1'
+  network: ws
+  port: 443
+  server: 141.147.174.243
+  servername: t1s1.rittbo.kdns.fr
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
 - name: '25,37,61|JP #1'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -668,6 +694,16 @@ proxies:
   port: 443
   server: 94.177.131.199
   type: trojan
+- name: 61|🇯🇵JP_5|1.6MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 166.88.2.154
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: 67|🇯🇵+JP+日本+78
   network: ws
   port: 2053
@@ -952,6 +988,16 @@ proxies:
     headers:
       Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
     path: '%2Fglasspanel%2Fguest000_0_5de14443985f%2F'
+- name: 68|未知 VLESS-532 | free-nodes
+  network: tcp
+  port: 29148
+  server: it.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: '%2F%3FBIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr'
 - name: '68|JP日本(mibei77.com 米贝节点分享) #5'
   network: ws
   port: 443

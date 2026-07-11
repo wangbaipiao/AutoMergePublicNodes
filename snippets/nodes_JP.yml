@@ -13,9 +13,15 @@ proxies:
     headers:
       Host: www.bing.com
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
+- name: 14|🇯🇵JP-13.231.237.144-0104
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: rich-mule.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|🇯🇵JP-140.83.51.161-1390
+  name: 14|🇯🇵JP-140.83.51.161-1388
   network: ws
   port: '25686'
   server: 140.83.51.161
@@ -27,13 +33,7 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- name: 14|🇯🇵+JP+3
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: rich-mule.rooster465.autos
-  type: trojan
-- name: 14|🇯🇵JP-52.199.163.138-0159
+- name: 14|🇯🇵JP-52.199.163.138-0105
   network: tcp
   password: HW85960347
   port: 443
@@ -617,6 +617,16 @@ proxies:
   port: 443
   server: 94.177.131.199
   type: trojan
+- name: 61|🇯🇵JP_5|1.6MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 166.88.2.154
+  skip-cert-verify: false
+  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
 - alterId: 0
   cipher: auto
   name: 67|🇯🇵JP-152.69.197.74-3356

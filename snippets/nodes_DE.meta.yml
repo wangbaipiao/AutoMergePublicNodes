@@ -1,11 +1,4 @@
 proxies:
-- name: 14|🇩🇪+德国+|+DEU
-  network: tcp
-  port: 22223
-  server: 3.73.181.118
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '25,37,61|DE #1'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056

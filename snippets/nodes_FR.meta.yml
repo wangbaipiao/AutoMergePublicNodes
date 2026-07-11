@@ -1,13 +1,4 @@
 proxies:
-- name: 14|🇫🇷+FR+5
-  network: tcp
-  port: 22223
-  server: 15.188.191.198
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  ws-opts:
-    path: '%2F'
 - name: 14|🇫🇷+FR+1
   network: tcp
   port: 22222
