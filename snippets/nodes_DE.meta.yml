@@ -17,20 +17,20 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪 #2'
+- name: '26,37,61|🇩🇪 t-me-V2RayyNGvpn 🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: MjLSEZj2IW
+  password: 58cb3fdyZN
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪 #1 #1'
+- name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: QjdEEystFJ
+  password: MjLSEZj2IW
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -210,6 +210,36 @@ proxies:
   port: 443
   server: patient-ghost.treefrog761.one
   type: trojan
+- name: 61|🇩🇪DE_1|2.4MB/s
+  port: 2121
+  server: b1.maxic.ir
+  tls: false
+  type: vless
+  uuid: edd0d872-702c-42d4-bb3f-ded08ab89678
+- name: 61|🇩🇪DE_2|1.5MB/s
+  port: 22224
+  server: 3.121.132.146
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 61|🇩🇪DE_4|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 202.61.205.86
+  skip-cert-verify: true
+  sni: de1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: 61|🇩🇪DE_5|1.6MB/s
+  port: 2087
+  server: 172.67.69.211
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
   name: 67|🇩🇪DE-194.87.71.23-0109

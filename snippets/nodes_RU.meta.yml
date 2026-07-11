@@ -75,6 +75,15 @@ proxies:
     headers:
       Host: renderer-stream-1-411.mirra.now
     path: /api/v1/gpu-stream/socket
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 61|🇷🇺RU_1|2.4MB/s
+  port: 443
+  server: ru7.netfix.app
+  servername: haharu7.xixihaha.it.com
+  tls: true
+  type: vless
+  uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
 - name: 67|🇷🇺+RU+俄罗斯联邦+11
   network: ws
   port: 2087

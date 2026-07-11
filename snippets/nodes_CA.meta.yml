@@ -367,20 +367,6 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
 - client-fingerprint: chrome
-  name: '68|CA加拿大(mibei77.com 米贝节点分享) #42'
-  network: ws
-  port: 8443
-  server: 162.159.36.166
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- client-fingerprint: chrome
   name: '68|CA加拿大(mibei77.com 米贝节点分享) #52'
   network: ws
   port: 443
@@ -902,20 +888,6 @@ proxies:
   network: ws
   port: 443
   server: 162.159.24.39
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '68|US美国(mibei77.com 米贝节点分享) #42'
-  network: ws
-  port: 443
-  server: 162.159.14.252
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true

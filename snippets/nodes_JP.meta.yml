@@ -1,38 +1,29 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 14,68|未知 VMESS-558 | free-nodes
-  network: ws
-  port: 2052
-  server: 157.85.230.247
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
 - name: 14|🇯🇵JP-13.231.237.144-0104
   network: tcp
   password: PI36027154
   port: 443
   server: rich-mule.rooster465.autos
   type: trojan
-- client-fingerprint: firefox
-  name: 14|🇯🇵+JP+7
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 14|🟢🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
   network: tcp
   port: 443
   reality-opts:
-    public-key: aW52dpxW-umVvMOHPRCDsnHnJjuM8_S1FScLJQrVrG8
-    short-id: a32e8c4a
-  server: 43.165.186.226
-  servername: www.sony.com
+    public-key: Jm01tR0iF7im4V0z6-yUeqI889JLC5YF7bXV6el_miY
+    short-id: f91003034ebfad8d
+  server: 116.206.93.79
+  servername: www.apple.com
   tls: false
   type: vless
-  uuid: 3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be
-  ws-opts:
-    path: '%2F'
+  uuid: a7638f72-7bef-4eac-9e7c-b5f525b83240
+- name: 14|🇯🇵JP-52.199.163.138-0105
+  network: tcp
+  password: HW85960347
+  port: 443
+  server: happy-monkfish.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 14|🇯🇵JP-140.83.51.161-1388
@@ -47,24 +38,33 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- name: 14|🇯🇵JP-52.199.163.138-0105
-  network: tcp
-  password: HW85960347
-  port: 443
-  server: happy-monkfish.rooster465.autos
-  type: trojan
-- client-fingerprint: chrome
-  name: 14|日本东京+Oracle+Cloud
+- alterId: 0
+  cipher: auto
+  name: 14,68|未知 VMESS-558 | free-nodes
   network: ws
-  port: 443
-  server: 141.147.174.243
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2052
+  server: 157.85.230.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
   ws-opts:
     headers:
-      Host: t1s1.rittbo.kdns.fr
+      Host: www.bing.com
+    path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
+- client-fingerprint: firefox
+  name: 14|🇯🇵+JP+7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aW52dpxW-umVvMOHPRCDsnHnJjuM8_S1FScLJQrVrG8
+    short-id: a32e8c4a
+  server: 43.165.186.226
+  servername: www.sony.com
+  tls: false
+  type: vless
+  uuid: 3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be
+  ws-opts:
     path: '%2F'
 - cipher: aes-256-gcm
   name: 16,17|360_日本-2.28MB
@@ -322,19 +322,6 @@ proxies:
   protocol-param: ''
   server: jp-am48-6.eqnode.net
   type: ssr
-- client-fingerprint: chrome
-  name: '21|日本东京+Oracle+Cloud #1'
-  network: ws
-  port: 443
-  server: 141.147.174.243
-  servername: t1s1.rittbo.kdns.fr
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
 - name: '25,37,61|JP #1'
   password: 95D27EEF-B7AE-4076-BA39-40FDFA3D0F61
   port: 13778
@@ -694,16 +681,6 @@ proxies:
   port: 443
   server: 94.177.131.199
   type: trojan
-- name: 61|🇯🇵JP_5|1.6MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 166.88.2.154
-  skip-cert-verify: false
-  sni: 2vskb.v51b.eii.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
 - name: 67|🇯🇵+JP+日本+78
   network: ws
   port: 2053

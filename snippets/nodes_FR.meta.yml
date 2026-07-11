@@ -17,6 +17,23 @@ proxies:
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   ws-opts:
     path: '%2F'
+- name: 14|🇫🇷+FR+5
+  network: tcp
+  port: 22223
+  server: 15.188.191.198
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts:
+    path: '%2F'
+- name: 14|>>@oneclickvpnkeys::FR
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - alterId: '64'
   cipher: auto
   name: 16,17|482_法国-883.9KB
@@ -151,20 +168,6 @@ proxies:
   tls: false
   type: vmess
   uuid: a663bbab-4e9e-4080-b8ab-edd59fe1fdce
-- client-fingerprint: chrome
-  name: '68|FR法国(mibei77.com 米贝节点分享) #1'
-  network: ws
-  port: 443
-  server: yx.cloudflare.182682.xyz
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
 - client-fingerprint: chrome
   name: '68|FR法國丨yoyapai.com #7'
   network: ws

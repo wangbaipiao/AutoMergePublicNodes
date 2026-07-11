@@ -41,6 +41,26 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 61|🇬🇧GB_1|2.7MB/s
+  obfs: ''
+  obfs-password: ''
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 443
+  server: argg2.auragg.org
+  skip-cert-verify: false
+  sni: argg2.auragg.org
+  tls: false
+  type: hysteria2
+- name: 61|🇬🇧GB_2|2.5MB/s
+  obfs: ''
+  obfs-password: ''
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  skip-cert-verify: false
+  sni: argg3.auragg.org
+  tls: false
+  type: hysteria2
 - name: 67|🇬🇧+GB+英国+3
   network: ws
   port: 8443

@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|🇺🇸 US 4
-  network: tcp
-  port: '48111'
-  server: 129.146.143.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-- alterId: 0
-  cipher: auto
   name: 14|🇺🇸US-129.146.77.248-2311
   network: ws
   port: '39495'
@@ -25,6 +15,16 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
+  name: 14|🇺🇸 US 4
+  network: tcp
+  port: '48111'
+  server: 129.146.143.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 0
+  cipher: auto
   name: '14,58,68|🇺🇸_US_美国 #30'
   network: tcp
   port: 180
@@ -33,26 +33,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 14|🇺🇸 US 14
-  network: tcp
-  port: '18000'
-  server: 38.114.123.42
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 14|>>@v2ray_configs_pool::US::US:...
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
 - alterId: 0
   cipher: auto
   name: 14,68|未知 VMESS-656 | free-nodes
@@ -77,7 +57,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: 14,21,68,71|美国_0710014
+- name: 14,68,71|美国_0710014
   network: tcp
   password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
   port: 443
@@ -95,34 +75,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
-  name: 14|🇺🇸 US 26
-  network: ws
-  port: '443'
-  server: zt-ai.cloud
-  servername: zt-ai.cloud
-  tls: true
-  type: vmess
-  uuid: fce3d6a4-0f12-49b5-a810-84bcf0fde202
-  ws-opts:
-    headers:
-      Host: zt-ai.cloud
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: 14|🇺🇸 US 24
-  network: ws
-  port: '443'
-  server: jp01.scpnb.top
-  servername: jp01.scpnb.top
-  tls: true
-  type: vmess
-  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
-  ws-opts:
-    headers:
-      Host: jp01.scpnb.top
-    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
 - name: 14|🇺🇸+30+-+US+-+Trojan/WS/TLS+-+4...
   network: ws
   password: humanity
@@ -137,26 +89,32 @@ proxies:
   server: www.ignitelimit.com
   sni: www.ignitelimit.com
   type: trojan
-- name: 14|🇺🇸+26+-+US+-+Trojan/WS/TLS+-+4...
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.11.110
-  sni: www.multiplydose.com
-  type: trojan
-- name: 14|🇺🇸+44+-+US+-+Trojan/WS/TLS+-+4...
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.64.147.24
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
 - name: 14|🇺🇸+US+31
   network: ws
   password: humanity
   port: 443
   server: www.multiplydose.com
+  sni: www.multiplydose.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 14|US 🇺🇸 | @Raydikalx | 2736
+  network: ws
+  port: '8443'
+  server: irandesigner.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: 14|🇺🇸+65+-+US+-+Trojan/WS/TLS+-+4...
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.180.92
   sni: www.multiplydose.com
   type: trojan
 - cipher: aes-256-cfb
@@ -2154,22 +2112,6 @@ proxies:
   server: east.eeeeeef998.buzz
   skip-cert-verify: true
   sni: data.steamdownload.top
-  type: trojan
-- name: 21,68,71|美国_0710027
-  network: tcp
-  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
-  port: 443
-  server: 149.104.104.58
-  skip-cert-verify: false
-  sni: 149.104.104.58
-  type: trojan
-- name: 21,68|未知 TROJAN-114 | free-nodes
-  network: tcp
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
-  port: 443
-  server: 38.54.64.247
-  skip-cert-verify: true
-  sni: 38.54.64.247
   type: trojan
 - name: 30|美国 NTT 01
   password: fc48194800.wns.windows.com
