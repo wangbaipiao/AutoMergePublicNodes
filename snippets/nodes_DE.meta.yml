@@ -55,16 +55,6 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: 32|9|🇩🇪@V2RayyNGvpn
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: TGzLlWQaFb
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
 - name: 46|🇩🇪DE_1|2.1MB/s
   network: ws
   port: 80
