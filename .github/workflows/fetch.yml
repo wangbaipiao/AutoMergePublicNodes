@@ -3,7 +3,7 @@ name: Fetch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 */1 * * *'
+    - cron: '0 */3 * * *'
   push:
     paths:
       - 'sources.list'
@@ -28,6 +28,9 @@ jobs:
         cache: 'pip'
     - name: 安装依赖
       run: pip install -r requirements.txt
+    - name: 安装curl
+      run: sudo apt-get update -qq && sudo apt-get install -y -qq curl
+
     - name: 执行任务
       run: python ./fetch.py
     - name: 节点连通性过滤
