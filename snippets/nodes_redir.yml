@@ -1,24 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 58,68,71|中国_0710003
-  network: tcp
-  port: '30835'
-  server: v35.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 58|🇨🇳_CN_中国->🇺🇸_US_美国
-  network: tcp
-  port: 30808
-  server: v8.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 60|_SG_->🇺🇸_US_美国
@@ -236,6 +216,16 @@ proxies:
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 68,71|中国_0710003
+  network: tcp
+  port: '30835'
+  server: v35.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 68,71|中国_0710002

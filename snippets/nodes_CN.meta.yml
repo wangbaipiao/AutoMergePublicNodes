@@ -1875,6 +1875,26 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 2
+  cipher: auto
+  name: 58,71|中国_0710001
+  network: tcp
+  port: '30845'
+  server: v45.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: 58,71|中国_0710004
+  network: tcp
+  port: '30833'
+  server: v33.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 67|TG频道:@hkaa0▓中国
   network: tcp
   password: 2fadf1dc-f401-4225-ac95-da030118eaef
@@ -2027,26 +2047,6 @@ proxies:
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 71|中国_0710001
-  network: tcp
-  port: '30845'
-  server: v45.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 71|中国_0710004
-  network: tcp
-  port: '30833'
-  server: v33.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
   name: 71|中国_0710005

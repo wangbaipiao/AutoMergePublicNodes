@@ -13,7 +13,7 @@ proxies:
   server: 185.137.157.149
   sni: 185.137.157.149
   type: trojan
-- name: 14,58,71|英国_0710018
+- name: 14,71|英国_0710018
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443

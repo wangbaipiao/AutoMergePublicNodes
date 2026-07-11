@@ -8,12 +8,11 @@ proxies:
   uuid: eb77be10-9d9e-527b-a78d-8caaf58992d6
   ws-opts:
     path: '%2F'
-- name: 14,58|🇫🇷_FR_法国
+- name: 14|🇫🇷FR-15.237.112.177-0141
   network: tcp
   password: XG59623478
   port: 443
   server: intense-basilisk.rooster465.autos
-  skip-cert-verify: true
   sni: intense-basilisk.rooster465.autos
   type: trojan
 - alterId: '64'
@@ -116,16 +115,6 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- alterId: 0
-  cipher: auto
-  name: '58|🇫🇷_FR_法国 #1'
-  network: tcp
-  port: 50000
-  server: d1.trapxan.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 294517f3-11cf-4add-8c82-e7d498e4139e
 - name: 60|_FR_国
   network: tcp
   password: telegram-id-directvpn
@@ -143,7 +132,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '67|🇫🇷_FR_法国 #2'
+  name: 67|🇫🇷_FR_法国
   network: http
   port: 3389
   server: 51.159.155.52
@@ -298,7 +287,7 @@ proxies:
       Host: t1s1.rittbo.kdns.fr
     path: '%2F'
 - flow: xtls-rprx-vision
-  name: '68|🇫🇷_FR_法国 #3'
+  name: '68|🇫🇷_FR_法国 #1'
   port: 443
   server: fr.noooo.win
   tls: true

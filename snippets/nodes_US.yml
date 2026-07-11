@@ -2899,26 +2899,40 @@ proxies:
     headers:
       Host: t033.ylks.link
     path: /
-- name: 58|🇺🇸 美国 CloudFlare节点
+- name: 58,71|未知_0710058
   password: humanity
   port: 443
-  server: 104.16.174.37
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
+  server: 104.19.208.184
+  skip-cert-verify: false
+  sni: www.multiplydose.com
   type: trojan
 - name: '58|🇺🇸 美国 CloudFlare节点 #1'
   password: humanity
   port: 443
-  server: 104.19.230.21
-  skip-cert-verify: true
+  server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: false
   sni: www.multiplydose.com
   type: trojan
-- name: '58|🇺🇸 美国 CloudFlare节点 #2'
+- name: 58,71|未知_0710037
   password: humanity
   port: 443
-  server: 104.16.72.2
+  server: 104.18.152.219
   skip-cert-verify: false
-  sni: www.calmlunch.com
+  sni: www.ignitelimit.com
+  type: trojan
+- name: '58|🇺🇸 美国 CloudFlare节点 #3'
+  password: humanity
+  port: 443
+  server: 104.16.174.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+- name: 58,71|未知_0710054
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
   type: trojan
 - alterId: 0
   cipher: auto
@@ -2964,56 +2978,6 @@ proxies:
   server: 151.101.56.6
   skip-cert-verify: true
   sni: ssl.fastly.com
-  type: trojan
-- name: 58|🇺🇸 US美国(mibei77.com 米贝节点分享)
-  password: '!!str 666'
-  port: 443
-  server: 104.18.33.225
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-- name: 58,71|美国_0710049
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-- name: '58|🇺🇸 US美国(mibei77.com 米贝节点分享) #3'
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
-- name: '58|🇺🇸 US美国(mibei77.com 米贝节点分享) #4'
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.creationlong.org
-  type: trojan
-- name: 58,71|美国_0710076
-  password: humanity
-  port: 443
-  server: 172.64.147.166
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-- name: 58,71|美国_0710054
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-- name: '58,68|US美国(mibei77.com 米贝节点分享) #72'
-  network: tcp
-  password: '!!str 3632736327'
-  port: 3480
-  server: us04031316.tmdsb.org
-  skip-cert-verify: false
-  sni: us04031316.tmdsb.org
   type: trojan
 - alterId: 0
   cipher: auto
@@ -4238,6 +4202,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
+- name: '68|US美国(mibei77.com 米贝节点分享) #72'
+  network: tcp
+  password: '!!str 3632736327'
+  port: 3480
+  server: us04031316.tmdsb.org
+  skip-cert-verify: false
+  sni: us04031316.tmdsb.org
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '68|🇺🇸_US_美国 #29'
@@ -4575,6 +4547,13 @@ proxies:
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
+- name: 71|美国_0710049
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
 - name: 71|美国_0710050
   password: dfdse334053vuohm
   port: 443
@@ -4602,6 +4581,13 @@ proxies:
   server: 199.181.197.143
   skip-cert-verify: false
   sni: www.calmloud.com
+  type: trojan
+- name: 71|美国_0710054
+  password: humanity
+  port: 443
+  server: 172.64.152.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
 - alterId: 0
   cipher: auto
@@ -4791,6 +4777,13 @@ proxies:
   server: 208.103.161.101
   skip-cert-verify: false
   sni: www.creationlong.org
+  type: trojan
+- name: 71|美国_0710076
+  password: humanity
+  port: 443
+  server: 172.64.147.166
+  skip-cert-verify: false
+  sni: www.multiplydose.com
   type: trojan
 - alterId: 0
   cipher: auto

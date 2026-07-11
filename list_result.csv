@@ -57,7 +57,7 @@
 55,https://raw.githubusercontent.com/mermeroo/QX/refs/heads/main/Nodes,865
 56,https://raw.githubusercontent.com/mermeroo/QuantumultX/refs/heads/main/Trojan.nodes,101
 57,https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml,0
-58,https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray,138
+58,https://raw.githubusercontent.com/mfuu/v2ray/master/v2ray,116
 59,https://raw.githubusercontent.com/mheidari98/.proxy/main/all,0
 60,https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt,10
 61,https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt,120
@@ -72,8 +72,8 @@
 70,https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml,59
 71,https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all,1317
 72,https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all,0
-73,https://sub.nicevpn.top/Clash.yaml,596
-74,https://sub.nicevpn.top/long,1
+73,https://sub.nicevpn.top/Clash.yaml,1
+74,https://sub.nicevpn.top/long,505
 75,dynamic://peasoft,0
 
-总计,,4317
+总计,,4305

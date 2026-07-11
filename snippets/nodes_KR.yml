@@ -93,22 +93,6 @@ proxies:
   skip-cert-verify: false
   sni: tjsp.hhxaf.cc.cd
   type: trojan
-- name: 58,68|KR韩国(mibei77.com 米贝节点分享)
-  network: tcp
-  password: '!!str 3632736327'
-  port: 1622
-  server: kr04231525.tmdsb.org
-  skip-cert-verify: false
-  sni: kr04231525.tmdsb.org
-  type: trojan
-- name: '58,68|KR韩国(mibei77.com 米贝节点分享) #1'
-  network: tcp
-  password: '!!str 3632736327'
-  port: 2648
-  server: kr04212339.tmdsb.org
-  skip-cert-verify: false
-  sni: kr04212339.tmdsb.org
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 67,71|韩国_0710003
@@ -175,6 +159,22 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: '%2F'
+- name: 68|KR韩国(mibei77.com 米贝节点分享)
+  network: tcp
+  password: '!!str 3632736327'
+  port: 1622
+  server: kr04231525.tmdsb.org
+  skip-cert-verify: false
+  sni: kr04231525.tmdsb.org
+  type: trojan
+- name: '68|KR韩国(mibei77.com 米贝节点分享) #1'
+  network: tcp
+  password: '!!str 3632736327'
+  port: 2648
+  server: kr04212339.tmdsb.org
+  skip-cert-verify: false
+  sni: kr04212339.tmdsb.org
+  type: trojan
 - name: 71|韩国_0710004
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443

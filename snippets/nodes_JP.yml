@@ -13,12 +13,11 @@ proxies:
     headers:
       Host: www.bing.com
     path: /85357d35-492e-4814-835a-aba4cb7f00ad-vm
-- name: 14,58|🇯🇵_JP_日本
+- name: 14|🇯🇵JP-52.199.163.138-0159
   network: tcp
   password: HW85960347
   port: 443
   server: happy-monkfish.rooster465.autos
-  skip-cert-verify: true
   type: trojan
 - name: 14|🇯🇵JP-13.231.237.144-0093
   network: tcp
@@ -631,20 +630,6 @@ proxies:
   password: '!!str 3747000103274291200'
   port: 443
   server: 94.177.131.199
-  type: trojan
-- name: 58|🇯🇵 JP日本(mibei77.com 米贝节点分享)
-  password: '!!str 666'
-  port: 443
-  server: 18.180.0.203
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-- name: '58|🇯🇵 JP日本(mibei77.com 米贝节点分享) #1'
-  password: '!!str 666'
-  port: 443
-  server: 212.135.212.26
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
   type: trojan
 - alterId: 0
   cipher: auto
