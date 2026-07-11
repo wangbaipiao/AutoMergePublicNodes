@@ -11,6 +11,16 @@ proxies:
   ws-headers:
     host: insaneguo2333.top
   ws-path: /okoovws
+- name: 21,68|伊朗(mibei77.com 米贝节点分享)
+  network: tcp
+  port: 2090
+  server: fn.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI'
 - name: 52|俄罗斯联邦_6
   network: ws
   port: 443
@@ -75,15 +85,42 @@ proxies:
     headers:
       Host: renderer-stream-1-411.mirra.now
     path: /api/v1/gpu-stream/socket
-- client-fingerprint: chrome
+- client-fingerprint: qq
   flow: xtls-rprx-vision
   name: 61|🇷🇺RU_1|2.4MB/s
   port: 443
-  server: ru7.netfix.app
-  servername: haharu7.xixihaha.it.com
+  server: 193.168.46.180
+  servername: rruu.persik.host
   tls: true
   type: vless
-  uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
+  uuid: a21a69d6-5c0a-4184-93c9-25d9a65d39ac
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 61|🇷🇺RU_2|2.4MB/s
+  port: 443
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  uuid: d238e2b9-9c74-461f-832b-3863636bb156
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 61|🇷🇺RU_3|2.5MB/s
+  port: 443
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  uuid: d335307e-1c3a-476c-bfa1-33c1e35ed8f0
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 61|🇷🇺RU_4|2.1MB/s
+  port: 443
+  server: 193.168.46.180
+  servername: rruu.persik.host
+  tls: true
+  type: vless
+  uuid: ffbbd871-c71f-4332-a6cc-f58477bfbde0
 - name: 67|🇷🇺+RU+俄罗斯联邦+11
   network: ws
   port: 2087

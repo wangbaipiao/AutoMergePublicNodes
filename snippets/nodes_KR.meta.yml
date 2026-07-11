@@ -517,6 +517,14 @@ proxies:
   skip-cert-verify: false
   sni: kr04212339.tmdsb.org
   type: trojan
+- name: '68|KR韩国(mibei77.com 米贝节点分享) #2'
+  password: d5m-5bGOsVbFgRlxsEyO3pCF
+  port: 55020
+  server: 8.148.4.25
+  skip-cert-verify: true
+  sni: 8.148.4.25
+  tls: false
+  type: hysteria2
 - name: '68|KR韩国(mibei77.com 米贝节点分享) #3'
   password: C0DD7bgChaltqnh/T2az6ijM
   port: 20000

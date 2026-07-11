@@ -259,19 +259,12 @@ proxies:
   server: au-4.tr202605.com
   skip-cert-verify: false
   type: trojan
-- name: 61|🇭🇰HK_3|5.4MB/s
+- name: 61|🇭🇰HK_1|5.4MB/s
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: 39001
   server: 114.80.8.128
   skip-cert-verify: true
   sni: www.yrtok.com
-  type: trojan
-- name: 61|🇭🇰HK_2|4.0MB/s
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: 114.80.8.128
   type: trojan
 - alterId: 2
   cipher: auto

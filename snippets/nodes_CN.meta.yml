@@ -1847,14 +1847,6 @@ proxies:
   ws-headers:
     host: 2f36c18cfe75.sanfen001.pics
   ws-path: /
-- name: '21,68|KR韩国(mibei77.com 米贝节点分享) #2'
-  password: d5m-5bGOsVbFgRlxsEyO3pCF
-  port: 55020
-  server: 8.148.4.25
-  skip-cert-verify: true
-  sni: 8.148.4.25
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '44,67|github.com/freefq - 广东省移动 7 #1'
@@ -1871,7 +1863,7 @@ proxies:
     path: /debian
 - alterId: 2
   cipher: auto
-  name: 58,61,71|中国_0710001
+  name: 58,71|中国_0710001
   network: tcp
   port: '30845'
   server: v45.hdacd.com

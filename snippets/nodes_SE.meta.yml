@@ -27,6 +27,14 @@ proxies:
   server: 146.75.116.190
   skip-cert-verify: true
   type: trojan
+- client-fingerprint: chrome
+  name: 61|🇸🇪SE_1|2.5MB/s
+  port: 443
+  server: zadefree-hyperlink.hyperfreelink.com
+  servername: zadefree-hyperlink.hyperfreelink.com
+  tls: true
+  type: vless
+  uuid: 3e725086-dabd-ae9d-ffa5-3bab782249e1
 - name: 68|瑞典節點丨yoyapai.com
   network: tcp
   port: 8443

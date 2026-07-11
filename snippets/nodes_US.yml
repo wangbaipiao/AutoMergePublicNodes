@@ -96,9 +96,24 @@ proxies:
   server: www.multiplydose.com
   sni: www.multiplydose.com
   type: trojan
+- name: 14|🇺🇸+26+-+US+-+Trojan/WS/TLS+-+4...
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.11.110
+  sni: www.multiplydose.com
+  type: trojan
+- name: 14|🇺🇸+44+-+US+-+Trojan/WS/TLS+-+4...
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.147.24
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|US 🇺🇸 | @Raydikalx | 2736
+  name: 14|US 🇺🇸 | @Raydikalx | 2716
   network: ws
   port: '8443'
   server: irandesigner.com
@@ -110,13 +125,6 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: 14|🇺🇸+65+-+US+-+Trojan/WS/TLS+-+4...
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.180.92
-  sni: www.multiplydose.com
-  type: trojan
 - cipher: aes-256-cfb
   name: 16,17|199_美国-2.43MB
   password: amazonskr05
@@ -2113,6 +2121,14 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
+- name: 21,68,71|美国_0710027
+  network: tcp
+  password: S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix
+  port: 443
+  server: 149.104.104.58
+  skip-cert-verify: false
+  sni: 149.104.104.58
+  type: trojan
 - name: 30|美国 NTT 01
   password: fc48194800.wns.windows.com
   port: 8443
@@ -2975,6 +2991,15 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 61|🇺🇸US_9|2.1MB/s
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '67|🇺🇸_US_美国 #1'

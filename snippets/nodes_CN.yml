@@ -1863,7 +1863,7 @@ proxies:
     path: /debian
 - alterId: 2
   cipher: auto
-  name: 58,61,71|中国_0710001
+  name: 58,71|中国_0710001
   network: tcp
   port: '30845'
   server: v45.hdacd.com
