@@ -202,24 +202,6 @@ proxies:
   server: au-4.tr202605.com
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 46|🇭🇰HK_1|4.5MB/s
-  port: 32134
-  server: 3696b38bsg.murphyweb.sbs
-  servername: buylite.music.apple.com
-  tls: true
-  type: vless
-  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 46|🇭🇰HK_2|3.1MB/s
-  port: 32342
-  server: 3696b38bsg.murphyweb.sbs
-  servername: buylite.music.apple.com
-  tls: true
-  type: vless
-  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
 - alterId: 2
   cipher: auto
   name: '48|🇭🇰 香港|@ripaojiedian #2'

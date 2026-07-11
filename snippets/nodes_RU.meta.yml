@@ -13,19 +13,19 @@ proxies:
   ws-path: /okoovws
 - name: 19|俄罗斯+V2CROSS.COM
   network: tcp
-  port: 8882
-  server: gr1.fifapes.monster
+  port: 29148
+  server: it.fifapes.monster
   tls: false
   type: vless
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   ws-opts:
     headers:
-      Host: gr1.fifapes.monster
+      Host: it.fifapes.monster
     path: '%2F'
 - name: '19|俄罗斯+V2CROSS.COM #1'
   network: tcp
-  port: 29148
-  server: it.fifapes.monster
+  port: 2090
+  server: fn.fifapes.monster
   tls: false
   type: vless
   uuid: eab915bc-d2df-73d1-47d0-6eb240497055

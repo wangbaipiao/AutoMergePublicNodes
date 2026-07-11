@@ -55,18 +55,6 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: 46|🇩🇪DE_1|2.1MB/s
-  network: ws
-  port: 80
-  server: 188.114.97.6
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 7a4e9c21-b3d8-4f6a-9e52-1c8d5f0a6b73
-  ws-opts:
-    headers:
-      Host: srv75.configur.name.ng
-    path: /
 - alterId: 0
   cipher: auto
   name: 51|🇩🇪DE-194.87.71.23-0109
