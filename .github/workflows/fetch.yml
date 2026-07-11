@@ -39,14 +39,10 @@ jobs:
       run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
-        git pull origin master
-        git add list*
-        git add snippets/
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+        git add -A
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || true
     - name: 推送更改
-      uses: ad-m/github-push-action@master
-      with:
-        branch: master
+      run: git push origin master --force
     - name: 计算要清除缓存的文件
       id: purge_urls
       run: |
