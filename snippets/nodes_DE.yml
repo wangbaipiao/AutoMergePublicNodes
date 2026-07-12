@@ -1,4 +1,20 @@
 proxies:
+- name: 14,71|英国_0712040
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 14,21,58,71|英国_0712037
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
 - name: 14,71|英国_0712039
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
@@ -334,12 +350,6 @@ proxies:
   port: 443
   server: patient-ghost.treefrog761.one
   type: trojan
-- cipher: aes-256-cfb
-  name: '57,64|tg频道:@ripaojiedian #2'
-  password: amazonskr05
-  port: 443
-  server: 63.180.254.10
-  type: ss
 - alterId: 0
   cipher: auto
   name: 67|🇩🇪DE-194.87.71.23-0109

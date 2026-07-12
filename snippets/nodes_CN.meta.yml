@@ -1908,14 +1908,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 57,58,68|印度(yudou789.top 玉豆免费节点)
-  network: tcp
-  password: ef73ca2cf3d9cd0f04c8f448da8125c6
-  port: 39001
-  server: 106.75.160.27
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
 - name: 67|TG频道:@hkaa0▓中国
   network: tcp
   password: 2fadf1dc-f401-4225-ac95-da030118eaef

@@ -1,4 +1,20 @@
 proxies:
+- name: 14,71|英国_0712040
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 14,21,58,71|英国_0712037
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
 - name: 14,71|英国_0712039
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
@@ -25,15 +41,7 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 26,37,61|🪯32@oneclickvpnkeys
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
-  skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '26,37,61|🇩🇪 t-me-V2RayyNGvpn 🇩🇪 #1'
+- name: 26,37,61|🇩🇪 t-me-V2RayyNGvpn 🇩🇪
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 58cb3fdyZN
@@ -43,7 +51,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '26,37,61|🇩🇪109031 | ⚡️Telegram = t.me/S... #1'
+- name: 26,37,61|🇩🇪109031 | ⚡️Telegram = t.me/S...
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: CakZRUUlundefinedS
@@ -81,16 +89,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: 26,37,61|🇩🇪DE_7|3.6MB/s
-  obfs: salamander
-  obfs-password: pqvmx29fokvh8ubb
-  password: TELEgRAM-ID-conf0088
-  port: 2053
-  server: cuetara.name.cuetara.name
-  skip-cert-verify: false
-  sni: ''
   tls: false
   type: hysteria2
 - name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪hy #1'
@@ -2944,30 +2942,68 @@ proxies:
   port: 443
   server: patient-ghost.treefrog761.one
   type: trojan
-- cipher: aes-256-cfb
-  name: '57,64|tg频道:@ripaojiedian #2'
-  password: amazonskr05
+- name: '61|A - 🇩🇪 DE 01 TG: @nodpai'
+  port: 10443
+  server: 136.244.94.171
+  tls: false
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- name: '61|A - 🇩🇪 DE 02 TG: @nodpai'
   port: 443
-  server: 63.180.254.10
-  type: ss
-- name: 61|🇩🇪DE_3|3.3MB/s
-  port: 12767
-  server: 91.99.173.29
+  server: 136.244.94.171
   tls: false
   type: vless
-  uuid: 7ff3f986-f72c-4ebd-9eaa-bba121399cd2
-- name: 61|🇩🇪DE_4|3.4MB/s
-  port: 22224
-  server: 3.74.240.8
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: '61|A - 🇩🇪 DE 04 TG: @nodpai'
+  network: grpc
+  port: 443
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: '61|A - 🇩🇪 DE 05 TG: @nodpai'
+  network: grpc
+  port: 443
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: '61|A - 🇩🇪 DE 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: 61|🇩🇪DE_5|3.8MB/s
-  port: 22222
-  server: 3.74.240.8
-  tls: false
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '61|B - 🇩🇪 DE 07 TG: @nodpai'
+  port: 443
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
+- client-fingerprint: chrome
+  name: 61|🇩🇪DE_2|3.3MB/s
+  port: 44444
+  server: melinet1.temas-arvha.ir
+  servername: yahoo.com.
+  tls: true
+  type: vless
+  uuid: e044297a-304f-40a9-a9fb-d17b744fa781
 - alterId: 0
   cipher: auto
   name: 67|🇩🇪DE-194.87.71.23-0109
