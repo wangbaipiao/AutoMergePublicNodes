@@ -1,4 +1,486 @@
 proxies:
+- name: 54|🔒 VL-WS-TLS 🇸 SE-185.146.173.1...
+  network: ws
+  port: 2053
+  server: 185.146.173.195
+  servername: king-ae1.pages.dev
+  tls: true
+  type: vless
+  uuid: 9a4bc15d-a7d4-4181-9485-405629c36894
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: Telegram%3A%40Cephalon_ALA-Telegram%3A%40Cephalon_ALA-Telegram%3A%40Cephalon_ALA-Telegram%3A%40Cephalon_ALA-Telegram%3A%40Cephalon_ALA-Telegram%3A%40Cephalon_ALA-Telegram%3A%40Cephalon_ALA
+  name: 54|🔒 VL-GRPC-TLS 🇪 SE-185.146.173...
+  network: grpc
+  port: 2087
+  server: 185.146.173.206
+  servername: g4.ferdowsi.shop
+  tls: true
+  type: vless
+  uuid: dd8ba192-0cd1-4d17-b96a-59ecd4d24bf7
+- name: 54|🔒 VL-WS-NONE 🇪 SE-185.146.173....
+  network: ws
+  port: 2095
+  server: 185.146.173.152
+  tls: false
+  type: vless
+  uuid: af309ad2-c943-48ea-b570-2e51a2f079d9
+  ws-opts:
+    headers:
+      Host: NOxdB1.BisTaiR.orG
+    path: '%2FDSDaswd22%2111%2Afdfm55247.COM.'
+- name: '54|🔒 VL-WS-NONE 🇪 SE-185.146.173.... #1'
+  network: ws
+  port: 80
+  server: 185.146.173.92
+  tls: false
+  type: vless
+  uuid: a1160a61-2703-5c7a-8e70-ddaf0bc9e0fc
+  ws-opts:
+    headers:
+      Host: Uk2.vless.site.
+    path: '%2Fvless'
+- name: 54|🔒 VL-WS-TLS 🇸 SE-13.48.209.18:...
+  network: ws
+  port: 22222
+  server: 13.48.209.18
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- name: '54|🔒 VL-WS-NONE 🇪 SE-185.146.173.... #2'
+  network: ws
+  port: 2095
+  server: 185.146.173.37
+  tls: false
+  type: vless
+  uuid: 6e94bfa2-e3e2-443d-ad69-d6fcfcaf14f2
+  ws-opts:
+    headers:
+      Host: V2ray-_-_-_-_-_-_-_-_-ShhProxy.TelegramChannelJoinBede.com.
+    path: /
+- name: '54|🔒 VL-WS-NONE 🇪 SE-185.146.173.... #3'
+  network: ws
+  port: 8080
+  server: 185.146.173.63
+  tls: false
+  type: vless
+  uuid: 925b31c8-73d3-44d4-e087-af7b7ff7e490
+  ws-opts:
+    headers:
+      Host: 6h2.diginoshops3.ir
+    path: '%2FFox%3Fed%3D2048'
+- name: 54|🔒 VL-WS-NA 🇸 SE-185.146.173.49...
+  network: ws
+  port: 2095
+  server: 185.146.173.49
+  tls: false
+  type: vless
+  uuid: 50d1c295-fc17-4545-e1c1-c816b5bb0f26
+  ws-opts:
+    headers:
+      Host: 2.V2.e.www.Speedtest.net.Hopeserver.Xyz.
+    path: /
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  grpc-opts:
+    grpc-service-name: Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-Telegramjoin:@V2Ray_Rolly-
+  name: '54|🔒 VL-GRPC-TLS 🇪 SE-185.146.173... #1'
+  network: grpc
+  port: 2053
+  server: 185.146.173.185
+  servername: Dffggvghgggvg.vshsbsbb-jzjsjb-vdhsh-mahdi-irancel.ir
+  tls: true
+  type: vless
+  uuid: 193a1a5f-5711-45ba-9779-4e6ab9733275
+- name: '54|🔒 VL-WS-NONE 🇪 SE-185.146.173.... #4'
+  network: ws
+  port: 8880
+  server: 185.146.173.67
+  tls: false
+  type: vless
+  uuid: 7de38e1d-0442-463c-9527-026e9237dbde
+  ws-opts:
+    headers:
+      Host: V.V.VV.V.V.V.V.lockey-Vpn-lockey-Vpn-lockey-Vpn-lockey-Vpn.lockey-Vpn.lockey-Vpn.lockey-Vpn.lockey-Vpn.lockey-Vpn-FreeV2ray.Auiyf.Com.
+    path: '%2FFree+V2RAY+TEL+%40Lockey_Vpn+TEL+%40Lockey_Vpn+%40Lockey_Vpn+TEL+%40Lockey_Vpn+TEL+%40Lockey_Vpn+TEL+%40Lockey_Vpn+%40Lockey_Vpn+%40Lockey_Vpn'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '54|🔒 VL-GRPC-TLS 🇪 SE-185.146.173... #2'
+  network: grpc
+  port: 2053
+  server: 185.146.173.90
+  servername: flnewconect3.fragmentscan.xyz
+  tls: true
+  type: vless
+  uuid: 12f34fc2-b3f6-4422-a44d-37adcadca8f3
+- name: '54|🔒 VL-WS-NONE 🇪 SE-185.146.173.... #5'
+  network: ws
+  port: 8080
+  server: 185.146.173.58
+  tls: false
+  type: vless
+  uuid: b69b17b9-4074-4316-9d80-103433d6bfe4
+  ws-opts:
+    headers:
+      Host: lc73.lebasnoo.ir.
+    path: '%2Fservernett'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇪 SE-185.146.173.2...
+  network: ws
+  port: 443
+  server: 185.146.173.200
+  servername: roooos.boyalone1393.workers.dev
+  tls: true
+  type: vless
+  uuid: 6446d42c-6414-40bb-bc6a-129dcc137435
+  ws-opts:
+    headers:
+      Host: roooos.boyalone1393.workers.dev
+    path: '%2Ffrh1.ilovenano.ir%2FAM2BtcJfrPCJSiFzAOskw1HtQRpS'
+- name: 54|🔒 VL-WS-TLS 🇸🇪 SE-13.51.37.210...
+  network: ws
+  port: 22222
+  server: 13.51.37.210
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- name: 54|🔒 VL-WS-NONE 🇸 SE-185.146.173....
+  network: ws
+  port: 80
+  server: 185.146.173.49
+  tls: false
+  type: vless
+  uuid: f9189ee5-3883-401c-a475-3b24cf32e0f2
+  ws-opts:
+    headers:
+      Host: Uk2.v2vless.site.
+    path: '%2Fvless'
+- client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇪 SE-95.164.51.24:...
+  network: ws
+  port: 2501
+  server: 95.164.51.24
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: '54|🔒 VL-WS-NONE 🇪 SE-185.146.173.... #6'
+  network: ws
+  port: 80
+  server: 185.146.173.237
+  tls: false
+  type: vless
+  uuid: 50d0ecb0-cd77-4969-a9c5-0395b0c1e2ed
+  ws-opts:
+    headers:
+      Host: 50.v.v.v.v-_-_-vless-_-_-v.v.v.v.check-host.net.www.zula.ir.telegram.wyvernvpn.odinallfather.us.kg.
+    path: '%2Fvless%3Fed%3D2048'
+- name: 54|🔒 VL-WS-TLS 🇸🇪 SE-185.146.173....
+  network: ws
+  port: 443
+  server: 185.146.173.46
+  servername: pt1.vless.site
+  tls: true
+  type: vless
+  uuid: 2d5525e1-1aac-54ca-9e96-7fb552b0e6b9
+  ws-opts:
+    headers:
+      Host: pt1.vless.site
+    path: '%2Fvless'
+- client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇪 SE-13.53.51.77:8...
+  network: ws
+  port: 8080
+  server: 13.53.51.77
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '54|🔒 VL-GRPC-TLS 🇪 SE-185.146.173... #3'
+  network: grpc
+  port: 8443
+  server: 185.146.173.63
+  servername: 1i3.diginoshops10.ir
+  tls: true
+  type: vless
+  uuid: 578ade22-1e58-4c37-ce01-bfad51a72c62
+- name: 54|🔒 VL-WS-NONE 🇸🇪 SE-185.146.173...
+  network: ws
+  port: 80
+  server: 185.146.173.24
+  tls: false
+  type: vless
+  uuid: fe945275-51a2-5c3c-8669-2c112ed35cec
+  ws-opts:
+    headers:
+      Host: Nl1.vless.site.
+    path: '%2Fvless'
+- name: '54|🔒 VL-WS-NONE 🇸🇪 SE-185.146.173... #1'
+  network: ws
+  port: 80
+  server: 185.146.173.94
+  tls: false
+  type: vless
+  uuid: 41bc353e-bda3-5e7f-a755-fbb5d98b1dce
+  ws-opts:
+    headers:
+      Host: De2.vless.site.
+    path: '%2Fvless'
+- name: 54|🔒 VL-WS-TLS 🇪 SE-129.151.204.9...
+  network: ws
+  port: 443
+  server: 129.151.204.91
+  servername: lg.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: lg.kpcloud.eu.org
+    path: '%2F%3Fed%3D2048'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇪 SE-185.146.173.9...
+  network: ws
+  port: 443
+  server: 185.146.173.94
+  servername: rsfndc1.cpiforpersia.uk
+  tls: true
+  type: vless
+  uuid: a218a675-60e4-4c61-b65b-fd565c400dc9
+  ws-opts:
+    headers:
+      Host: rsfndc1.cpiforpersia.uk
+    path: '%2F2sg8k6ktNBzuCJc1eh1994'
+- name: 54|🔒 VL-WS-NA 🇪 SE-185.146.173.54...
+  network: ws
+  port: 80
+  server: 185.146.173.54
+  tls: false
+  type: vless
+  uuid: daa44282-f20e-43e2-b8f4-345936679312
+  ws-opts:
+    headers:
+      Host: Be1.v2vless.site.
+    path: '%2Fvless'
+- name: 54|🔒 VL-WS-TLS 🇪 SE-51.12.217.144...
+  network: ws
+  port: 443
+  server: 51.12.217.144
+  servername: cg.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: cg.ylks.xyz
+    path: '%2Fblue'
+- name: '54|🔒 VL-WS-NONE 🇸🇪 SE-185.146.173... #2'
+  network: ws
+  port: 80
+  server: 185.146.173.99
+  tls: false
+  type: vless
+  uuid: 51741fc6-b3f4-5da8-9d46-314062a620a5
+  ws-opts:
+    headers:
+      Host: Fr1.vless.site.
+    path: '%2Fvless'
+- name: '54|🔒 VL-WS-NONE 🇸🇪 SE-185.146.173... #3'
+  network: ws
+  port: 8880
+  server: 185.146.173.58
+  tls: false
+  type: vless
+  uuid: b4f08f28-1049-443e-846b-0e14b7c9a332
+  ws-opts:
+    headers:
+      Host: lc70.lebasnoo.ir.
+    path: '%2Fservernett'
+- name: 54|🔒 VL-WS-TLS 🇪 SE-16.171.97.82:...
+  network: ws
+  port: 22222
+  server: 16.171.97.82
+  servername: telegram-channel-vlessconfig.sohala.uk
+  tls: true
+  type: vless
+  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
+  ws-opts:
+    headers:
+      Host: telegram-channel-vlessconfig.sohala.uk
+    path: /telegram-channel-vlessconfig-ws
+- name: '54|🔒 VL-WS-NONE 🇸 SE-185.146.173.... #1'
+  network: ws
+  port: 2082
+  server: 185.146.173.58
+  tls: false
+  type: vless
+  uuid: 9fcb42fa-136e-4b62-bf56-92c687e689fa
+  ws-opts:
+    headers:
+      Host: Kanal-polproxy.Vipnufilter.Online.
+- name: 54|🔒 VL-WS-TLS 🇸 SE-185.146.173.4...
+  network: ws
+  port: 443
+  server: 185.146.173.45
+  servername: fr1.vless.site
+  tls: true
+  type: vless
+  uuid: 51741fc6-b3f4-5da8-9d46-314062a620a5
+  ws-opts:
+    headers:
+      Host: fr1.vless.site
+    path: '%2Fvless'
+- name: 54|🔒 VL-WS-TLS 🇪 SE-13.53.165.65:...
+  network: ws
+  port: 8080
+  server: 13.53.165.65
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇪 SE-13.53.117.221...
+  network: ws
+  port: 8080
+  server: 13.53.117.221
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: '54|🔒 VL-WS-NONE 🇪 SE-185.146.173.... #7'
+  network: ws
+  port: 80
+  server: 185.146.173.58
+  tls: false
+  type: vless
+  uuid: ab8a989e-ccce-4e0d-9aa7-8ae87928858c
+  ws-opts:
+    headers:
+      Host: lc74.lebasnoo.ir.
+    path: '%2Fservernett'
+- alterId: 0
+  cipher: auto
+  name: 54|🔒 VM-WS-NA 🇸🇪 SE-185.146.173.1...
+  network: ws
+  port: 80
+  server: 185.146.173.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: d396-flower-d396.megare7260.workers.dev
+    path: /obdii.cfd/linkws
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-TCP-TLS  SE-13.53.240.142...
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.53.240.142
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-TCP-TLS 🇸🇪 SE-13.51.37.0:...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.51.37.0
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-TCP-TLS 🇪 SE-51.21.50.116...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.21.50.116
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-TCP-TLS 🇪 SE-51.21.85.37:...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.21.85.37
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-TCP-TLS 🇸🇪 SE-13.53.152.1...
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.53.152.136
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 54|🔒 TR-WS-TLS 🇸 SE-185.146.173.1...
+  network: ws
+  password: 9a4bc15d-a7d4-4181-9485-405629c36894
+  port: 443
+  server: 185.146.173.115
+  sni: king-ae1.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-TCP-TLS 🇪 SE-51.21.49.146...
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 51.21.49.146
+  sni: trojan.burgerip.co.uk
+  type: trojan
 - alpn:
   - http/1.1
   name: 56|Sweden
@@ -151,31 +633,3 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.safari-df.ir.
     path: /
-- alterId: 0
-  cipher: auto
-  name: 71|瑞典_0712003
-  network: ws
-  port: '443'
-  server: 185.146.173.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 71|瑞典_0712004
-  network: ws
-  port: '443'
-  server: 185.146.173.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-  ws-opts:
-    headers:
-      Host: nt-haze-7dad.rogap16875.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws

@@ -1,1 +1,39 @@
-proxies: []
+proxies:
+- name: 54|🔒 TR-WS-TLS  CH-185.18.250.117...
+  network: ws
+  password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
+  port: 443
+  server: 185.18.250.117
+  sni: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xn----pmcnaac0dkn0rb71nda.pages.dev
+- alterId: 1
+  cipher: auto
+  name: 54,71|巴拿马_0712001
+  network: ws
+  port: '443'
+  server: 186.190.215.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 54,71|巴拿马_0712002
+  network: ws
+  port: '443'
+  server: 186.190.215.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.75
+    path: linkvws

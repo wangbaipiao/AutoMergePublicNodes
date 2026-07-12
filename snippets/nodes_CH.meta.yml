@@ -1,4 +1,89 @@
 proxies:
+- name: 54|🔒 VL-WS-TLS  CH-140.238.214.24...
+  network: ws
+  port: 443
+  server: 140.238.214.247
+  servername: ak.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: ak.ylks.xyz
+    path: '%2F%3Fed%3D2048'
+- name: 54|🔒 VL-WS-TLS 🇭 CH-140.238.212.9...
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: cj.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: cj.ylks.xyz
+    path: '%2Fblue'
+- name: 54|🔒 VL-WS-NONE  CH-185.18.250.12...
+  network: ws
+  port: 80
+  server: 185.18.250.12
+  tls: false
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: ana-SErVICe.xAbjCDZ.wORkErs.deV
+    path: '%2F1Y6MN5DFV8zB82Ai%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS 🇭 CH-152.67.65.201...
+  network: ws
+  port: 443
+  server: 152.67.65.201
+  servername: cj.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: cj.ylks.xyz
+    path: '%2Fblue'
+- name: 54|🔒 TR-WS-TLS  CH-185.18.250.117...
+  network: ws
+  password: 1e9aadae-ca17-4f75-b0a0-7de5e3858cfb
+  port: 443
+  server: 185.18.250.117
+  sni: xN----PMcNAAC0DKn0Rb71nDa.PAges.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xn----pmcnaac0dkn0rb71nda.pages.dev
+- alterId: 1
+  cipher: auto
+  name: 54,71|巴拿马_0712001
+  network: ws
+  port: '443'
+  server: 186.190.215.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.32
+    path: linkvws
+- alterId: 1
+  cipher: auto
+  name: 54,71|巴拿马_0712002
+  network: ws
+  port: '443'
+  server: 186.190.215.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 186.190.215.75
+    path: linkvws
 - client-fingerprint: chrome
   name: 68|瑞士丨yoyapai.com
   network: tcp

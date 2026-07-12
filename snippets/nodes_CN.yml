@@ -1849,7 +1849,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: '44,67|github.com/freefq - 广东省移动 7 #1'
+  name: '44,54,67|github.com/freefq - 广东省移动 7 #1'
   network: ws
   port: '20401'
   server: data-us-v1.shwjfkw.cn
@@ -1861,6 +1861,53 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- alterId: 64
+  cipher: auto
+  name: 54|14|香港2|@ripaojiedian
+  network: tcp
+  port: '56601'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 54|13,14|日本2|@ripaojiedian
+  password: 7c58bf11-9175-46d1-accf-e1883bf0d5f8
+  port: 28721
+  server: svip.88de.hongxingdl.vip
+  skip-cert-verify: false
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 54|🔒 VM-TCP-NA 🇨🇳 CN-112.132.212....
+  network: tcp
+  port: '50004'
+  server: 112.132.212.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 54|🔒 VM-TCP-NA 🇨🇳 CN-183.236.51.3...
+  network: tcp
+  port: '59003'
+  server: 183.236.51.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 54|🔒 VM-TCP-NA 🇨🇳 CN-112.132.215....
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 57,58,68|印度(yudou789.top 玉豆免费节点)
   network: tcp
   password: ef73ca2cf3d9cd0f04c8f448da8125c6

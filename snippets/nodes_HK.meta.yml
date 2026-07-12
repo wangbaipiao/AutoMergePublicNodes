@@ -293,6 +293,356 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: /blue
+- alterId: 0
+  cipher: auto
+  name: 54|14|香港5|@ripaojiedian
+  network: tcp
+  port: '53385'
+  server: e00618c75712.uxzbpycs.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+- alterId: 64
+  cipher: auto
+  name: 54|14|香港6|@ripaojiedian
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 54|13,14|7|@ripaojiedian
+  password: 26e159d2-ec3a-4005-97c7-eb480bab096d
+  port: 27101
+  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 54|🔒 VL-TCP-RLT  HK-47.243.163.4:...
+  network: tcp
+  port: 23232
+  reality-opts:
+    public-key: OLypQHKPj6qxZf89ByjX-6_0Xh4mcMLwbuJ7grxaNk8
+    short-id: c20d67f3
+  server: 47.243.163.4
+  servername: python.org
+  tls: false
+  type: vless
+  uuid: 0e0bc531-b3f6-4aa9-a96c-1ae06f6b52a5
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 54|🔒 VL-TCP-RLT 🇭🇰 HK-205.198.64....
+  network: tcp
+  port: 23232
+  reality-opts:
+    public-key: OLypQHKPj6qxZf89ByjX-6_0Xh4mcMLwbuJ7grxaNk8
+    short-id: c20d67f3
+  server: 205.198.64.111
+  servername: python.org
+  tls: false
+  type: vless
+  uuid: 0e0bc531-b3f6-4aa9-a96c-1ae06f6b52a5
+- name: 54|🔒 VL-WS-TLS  HK-219.76.13.166:...
+  network: ws
+  port: 443
+  server: 219.76.13.166
+  servername: juzi8186.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzi8186.5112233.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS  HK-43.135.44.101:...
+  network: ws
+  port: 30002
+  server: 43.135.44.101
+  servername: cp.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: cp.ylks.xyz
+    path: '%2Fblue'
+- name: 54|🔒 VL-WS-TLS  HK-20.189.104.97:...
+  network: ws
+  port: 443
+  server: 20.189.104.97
+  servername: dee33.azurewebsites.net
+  tls: true
+  type: vless
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  ws-opts:
+    headers:
+      Host: dee33.azurewebsites.net
+    path: '%2F'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇰 HK-58.176.229.12...
+  network: ws
+  port: 35002
+  server: 58.176.229.127
+  servername: edgetunnel-free.pages.dev
+  tls: true
+  type: vless
+  uuid: de44b044-8f90-4e18-b742-16591667ff96
+  ws-opts:
+    headers:
+      Host: edgetunnel-free.pages.dev
+    path: '%2F%3Fed%3D2048fp%3Drandomized'
+- name: 54|🔒 VL-WS-TLS  HK-154.211.8.227:...
+  network: ws
+  port: 2087
+  server: 154.211.8.227
+  servername: nicorobin.eula.cloudns.org
+  tls: true
+  type: vless
+  uuid: 0d89a36e-36bc-41d2-8bd3-bbd639991f29
+  ws-opts:
+    path: '%2F%3Fed%3D2048'
+- client-fingerprint: randomized
+  name: 54|🔒 VL-WS-TLS 🇰 HK-40.83.122.22:...
+  network: ws
+  port: 2053
+  server: 40.83.122.22
+  servername: sub.putata.eu.org
+  tls: true
+  type: vless
+  uuid: 88ff07e9-51f0-4608-8c5f-ba2fa8a6b18a
+  ws-opts:
+    headers:
+      Host: sub.putata.eu.org
+    path: '%2F%3Fed%3D2048'
+- client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇭🇰 HK-219.77.65.21...
+  network: ws
+  port: 23555
+  server: 219.77.65.212
+  servername: juzi8186.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      Host: juzi8186.5112233.xyz
+    path: '%2F%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS  HK-43.155.89.93:5...
+  network: ws
+  port: 55527
+  server: 43.155.89.93
+  servername: lp.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: lp.ylks01.eu.org
+    path: '%2Fblue'
+- client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇰 HK-124.156.129.2...
+  network: ws
+  port: 6666
+  server: 124.156.129.206
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS 🇰 HK-13.75.34.176:...
+  network: ws
+  port: 443
+  server: 13.75.34.176
+  servername: hkklo.azurewebsites.net
+  tls: true
+  type: vless
+  uuid: 6f995056-7802-4a1d-bff7-61678e626c3f
+  ws-opts:
+    headers:
+      Host: hkklo.azurewebsites.net
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇰 HK-152.32.129.97...
+  network: ws
+  port: 587
+  server: 152.32.129.97
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS 🇰 HK-43.154.34.74:...
+  network: ws
+  port: 1935
+  server: 43.154.34.74
+  servername: ln.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: ln.ylka.us.kg
+    path: '%2F%3Fed%3D2560'
+- client-fingerprint: randomized
+  name: 54|🔒 VL-WS-TLS 🇰 HK-8.218.103.198...
+  network: ws
+  port: 39237
+  server: 8.218.103.198
+  servername: sub.putata.eu.org
+  tls: true
+  type: vless
+  uuid: 88ff07e9-51f0-4608-8c5f-ba2fa8a6b18a
+  ws-opts:
+    headers:
+      Host: sub.putata.eu.org
+    path: '%2F%3Fed%3D2048'
+- alterId: 64
+  cipher: auto
+  name: 54|🔒 VM-WS-TLS 🇭🇰 HK-27.124.10.14...
+  network: ws
+  port: '30000'
+  server: 27.124.10.146
+  servername: www.60443882.xyz
+  tls: true
+  type: vmess
+  uuid: 2525f395-86fc-4090-b203-d9e6db481101
+  ws-opts:
+    headers:
+      Host: www.60443882.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  name: 54|🔒 VM-TCP-NA 🇭🇰 HK-38.207.155.1...
+  network: tcp
+  port: '53385'
+  server: 38.207.155.118
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+- alterId: 0
+  cipher: auto
+  name: 54|🔒 VM-TCP-NA 🇭🇰 HK-125.59.146.1...
+  network: tcp
+  port: '15086'
+  server: 125.59.146.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- name: 54|🔒 TR-TCP-TLS 🇰 HK-103.100.177....
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35001
+  server: 103.100.177.32
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232....
+  network: tcp
+  password: c4da094b-3487-4607-b703-bc380ea3f461
+  port: 27201
+  server: 45.146.232.173
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇭🇰 HK-91.199.84.1...
+  network: tcp
+  password: 9ff83a73-c9da-4233-a9e2-7fa9b83b5f75
+  port: 16212
+  server: 91.199.84.195
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
+- name: 54|HK4
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.173
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-NA 🇰 HK-203.184.132.1...
+  password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
+  port: 443
+  server: 203.184.132.166
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-WS-TLS 🇰 HK-43.198.148.59...
+  network: ws
+  password: dns68
+  port: 8099
+  server: 43.198.148.59
+  sni: trojan.putata.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.putata.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: 54|HK3
+  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
+  port: 22271
+  server: 45.146.232.173
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: '54|🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.... #3'
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.171
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|HK
+  network: tcp
+  password: c4da094b-3487-4607-b703-bc380ea3f461
+  port: 27201
+  server: 45.146.232.171
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇰 HK-45.146.232.1...
+  network: tcp
+  password: c4da094b-3487-4607-b703-bc380ea3f461
+  port: 27201
+  server: 45.146.232.172
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇭🇰 HK-103.100.177...
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35003
+  server: 103.100.177.32
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: '54|🔒 TR-TCP-TLS 🇭🇰 HK-103.100.177... #1'
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35002
+  server: 103.100.177.32
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: 54|🔒 TR-TCP-NA 🇰 HK-103.100.177.3...
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35005
+  server: 103.100.177.32
+  skip-cert-verify: false
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: '54|🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.... #5'
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.172
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - name: '57,58,68|香港(yudou789.top 玉豆免费节点) #1'
   network: tcp
   password: OccIqeORGQwiNkwS

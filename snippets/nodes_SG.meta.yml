@@ -291,6 +291,533 @@ proxies:
     headers:
       Host: t033.ylks.link
     path: /
+- name: 54|🇸🇬 新加坡 Amazon数据中心
+  password: ac590e89-ba43-49a1-a8b2-38ec70dc7907
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 54|14|新加坡2|@ripaojiedian
+  network: tcp
+  port: '40002'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: edge
+  name: 54|🔒 VL-TCP-RLT 🇬 SG-217.142.191....
+  network: tcp
+  port: 18443
+  reality-opts:
+    public-key: dTE8QcX1B_9HRG5Uae47q0HtjhVvePvfPMxvfLyVUUA
+    short-id: 32ff656d
+  server: 217.142.191.140
+  servername: www.tesla.com
+  tls: false
+  type: vless
+  uuid: 661ea549-3367-4c37-b307-253cfe8d2ee6
+- name: 54|🔒 VL-WS-TLS 🇬 SG-206.238.237.1...
+  network: ws
+  port: 8443
+  server: 206.238.237.133
+  servername: king-ae1.pages.dev
+  tls: true
+  type: vless
+  uuid: 9a4bc15d-a7d4-4181-9485-405629c36894
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS 🇸🇬 SG-139.162.33.2...
+  network: ws
+  port: 587
+  server: 139.162.33.248
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560fp%3Dchrome'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 54|🔒 VL-WS-TLS  SG-199.232.15.13:...
+  network: ws
+  port: 443
+  server: 199.232.15.13
+  servername: Sanjeshp.Ir
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed%3D2560
+- name: 54|🔒 VL-WS-TLS  SG-206.238.237.86...
+  network: ws
+  port: 2087
+  server: 206.238.237.86
+  servername: nicorobin.eula.cloudns.org
+  tls: true
+  type: vless
+  uuid: 0d89a36e-36bc-41d2-8bd3-bbd639991f29
+  ws-opts:
+    headers:
+      Host: nicorobin.eula.cloudns.org
+    path: '%2F%3Fed%3D2048%26Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2'
+- client-fingerprint: chrome
+  name: 54|🔒 VL-WS-TLS 🇬 SG-103.180.161.1...
+  network: ws
+  port: 587
+  server: 103.180.161.123
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560fp%3Dchrome'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-206.238.237.3...
+  network: ws
+  port: 8443
+  server: 206.238.237.35
+  servername: king-ae1.pages.dev
+  tls: true
+  type: vless
+  uuid: 9a4bc15d-a7d4-4181-9485-405629c36894
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560'
+- name: 54|🔒 VL-WS-NONE 🇸 SG-143.198.211....
+  network: ws
+  port: 80
+  server: 143.198.211.193
+  tls: false
+  type: vless
+  uuid: 7a9492ff-b2b5-4727-8ade-d3d3d7dbb7e0
+  ws-opts:
+    headers:
+      Host: zoom.us
+    path: '%2FFREE+by+Tharuwa+%280767597317%29'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-8.222.178.214...
+  network: ws
+  port: 6666
+  server: 8.222.178.214
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560fp%3Dchrome'
+- name: 54|🔒 VL-WS-NONE 🇸🇬 SG-206.238.236...
+  network: ws
+  port: 80
+  server: 206.238.236.53
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-47.245.91.113...
+  network: ws
+  port: 587
+  server: 47.245.91.113
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560fp%3Dchrome'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-8.222.159.134...
+  network: ws
+  port: 12314
+  server: 8.222.159.134
+  servername: cp.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: cp.ylks.xyz
+    path: '%2Fblue'
+- client-fingerprint: random
+  name: 54|🔒 VL-WS-TLS 🇸🇬 SG-92.243.74.13...
+  network: ws
+  port: 8443
+  server: 92.243.74.137
+  servername: vip4-romax-tiktok.golabyazd.ir
+  tls: true
+  type: vless
+  uuid: 79775e49-c3d7-4535-97e5-6980dbf760d1
+  ws-opts:
+    headers:
+      Host: vip4-romax-tiktok.golabyazd.ir
+- name: 54|🔒 VL-WS-TLS 🇸🇬 SG-206.238.237....
+  network: ws
+  port: 8443
+  server: 206.238.237.40
+  servername: king-ae1.pages.dev
+  tls: true
+  type: vless
+  uuid: 9a4bc15d-a7d4-4181-9485-405629c36894
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560'
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 54|🔒 VL-WS-TLS 🇬 SG-92.243.74.3:4...
+  network: ws
+  port: 443
+  server: 92.243.74.3
+  servername: yelaaan.thelastronin.cloudns.org
+  tls: true
+  type: vless
+  uuid: 9b7e5296-9a97-4ecd-bb8d-3057045c5d1d
+  ws-opts:
+    headers:
+      Host: yelan.thelastronin.cloudns.org
+    path: '%2Fvless%2Fat1-vless.greenssh.org'
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 54|🔒 VL-WS-TLS 🇸🇬 SG-92.243.74.2:...
+  network: ws
+  port: 443
+  server: 92.243.74.2
+  servername: yelaaan.thelastronin.cloudns.org
+  tls: true
+  type: vless
+  uuid: 9b7e5296-9a97-4ecd-bb8d-3057045c5d1d
+  ws-opts:
+    headers:
+      Host: yelan.thelastronin.cloudns.org
+    path: '%2Fvless%2Fat1-vless.greenssh.org'
+- name: '54|🔒 VL-WS-TLS 🇬 SG-206.238.237.1... #1'
+  network: ws
+  port: 2083
+  server: 206.238.237.162
+  servername: nicorobin.eula.cloudns.org
+  tls: true
+  type: vless
+  uuid: 0d89a36e-36bc-41d2-8bd3-bbd639991f29
+  ws-opts:
+    headers:
+      Host: nicorobin.eula.cloudns.org
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2048'
+- name: 54|🔒 VL-WS-NONE 🇬 SG-206.238.236....
+  network: ws
+  port: 80
+  server: 206.238.236.213
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: '%2FTelegram%40NETMelliAnti%3Fed%3D2560'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 54|🔒 VL-WS-TLS  SG-199.232.12.41:...
+  network: ws
+  port: 443
+  server: 199.232.12.41
+  servername: mefa.ir
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: mefa.ir
+    path: '%2FH%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-158.178.238.2...
+  network: ws
+  port: 443
+  server: 158.178.238.239
+  servername: ap.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: ap.ylks.xyz
+    path: '%2F%3Fed%3D2048'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-206.238.237.7...
+  network: ws
+  port: 443
+  server: 206.238.237.74
+  servername: dy.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: dy.ylks.xyz
+    path: '%2FProxyIP%3DProxyIP.US.fxxk.dedyn.io'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: randomized
+  name: 54|🔒 VL-WS-TLS 🇬 SG-199.232.12.2:...
+  network: ws
+  port: 443
+  server: 199.232.12.2
+  servername: Sanjeshp.Ir
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: Sanjeshp.Ir
+    path: /H?ed%3D2560
+- name: '54|🔒 VL-WS-NONE 🇬 SG-206.238.236.... #1'
+  network: ws
+  port: 80
+  server: 206.238.236.222
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560'
+- name: '54|🔒 VL-WS-TLS 🇸🇬 SG-206.238.237.... #1'
+  network: ws
+  port: 443
+  server: 206.238.237.182
+  servername: dy.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: dy.ylks.xyz
+    path: '%2FProxyIP%3DProxyIP.US.fxxk.dedyn.io'
+- name: '54|🔒 VL-WS-TLS 🇸🇬 SG-206.238.237.... #2'
+  network: ws
+  port: 8443
+  server: 206.238.237.49
+  servername: king-ae1.pages.dev
+  tls: true
+  type: vless
+  uuid: 9a4bc15d-a7d4-4181-9485-405629c36894
+  ws-opts:
+    headers:
+      Host: king-ae1.pages.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560'
+- name: 54|🔒 VL-WS-NONE  SG-206.238.236.2...
+  network: ws
+  port: 80
+  server: 206.238.236.204
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: '%2F%3Fed%3D2560'
+- alpn:
+  - 'null'
+  name: '54|🔒 VL-WS-NONE 🇸🇬 SG-206.238.236... #1'
+  network: ws
+  port: 80
+  server: 206.238.236.43
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-168.138.165.1...
+  network: ws
+  port: 443
+  server: 168.138.165.174
+  servername: ap.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: ap.ylks.xyz
+    path: '%2F%3Fed%3D2048'
+- client-fingerprint: edge
+  name: 54|🔒 VL-WS-TLS 🇸🇬 SG-199.232.15.2...
+  network: ws
+  port: 443
+  server: 199.232.15.239
+  servername: FullHD.4K.ELiV2RaY.ai
+  tls: true
+  type: vless
+  uuid: 267b19e0-8849-41c2-aa3c-50ccd4478b31
+  ws-opts:
+    headers:
+      Host: fullhd.4k.ELiV2rAY.ai
+    path: '%2FVLESS%3F-ELiV2rAY-ELiV2rAY'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-206.238.236.8...
+  network: ws
+  port: 443
+  server: 206.238.236.83
+  servername: ld.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: ld.ylks01.eu.org
+    path: '%2Fblue'
+- name: '54|🔒 VL-WS-TLS 🇬 SG-8.222.159.134... #1'
+  network: ws
+  port: 12483
+  server: 8.222.159.134
+  servername: ap.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      Host: ap.ylks.xyz
+    path: '%2Fblue'
+- name: '54|🔒 VL-WS-TLS 🇸🇬 SG-206.238.237.... #3'
+  network: ws
+  port: 443
+  server: 206.238.237.133
+  servername: lx.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: lx.kpcloud.eu.org
+    path: '%2Fblue'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-206.238.237.8...
+  network: ws
+  port: 443
+  server: 206.238.237.88
+  servername: dd.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      Host: dd.ylks.xyz
+    path: '%2F%3Fproxyip%3Dproxyip.sg.fxxk.dedyn.io'
+- name: '54|🔒 VL-WS-NONE 🇬 SG-206.238.236.... #2'
+  network: ws
+  port: 80
+  server: 206.238.236.171
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-8.219.170.57:...
+  network: ws
+  port: 8000
+  server: 8.219.170.57
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560fp%3Dchrome'
+- name: 54|🔒 VL-WS-TLS 🇸🇬 SG-103.180.161....
+  network: ws
+  port: 587
+  server: 103.180.161.69
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-139.162.45.12...
+  network: ws
+  port: 587
+  server: 139.162.45.124
+  servername: vless.ifx.us.kg
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: vless.ifx.us.kg
+    path: '%2F%3Fed%3D2560fp%3Dchrome'
+- name: '54|🔒 VL-WS-NONE 🇬 SG-206.238.236.... #3'
+  network: ws
+  port: 80
+  server: 206.238.236.239
+  tls: false
+  type: vless
+  uuid: f0d584bc-342f-4443-ba24-79e4d0e504b1
+  ws-opts:
+    headers:
+      Host: late-tooth.granzinhannah.workers.dev
+    path: '%2F%40AZARBAYJAB1%40AZARBAYJAB1%40AZARBAYJAB1%3Fed'
+- name: 54|🔒 VL-WS-TLS 🇬 SG-206.238.237.6...
+  network: ws
+  port: 443
+  server: 206.238.237.60
+  servername: lw.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: 54|未知83 45.5KB/s
+  network: tcp
+  port: '2902'
+  server: 143.92.42.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-WS-TLS 🇬 SG-206.238.237.1...
+  network: ws
+  password: dns68
+  port: 2087
+  server: 206.238.237.1
+  sni: trojan.putata.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.putata.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: 54|🔒 TR-TCP-NA 🇬 SG-52.221.9.240:...
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: 52.221.9.240
+  skip-cert-verify: false
+  sni: master-boxer.pig299.lat
+  type: trojan
 - name: 56|Singapore
   password: '!!str 3747000103274291200'
   port: 443
@@ -337,14 +864,6 @@ proxies:
   port: 8888
   server: aw-sg.vndmall.pro
   type: ss
-- name: 61|🇸🇬SG_2|3.7MB/s
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 54.255.102.19
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tls: false
-  type: hysteria2
 - client-fingerprint: random
   name: 67|TG@ZDYZ2 -SG-Singapore1
   network: ws

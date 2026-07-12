@@ -61,6 +61,52 @@ proxies:
     headers:
       Host: t033.ylks.link
     path: /
+- alterId: 0
+  cipher: auto
+  name: 54|🔒 VM-WS-NA 🇰🇷 KR-158.180.91.20...
+  network: ws
+  port: '46271'
+  server: 158.180.91.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f99bfe05-e351-47df-e752-ac0aaea976dc
+  ws-opts:
+    headers:
+      Host: kr.huafei888.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 54|🔒 VM-WS-TLS 🇰🇷 KR-211.248.216....
+  network: ws
+  port: 17443
+  server: 211.248.216.119
+  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+    path: /obdii.cfd:443/linkws
+- name: 54|🔒 TR-TCP-NA  KR-152.70.249.186...
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 21005
+  server: 152.70.249.186
+  skip-cert-verify: false
+  sni: alibabashop.com
+  type: trojan
+- name: 54|🔒 TR-TCP-NA 🇷 KR-152.70.249.18...
+  password: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a
+  port: 20980
+  server: 152.70.249.186
+  skip-cert-verify: false
+  type: trojan
+- name: 54|🔒 TR-TCP-NA 🇷 KR-152.70.249.67...
+  password: NISHIKUITAN222
+  port: 443
+  server: 152.70.249.67
+  type: trojan
 - name: 56|South+Korea
   password: '!!str 3782591447421952000'
   port: 443

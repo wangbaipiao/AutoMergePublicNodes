@@ -256,6 +256,168 @@ proxies:
     headers:
       Host: hk80-2.af49c4e4c2ef.sanfen001.pics
     path: /zh-cn/
+- alterId: 0
+  cipher: auto
+  name: 54|14|香港5|@ripaojiedian
+  network: tcp
+  port: '53385'
+  server: e00618c75712.uxzbpycs.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+- alterId: 64
+  cipher: auto
+  name: 54|14|香港6|@ripaojiedian
+  network: tcp
+  port: '58002'
+  server: 120.232.153.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 54|13,14|7|@ripaojiedian
+  password: 26e159d2-ec3a-4005-97c7-eb480bab096d
+  port: 27101
+  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  skip-cert-verify: true
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 54|🔒 VM-WS-TLS 🇭🇰 HK-27.124.10.14...
+  network: ws
+  port: '30000'
+  server: 27.124.10.146
+  servername: www.60443882.xyz
+  tls: true
+  type: vmess
+  uuid: 2525f395-86fc-4090-b203-d9e6db481101
+  ws-opts:
+    headers:
+      Host: www.60443882.xyz
+    path: /path/011410073331
+- alterId: 0
+  cipher: auto
+  name: 54|🔒 VM-TCP-NA 🇭🇰 HK-38.207.155.1...
+  network: tcp
+  port: '53385'
+  server: 38.207.155.118
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+- alterId: 0
+  cipher: auto
+  name: 54|🔒 VM-TCP-NA 🇭🇰 HK-125.59.146.1...
+  network: tcp
+  port: '15086'
+  server: 125.59.146.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
+- name: 54|🔒 TR-TCP-TLS 🇰 HK-103.100.177....
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35001
+  server: 103.100.177.32
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232....
+  network: tcp
+  password: c4da094b-3487-4607-b703-bc380ea3f461
+  port: 27201
+  server: 45.146.232.173
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇭🇰 HK-91.199.84.1...
+  network: tcp
+  password: 9ff83a73-c9da-4233-a9e2-7fa9b83b5f75
+  port: 16212
+  server: 91.199.84.195
+  skip-cert-verify: true
+  sni: data.steamdownload.top
+  type: trojan
+- name: 54|HK4
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.173
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-NA 🇰 HK-203.184.132.1...
+  password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
+  port: 443
+  server: 203.184.132.166
+  type: trojan
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-WS-TLS 🇰 HK-43.198.148.59...
+  network: ws
+  password: dns68
+  port: 8099
+  server: 43.198.148.59
+  sni: trojan.putata.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.putata.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: 54|HK3
+  password: 1a8050cd-50d8-4b7d-a73e-193222f39822
+  port: 22271
+  server: 45.146.232.173
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: '54|🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.... #3'
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.171
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|HK
+  network: tcp
+  password: c4da094b-3487-4607-b703-bc380ea3f461
+  port: 27201
+  server: 45.146.232.171
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇰 HK-45.146.232.1...
+  network: tcp
+  password: c4da094b-3487-4607-b703-bc380ea3f461
+  port: 27201
+  server: 45.146.232.172
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
+- name: 54|🔒 TR-TCP-TLS 🇭🇰 HK-103.100.177...
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35003
+  server: 103.100.177.32
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: '54|🔒 TR-TCP-TLS 🇭🇰 HK-103.100.177... #1'
+  network: tcp
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35002
+  server: 103.100.177.32
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: 54|🔒 TR-TCP-NA 🇰 HK-103.100.177.3...
+  password: de45945e-65ea-4d13-b29d-1835a4281023
+  port: 35005
+  server: 103.100.177.32
+  skip-cert-verify: false
+  sni: updates.sub-nthu.com
+  type: trojan
+- name: '54|🔒 TR-TCP-TLS 🇭🇰 HK-45.146.232.... #5'
+  network: tcp
+  password: f181b265-5fd4-456e-ad2d-c9b0446e0d51
+  port: 27001
+  server: 45.146.232.172
+  sni: q08m.vgraxiw73s.hasyaf.cn
+  type: trojan
 - name: '57,58,68|香港(yudou789.top 玉豆免费节点) #1'
   network: tcp
   password: OccIqeORGQwiNkwS

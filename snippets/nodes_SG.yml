@@ -283,6 +283,53 @@ proxies:
     headers:
       Host: t033.ylks.link
     path: /
+- name: 54|🇸🇬 新加坡 Amazon数据中心
+  password: ac590e89-ba43-49a1-a8b2-38ec70dc7907
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 54|14|新加坡2|@ripaojiedian
+  network: tcp
+  port: '40002'
+  server: 183.236.48.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 54|未知83 45.5KB/s
+  network: tcp
+  port: '2902'
+  server: 143.92.42.65
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alpn:
+  - http/1.1
+  name: 54|🔒 TR-WS-TLS 🇬 SG-206.238.237.1...
+  network: ws
+  password: dns68
+  port: 2087
+  server: 206.238.237.1
+  sni: trojan.putata.us.kg
+  type: trojan
+  ws-opts:
+    headers:
+      Host: trojan.putata.us.kg
+    path: '%2F%3Fed%3D2560'
+- name: 54|🔒 TR-TCP-NA 🇬 SG-52.221.9.240:...
+  password: '!!str 3690911436885991424'
+  port: 443
+  server: 52.221.9.240
+  skip-cert-verify: false
+  sni: master-boxer.pig299.lat
+  type: trojan
 - name: 56|Singapore
   password: '!!str 3747000103274291200'
   port: 443
