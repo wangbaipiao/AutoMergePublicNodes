@@ -11,6 +11,32 @@ proxies:
   ws-headers:
     host: insaneguo2333.top
   ws-path: /okoovws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 21|俄罗斯+V2CROSS.COM
+  network: tcp
+  port: 2087
+  reality-opts:
+    public-key: J2RPvguvaBHlFDFOcZHs4sY9wSNIGNvvmDZud49A7i8
+    short-id: 9f0a1b2c
+  server: msk.24pitbullstore.ru
+  servername: msk.24pitbullstore.ru
+  tls: false
+  type: vless
+  uuid: 570779d8-b4cd-4b3c-a8bd-6127f51c4d48
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '21|俄罗斯+V2CROSS.COM #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Cve6RU_xmFPAsLiW2eIucli0lwEZyf7XFj6_rR8LukI
+    short-id: 671047edbaa38eef
+  server: 193.111.117.62
+  servername: max.ru
+  tls: false
+  type: vless
+  uuid: 9946f24b-0020-40f6-9d06-de8abff0e584
 - name: 52|俄罗斯联邦_6
   network: ws
   port: 443
@@ -63,7 +89,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 58,68,71|俄罗斯联邦_0710008
+  name: 58,68,71|俄罗斯联邦_0712007
   network: ws
   port: '443'
   server: renderer-stream-1-411.mirra.now
@@ -75,33 +101,6 @@ proxies:
     headers:
       Host: renderer-stream-1-411.mirra.now
     path: /api/v1/gpu-stream/socket
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 61|🇷🇺RU_1|1.7MB/s
-  port: 443
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  uuid: 52f28e67-226f-4834-b2b5-6ef70dfd3adb
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: 61|🇷🇺RU_2|2.0MB/s
-  port: 443
-  server: 193.168.46.180
-  servername: rruu.persik.host
-  tls: true
-  type: vless
-  uuid: 5c22431c-2143-46a2-90d3-b7716109a4ee
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 61|🇷🇺RU_3|1.9MB/s
-  port: 443
-  server: ru7.netfix.app
-  servername: haharu7.xixihaha.it.com
-  tls: true
-  type: vless
-  uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
 - name: 67|🇷🇺+RU+俄罗斯联邦+11
   network: ws
   port: 2087
@@ -115,29 +114,15 @@ proxies:
       Host: juzibaipiao.5112233.xyz
     path: '%2f%3fed%3d2048'
 - client-fingerprint: chrome
-  name: 68|🇷🇺俄羅斯丨yoyapai.com
-  network: ws
-  port: 443
-  server: 109.120.176.37
-  servername: sertraline.adaspoloandco.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
-  ws-opts:
-    headers:
-      Host: sertraline.adaspoloandco.com
-    path: '%2Fdownload.php'
-- client-fingerprint: chrome
-  name: '68|🇱🇻_LV_拉脱维亚 #1'
-  network: raw
+  name: '68|俄羅斯丨yoyapai.com #1'
+  network: tcp
   port: 19562
   reality-opts:
     public-key: T66pm2f_PN4Hya_A_5K0X1HQb717SUCODyoUO7Gk3Ws
     short-id: 9e
   server: 90.156.254.164
   servername: yahoo.com
-  tls: true
+  tls: false
   type: vless
   uuid: 5b96be74-656d-4bb7-85c2-d2d8a3b7c2f3
 - client-fingerprint: chrome
@@ -153,28 +138,59 @@ proxies:
   tls: false
   type: vless
   uuid: 039a1658-e86e-475f-a3a4-67cc249acada
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '68|RU俄罗斯(mibei77.com 米贝节点分享) #1'
-  network: tcp
+- client-fingerprint: chrome
+  name: 68|🇷🇺俄羅斯丨yoyapai.com
+  network: ws
   port: 443
-  reality-opts:
-    public-key: B3MWDjEWGQsObyH-9npa_PlkaoQDBqzwlwURFK1zlE8
-    short-id: 3e0527d94cc8d1
-  server: 148.253.211.10
-  servername: vk.me
-  tls: false
+  server: 109.120.176.37
+  servername: sertraline.adaspoloandco.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 60576147-90e7-4afc-9cf9-c7361a8c7fd8
-- name: 68|RU VLESS-347 | free-nodes
+  uuid: 10a6b923-e349-4594-92bb-d81a6245aaec
+  ws-opts:
+    headers:
+      Host: sertraline.adaspoloandco.com
+    path: '%2Fdownload.php'
+- client-fingerprint: chrome
+  name: '68|美国(yudou789.top 玉豆免费节点) #116'
+  network: ws
+  port: 443
+  server: 120.55.183.176
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: '%2Fsg-melbi'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 68|RU VLESS-134 | free-nodes
+  port: 2083
+  server: pol2.neobo-tooth.ru
+  tls: true
+  type: vless
+  uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 68|RU VLESS-359 | free-nodes
+  network: tcp
   port: 40443
+  reality-opts:
+    public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU
+    short-id: c84f
   server: cdn.netraidly.ru
+  servername: deepl.com
+  skip-cert-verify: true
   tls: false
   type: vless
   uuid: 4bf5a71c-d726-4585-b095-7396675706d5
 - alterId: 0
   cipher: auto
-  name: 71|俄罗斯联邦_0710003
+  name: 71|俄罗斯联邦_0712002
   network: ws
   port: '443'
   server: 37.220.161.249
@@ -188,7 +204,7 @@ proxies:
     path: /api/v1/gpu-stream/socket
 - alterId: 0
   cipher: auto
-  name: 71|俄罗斯联邦_0710004
+  name: 71|俄罗斯联邦_0712003
   network: ws
   port: '2082'
   server: 45.142.120.190
@@ -202,7 +218,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|俄罗斯联邦_0710005
+  name: 71|俄罗斯联邦_0712004
   network: ws
   port: '443'
   server: 194.76.18.113
@@ -216,7 +232,7 @@ proxies:
     path: /obdii.cfd:443/linkws
 - alterId: 0
   cipher: auto
-  name: 71|俄罗斯联邦_0710006
+  name: 71|俄罗斯联邦_0712005
   network: ws
   port: '443'
   server: 194.76.18.197
@@ -230,7 +246,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|俄罗斯联邦_0710007
+  name: 71|俄罗斯联邦_0712006
   network: ws
   port: '443'
   server: 93.93.89.118
@@ -242,3 +258,17 @@ proxies:
     headers:
       Host: renderer-stream-1-411.mirra.now
     path: /api/v1/gpu-stream/socket
+- alterId: 0
+  cipher: auto
+  name: 71|俄罗斯联邦_0712008
+  network: ws
+  port: '443'
+  server: site.hooracoffee.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ed954dba-5ad5-4688-8174-247944361c38
+  ws-opts:
+    headers:
+      Host: site.hooracoffee.ir
+    path: /www

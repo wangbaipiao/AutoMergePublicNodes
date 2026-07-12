@@ -40,7 +40,17 @@ proxies:
     path: '%2F%3Fhttps%3A%2F%2Ft.me%2Fapp_bedal%F0%9F%87%A8%F0%9F%87%B3'
 - alterId: 0
   cipher: auto
-  name: 71|瑞典_0710001
+  name: 71|瑞典_0712001
+  network: http
+  port: '80'
+  server: 217.142.138.61
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
+- alterId: 0
+  cipher: auto
+  name: 71|瑞典_0712002
   network: ws
   port: '80'
   server: 185.146.173.25
@@ -54,7 +64,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|瑞典_0710002
+  name: 71|瑞典_0712003
   network: ws
   port: '443'
   server: 185.146.173.158
@@ -68,17 +78,7 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 71|瑞典_0710003
-  network: http
-  port: '80'
-  server: 217.142.138.61
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac1b933d-afff-4487-93ef-f57130a55dff
-- alterId: 0
-  cipher: auto
-  name: 71|瑞典_0710004
+  name: 71|瑞典_0712004
   network: ws
   port: '443'
   server: 185.146.173.129

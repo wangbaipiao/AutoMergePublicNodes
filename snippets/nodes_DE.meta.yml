@@ -1,9 +1,23 @@
 proxies:
-- name: 14,71|英国_0710019
+- name: 14|🇩🇪+DE+36
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.138
+  server: 185.137.157.128
+  sni: 185.137.157.128
+  type: trojan
+- name: 14|🇩🇪+DE+7
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
+  sni: 185.137.157.142
+  type: trojan
+- name: 14,58,71|英国_0712037
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -33,16 +47,6 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '26,37,61|@GozargahAzad|🇩🇪 #1'
-  obfs: salamander
-  obfs-password: ngljeqgna3hmfr2s
-  password: 91uokb9ud7raz0fk
-  port: 56845
-  server: qg.easyiran.org
-  skip-cert-verify: false
-  sni: ''
   tls: false
   type: hysteria2
 - name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪 #1'
@@ -228,39 +232,6 @@ proxies:
   port: 443
   server: patient-ghost.treefrog761.one
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 61|🇩🇪DE_4|2.3MB/s
-  port: 443
-  server: 157.173.27.150
-  servername: travel.yandex.ru
-  tls: true
-  type: vless
-  uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 61|🇩🇪DE_5|2.7MB/s
-  port: 443
-  server: 91.244.71.227
-  servername: travel.yandex.ru
-  tls: true
-  type: vless
-  uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 61|🇩🇪DE_6|3.0MB/s
-  port: 443
-  server: 45.155.70.1
-  servername: dolores.api.dznn.net
-  tls: true
-  type: vless
-  uuid: 83ceabec-a0ee-4d38-94c1-cbb2d6cbdf1a
-- name: 61|🇩🇪DE_8|2.1MB/s
-  port: 8882
-  server: 95.182.98.231
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - alterId: 0
   cipher: auto
   name: 67|🇩🇪DE-194.87.71.23-0109
@@ -373,21 +344,94 @@ proxies:
   tls: true
   type: vless
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- name: '68|德国(yudou789.top 玉豆免费节点) #3'
+  network: ws
+  port: 80
+  server: 151.101.3.8
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: '%2F'
 - client-fingerprint: chrome
-  name: '68|🇩🇪_DE_德国 #4'
-  network: raw
-  port: 8443
+  flow: xtls-rprx-vision
+  name: 68|德国(yudou789.top 玉豆免费节点)
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: 478dc6
-  server: 178.215.238.148
-  servername: eh.vk.com
+    public-key: C6XuP7qLuICjL8uqnj53IcOTPNhVSdandnqH60gmtWc
+    short-id: 1a301872a9a1
+  server: g.r.stockym.com
+  servername: amd.com
+  tls: false
+  type: vless
+  uuid: f09d18a9-d778-4e00-a49a-c0063d1c1b11
+  ws-opts:
+    headers:
+      Host: v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---v_ngfree---
+    path: '%2F'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 68|DE VLESS-688 | free-nodes
+  network: tcp
+  port: 443
+  server: s661.wagahaha.xyz
+  servername: u695099ub02ce874s660.ccgfw.top
   tls: true
   type: vless
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 68|DE VLESS-721 | free-nodes
+  network: tcp
+  port: 443
+  server: s662.csgfw.top
+  servername: u695099ub02ce874s660.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  grpc-opts:
+    grpc-service-name: ''
+  name: 68|DE VLESS-754 | free-nodes
+  network: tcp
+  port: 443
+  server: 185.230.162.56
+  servername: u695099ub02ce874s660.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: b02ce874s660.ccgfw.top
+    path: ''
 - alterId: 1
   cipher: auto
-  name: 71|德国_0710002
+  name: 71|德国_0712003
   network: ws
   port: '8080'
   server: 130.61.253.111
@@ -401,7 +445,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710003
+  name: 71|德国_0712004
   network: ws
   port: '443'
   server: de-full.privateip.net
@@ -415,7 +459,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710004
+  name: 71|德国_0712005
   network: ws
   port: '443'
   server: 185.135.9.208
@@ -429,7 +473,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 64
   cipher: auto
-  name: 71|德国_0710005
+  name: 71|德国_0712006
   network: ws
   port: '30001'
   server: 89.163.247.25
@@ -443,7 +487,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710006
+  name: 71|德国_0712007
   network: http
   port: '443'
   server: 94.130.25.155
@@ -453,7 +497,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710007
+  name: 71|德国_0712008
   network: http
   port: '443'
   server: 167.235.136.155
@@ -463,7 +507,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710008
+  name: 71|德国_0712009
   network: ws
   port: '443'
   server: www.vpslook.com
@@ -477,7 +521,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710009
+  name: 71|德国_0712010
   network: ws
   port: '443'
   server: 193.122.58.158
@@ -491,7 +535,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710010
+  name: 71|德国_0712011
   network: ws
   port: '2095'
   server: 185.135.9.247
@@ -505,7 +549,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710011
+  name: 71|德国_0712012
   network: ws
   port: '2095'
   server: 185.135.9.19
@@ -519,7 +563,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710012
+  name: 71|德国_0712013
   network: ws
   port: '80'
   server: 162.55.174.135
@@ -533,7 +577,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710013
+  name: 71|德国_0712014
   network: ws
   port: '80'
   server: 162.55.62.193
@@ -547,7 +591,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710014
+  name: 71|德国_0712015
   network: ws
   port: '80'
   server: 5.75.173.189
@@ -561,7 +605,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710015
+  name: 71|德国_0712016
   network: ws
   port: '80'
   server: 167.235.78.112
@@ -573,13 +617,3 @@ proxies:
     headers:
       Host: ''
     path: /telegram-id-@privatevpns
-- cipher: aes-256-cfb
-  name: 71|576O5Zu9XzA3MTAwMDM
-  obfs: http_simple
-  obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20
-  password: Uk92CS
-  port: '24000'
-  protocol: auth_aes128_sha1
-  protocol-param: MTA4NTEzOkVwQzQyMw
-  server: nje.boom.party
-  type: ssr

@@ -31,3 +31,10 @@ proxies:
   sni: ee1-4.nrojat.com
   type: trojan
   udp: true
+- name: 71|爱沙尼亚_0712001
+  password: CFvS99VcEv82u3XFr36EPbumLPadKXT6
+  port: 9443
+  server: trojan-tcp-tls-test.hysteria.ltd
+  skip-cert-verify: false
+  sni: ''
+  type: trojan

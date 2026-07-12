@@ -1,9 +1,23 @@
 proxies:
-- name: 14,71|英国_0710019
+- name: 14|🇩🇪+DE+36
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.138
+  server: 185.137.157.128
+  sni: 185.137.157.128
+  type: trojan
+- name: 14|🇩🇪+DE+7
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
+  sni: 185.137.157.142
+  type: trojan
+- name: 14,58,71|英国_0712037
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -207,7 +221,7 @@ proxies:
   type: trojan
 - alterId: 1
   cipher: auto
-  name: 71|德国_0710002
+  name: 71|德国_0712003
   network: ws
   port: '8080'
   server: 130.61.253.111
@@ -221,7 +235,7 @@ proxies:
     path: /download
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710003
+  name: 71|德国_0712004
   network: ws
   port: '443'
   server: de-full.privateip.net
@@ -235,7 +249,7 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710004
+  name: 71|德国_0712005
   network: ws
   port: '443'
   server: 185.135.9.208
@@ -249,7 +263,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 64
   cipher: auto
-  name: 71|德国_0710005
+  name: 71|德国_0712006
   network: ws
   port: '30001'
   server: 89.163.247.25
@@ -263,7 +277,7 @@ proxies:
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710006
+  name: 71|德国_0712007
   network: http
   port: '443'
   server: 94.130.25.155
@@ -273,7 +287,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710007
+  name: 71|德国_0712008
   network: http
   port: '443'
   server: 167.235.136.155
@@ -283,7 +297,7 @@ proxies:
   uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710008
+  name: 71|德国_0712009
   network: ws
   port: '443'
   server: www.vpslook.com
@@ -297,7 +311,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710009
+  name: 71|德国_0712010
   network: ws
   port: '443'
   server: 193.122.58.158
@@ -311,7 +325,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710010
+  name: 71|德国_0712011
   network: ws
   port: '2095'
   server: 185.135.9.247
@@ -325,7 +339,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710011
+  name: 71|德国_0712012
   network: ws
   port: '2095'
   server: 185.135.9.19
@@ -339,7 +353,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710012
+  name: 71|德国_0712013
   network: ws
   port: '80'
   server: 162.55.174.135
@@ -353,7 +367,7 @@ proxies:
     path: /graphql
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710013
+  name: 71|德国_0712014
   network: ws
   port: '80'
   server: 162.55.62.193
@@ -367,7 +381,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710014
+  name: 71|德国_0712015
   network: ws
   port: '80'
   server: 5.75.173.189
@@ -381,7 +395,7 @@ proxies:
     path: /telegram-id-@privatevpns
 - alterId: 0
   cipher: auto
-  name: 71|德国_0710015
+  name: 71|德国_0712016
   network: ws
   port: '80'
   server: 167.235.78.112
@@ -393,13 +407,3 @@ proxies:
     headers:
       Host: ''
     path: /telegram-id-@privatevpns
-- cipher: aes-256-cfb
-  name: 71|576O5Zu9XzA3MTAwMDM
-  obfs: http_simple
-  obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20
-  password: Uk92CS
-  port: '24000'
-  protocol: auth_aes128_sha1
-  protocol-param: MTA4NTEzOkVwQzQyMw
-  server: nje.boom.party
-  type: ssr

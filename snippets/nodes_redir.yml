@@ -170,46 +170,14 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 2
   cipher: auto
-  name: '68|🇲🇾_MY_马来西亚->🇺🇸_US_美国 #1'
+  name: '68|🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 #1'
   network: tcp
-  port: 30824
-  server: v24.hdacd.com
+  port: 30835
+  server: v35.hdacd.com
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '68|🇭🇰_HK_中国香港->🇹🇼_TW_中国台湾 #1'
-  network: tcp
-  port: 2510
-  server: world.t.51guangtaobao.com
-  tls: false
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: '68|🇺🇸_US_美国->🇨🇭_CH_瑞士 #1'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '68|🇺🇸_US_美国->🇸🇬_SG_新加坡 #1'
-  network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '68|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- name: '68|🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆 #2'
+- name: '68|🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆 #1'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
@@ -218,17 +186,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 68,71|中国_0710003
-  network: tcp
-  port: '30835'
-  server: v35.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: 68,71|中国_0710002
+  name: 68,71|中国_0712001
   network: tcp
   port: '30836'
   server: v36.hdacd.com

@@ -79,7 +79,7 @@ proxies:
     path: /ws?ed=2048
 - alterId: 64
   cipher: auto
-  name: 71|台湾_0710001
+  name: 71|台湾_0712001
   network: ws
   port: '443'
   server: 211.22.180.68
@@ -91,91 +91,91 @@ proxies:
     headers:
       Host: www.82131333.xyz
     path: /path/191019072927
-- name: 71|台湾_0710002
+- name: 71|台湾_0712002
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.co.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710003
+- name: 71|台湾_0712003
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kiev.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710004
+- name: 71|台湾_0712004
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.if.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710005
+- name: 71|台湾_0712005
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.org.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710006
+- name: 71|台湾_0712006
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.kyiv.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710007
+- name: 71|台湾_0712007
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.dp.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710008
+- name: 71|台湾_0712008
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.ivano-frankivsk.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710009
+- name: 71|台湾_0712009
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.biz.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710010
+- name: 71|台湾_0712010
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.cn.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710011
+- name: 71|台湾_0712011
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.chernovtsy.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710012
+- name: 71|台湾_0712012
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.net.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710013
+- name: 71|台湾_0712013
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   port: 8443
   server: official.taipeicitygovernment.com.ua
   skip-cert-verify: false
   sni: ''
   type: trojan
-- name: 71|台湾_0710014
+- name: 71|台湾_0712014
   password: 736cd94d-7b94-3e44-8106-3419f64eaf09
   port: 3462
   server: a12.taipeicitygovernment.org.ua
