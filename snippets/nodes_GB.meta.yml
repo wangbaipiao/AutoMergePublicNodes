@@ -1,12 +1,4 @@
 proxies:
-- name: '21,68|香港(yudou789.top 玉豆免费节点) #2'
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: 443
-  server: argg3.auragg.org
-  skip-cert-verify: true
-  sni: argg3.auragg.org
-  tls: false
-  type: hysteria2
 - name: 30|英国-UK1-1-流量倍率:1.0
   password: EJBsFzWnEgXZnmzHq8
   port: 443
@@ -45,39 +37,47 @@ proxies:
   port: 443
   server: 82.38.31.57
   type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 61|🇬🇧GB_1|1.5MB/s
-  port: 8443
-  server: xnod3x.artemida.live
-  servername: xnod3x.artemida.live
-  tls: true
-  type: vless
-  uuid: 5e9709cb-bfc3-0152-a8e1-7beea7dd72d8
-- name: 61|🇬🇧GB_2|1.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 443
-  server: argg3.auragg.org
-  skip-cert-verify: false
-  sni: argg3.auragg.org
+- name: '61|A - 🇬🇧 GB 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
   tls: false
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: media.session.poll
-  name: 61|🇬🇧GB_3|2.0MB/s
-  network: grpc
-  port: 443
-  server: servge0.auragg.org
-  servername: servge0.auragg.org
-  tls: true
   type: vless
-  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '61|A - 🇬🇧 GB 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '61|B - 🇬🇧 GB 04 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '61|B - 🇬🇧 GB 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
 - name: 67|🇬🇧+GB+英国+3
   network: ws
   port: 8443
@@ -151,16 +151,6 @@ proxies:
     headers:
       Host: cfed.tgzdyz2.top
     path: tg%40zdyz2
-- alterId: 0
-  cipher: auto
-  name: 68|英國
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 68|英國丨yoyapai.com
@@ -391,6 +381,27 @@ proxies:
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
   server: 185.137.157.151
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0712037
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0712039
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.128
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0712040
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
   skip-cert-verify: false
   sni: ''
   type: trojan

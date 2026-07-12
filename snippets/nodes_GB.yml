@@ -50,16 +50,6 @@ proxies:
     headers:
       Host: ''
     path: linkvws
-- alterId: 0
-  cipher: auto
-  name: 68|英國
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 70|GB_speednode_0005
   network: ws
   password: MITIVPN
@@ -77,6 +67,27 @@ proxies:
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
   server: 185.137.157.151
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0712037
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.145
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0712039
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.128
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 71|英国_0712040
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
   skip-cert-verify: false
   sni: ''
   type: trojan

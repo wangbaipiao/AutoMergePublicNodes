@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|🇺🇸 US 5
+  network: ws
+  port: '39495'
+  server: 129.146.77.248
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
   name: 14|🇺🇸 US 4
   network: tcp
   port: '48111'
@@ -9,20 +23,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-- alterId: 0
-  cipher: auto
-  name: 14|🇺🇸US-129.146.77.248-2311
-  network: ws
-  port: '39495'
-  server: 129.146.77.248
-  servername: 129.146.77.248
-  tls: false
-  type: vmess
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  ws-opts:
-    headers:
-      Host: 129.146.77.248
-    path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
   name: '14,68|🇺🇸_US_美国 #30'
@@ -43,6 +43,20 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 14,57,58,71|美国_0712017
+  network: tcp
+  port: '443'
+  server: guanwang.awsno.com
+  servername: gw.alicdn.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  ws-headers:
+    Host: guanwang.awsno.com
+  ws-path: /
 - name: 14|>>@oneclickvpnkeys::US
   network: ws
   port: 8443
@@ -65,30 +79,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- name: '14|>>@oneclickvpnkeys::US #1'
-  network: ws
-  port: 443
-  server: 172.66.43.117
-  servername: rAyAn-007.pArViN.DpDnS.OrG
-  tls: true
-  type: vless
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
-  ws-opts:
-    headers:
-      Host: rAyAn-007.pArViN.DpDnS.OrG
-    path: '%2F'
-- name: '14|>>@oneclickvpnkeys::US #2'
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  servername: labeller.neonime83.workers.dev
-  tls: true
-  type: vless
-  uuid: a73b8135-ec7a-4f70-bac6-81fbccad4515
-  ws-opts:
-    headers:
-      Host: labeller.neonime83.workers.dev
-    path: '%2F'
 - alterId: 0
   cipher: auto
   name: 14|🇺🇸US-173.249.209.146-0109
@@ -103,18 +93,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: '14|>>@oneclickvpnkeys::US #3'
-  network: ws
-  port: 443
-  server: 172.66.40.139
-  servername: rAyAn-007.pArViN.DpDnS.OrG
-  tls: true
-  type: vless
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
-  ws-opts:
-    headers:
-      Host: rAyAn-007.pArViN.DpDnS.OrG
-    path: '%2F'
 - name: 14,68,71|美国_0712029
   network: tcp
   password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
@@ -123,6 +101,20 @@ proxies:
   skip-cert-verify: false
   sni: 149.28.241.235
   type: trojan
+- client-fingerprint: chrome
+  name: '14,68|加拿大(yudou789.top 玉豆免费节点) #13'
+  network: ws
+  port: 8443
+  server: 162.159.46.226
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 14|🇺🇸+418+-+US+-+VLESS/REALITY/PB...
@@ -136,33 +128,19 @@ proxies:
   tls: false
   type: vless
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
-- alterId: 0
-  cipher: auto
-  name: 14,68|未知 VMESS-671 | free-nodes
+- name: '14|美国+CloudFlare节点 #1'
   network: ws
   port: 443
-  server: zt-ai.cloud
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fce3d6a4-0f12-49b5-a810-84bcf0fde202
-  ws-opts:
-    headers:
-      Host: zt-ai.cloud
-    path: /v2ray
-- name: 14|美国+CloudFlare节点
-  network: ws
-  port: 443
-  server: 172.64.147.227
-  servername: cfoo-146.pages.dev
+  server: cfd5.466688.xyz
+  servername: edge-4cb23bf6.pages.dev
   tls: true
   type: vless
-  uuid: b08562b0-dbc0-47d1-860d-9435133b25c9
+  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
   ws-opts:
     headers:
-      Host: cfoo-146.pages.dev
-    path: '%2FQiangLieTuiJian%3Fed'
-- name: '14|美国+CloudFlare节点 #1'
+      Host: edge-4cb23bf6.pages.dev
+    path: '%2F%40https%3A%2F%2Ft.me%2FQiangLieTuiJian%3Fed%3D2048fp%3Dchrome'
+- name: '14|美国+CloudFlare节点 #2'
   network: ws
   port: 443
   server: cfd6.466688.xyz
@@ -174,6 +152,20 @@ proxies:
     headers:
       Host: edge-4cb23bf6.pages.dev
     path: '%2F%40https%3A%2F%2Ft.me%2FQiangLieTuiJian%3Fed%3D2048fp%3Dchrome'
+- client-fingerprint: chrome
+  name: '14,68|美国(yudou789.top 玉豆免费节点) #84'
+  network: ws
+  port: 443
+  server: 172.64.52.240
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -192,18 +184,40 @@ proxies:
   name: 14|美国+V2CROSS.COM
   network: ws
   port: 443
-  server: kiss-timazadi-9090.up.railway.app
-  servername: kiss-timazadi-9090.up.railway.app
+  server: ansooyefilter-channel-production-f50d.up.railway.app
+  servername: ansooyefilter-channel-production-f50d.up.railway.app
   tls: true
   type: vless
-  uuid: bf912534-d325-5fd6-6f9c-4d0748a4534f
+  uuid: 2107d017-9bb3-d249-0938-c0ad831fb011
   ws-opts:
     headers:
-      Host: kiss-timazadi-9090.up.railway.app
-    path: '%2Fws%2Fbf912534-d325-5fd6-6f9c-4d0748a4534f'
+      Host: ansooyefilter-channel-production-f50d.up.railway.app
+    path: '%2Fws%2F2107d017-9bb3-d249-0938-c0ad831fb011'
+- name: '14|美国+CloudFlare节点 #4'
+  network: ws
+  port: 443
+  server: cfd9.466688.xyz
+  servername: edge-4cb23bf6.pages.dev
+  tls: true
+  type: vless
+  uuid: 4feb7818-dc02-46cd-b985-abf3fdd0cdc5
+  ws-opts:
+    headers:
+      Host: edge-4cb23bf6.pages.dev
+    path: '%2F%40https%3A%2F%2Ft.me%2FQiangLieTuiJian%3Fed%3D2048fp%3Dchromefp%3Dchrome'
+- alterId: 0
+  cipher: auto
+  name: 14|🇺🇸 US 17
+  network: tcp
+  port: '18000'
+  server: 67.220.95.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '14|>>@oneclickvpnkeys::US #4'
+  name: '14|>>@oneclickvpnkeys::US #1'
   network: tcp
   port: 28190
   reality-opts:
@@ -213,26 +227,26 @@ proxies:
   tls: false
   type: vless
   uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
-- alterId: 0
-  cipher: auto
-  name: 14,68|未知 VMESS-643 | free-nodes
+- client-fingerprint: chrome
+  name: 14,21,68|加拿大(yudou789.top 玉豆免费节点)
   network: ws
   port: 443
-  server: jp01.scpnb.top
-  servername: ''
+  server: 172.64.145.2
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
   tls: true
-  type: vmess
-  uuid: 537a036f-a4ad-4051-80c4-011a46c62bb0
+  type: vless
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: jp01.scpnb.top
-    path: /537a036f-a4ad-4051-80c4-011a46c62bb0-vm
-- name: '14|美国+CloudFlare节点 #2'
+      Host: t1s1.rittbo.kdns.fr
+    path: '%2F'
+- name: '14|美国+V2CROSS.COM #1'
   network: ws
   password: humanity
   port: 443
-  server: 104.19.229.21
-  sni: www.calmlunch.com
+  server: 199.181.197.169
+  sni: www.calmloud.com
   type: trojan
 - name: 14|🇺🇸+30+-+US+-+Trojan/WS/TLS+-+4...
   network: ws
@@ -241,12 +255,26 @@ proxies:
   server: 104.18.12.149
   sni: www.calmlunch.com
   type: trojan
-- name: '14|美国+CloudFlare节点 #3'
+- name: 14|🇺🇸+US+31
   network: ws
   password: humanity
   port: 443
-  server: 172.64.152.23
-  sni: www.calmlunch.com
+  server: www.multiplydose.com
+  sni: www.multiplydose.com
+  type: trojan
+- name: 14|美国+CloudFlare
+  network: ws
+  password: humanity
+  port: 443
+  server: 162.159.17.189
+  sni: www.multiplydose.com
+  type: trojan
+- name: 14|🇺🇸+65+-+US+-+Trojan/WS/TLS+-+4...
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.180.92
+  sni: www.multiplydose.com
   type: trojan
 - alpn:
   - http/1.1
@@ -263,13 +291,6 @@ proxies:
     headers:
       Host: x4g-production-04b8.up.railway.app
     path: '%2Fws%2Fdf9917d2-cfb1-a9f9-5c27-b54a3f3edbcb'
-- name: 14|🇺🇸+65+-+US+-+Trojan/WS/TLS+-+4...
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.180.92
-  sni: www.multiplydose.com
-  type: trojan
 - name: 14|🇺🇸+26+-+US+-+Trojan/WS/TLS+-+4...
   network: ws
   password: humanity
@@ -287,48 +308,26 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '14|美国+V2CROSS.COM #1'
+  name: '14|美国+CloudFlare节点 #6'
   network: ws
   port: 443
-  server: arg-production-abb8.up.railway.app
-  servername: arg-production-abb8.up.railway.app
+  server: assets.fiverr.com
+  servername: ap.mozestanman.dpdns.org
   tls: true
   type: vless
-  uuid: bd3dde98-b8a7-3c0d-6bf3-f3b41d9dd988
+  uuid: cee8c30c-fb13-4a89-abb4-5a32cf716c97
   ws-opts:
     headers:
-      Host: arg-production-abb8.up.railway.app
-    path: '%2Fws%2Fbd3dde98-b8a7-3c0d-6bf3-f3b41d9dd988'
-- name: 14|🇺🇸+US+31
+      Host: ap.mozestanman.dpdns.org
+    path: '%2FNovex'
+- name: 14|🇺🇸+44+-+US+-+Trojan/WS/TLS+-+4...
   network: ws
   password: humanity
   port: 443
-  server: www.multiplydose.com
-  sni: www.multiplydose.com
+  server: 172.64.147.24
+  skip-cert-verify: true
+  sni: www.gossipglove.com
   type: trojan
-- client-fingerprint: chrome
-  name: 14,68|未知 VLESS-138 | free-nodes
-  network: ws
-  port: 443
-  server: 104.16.72.2
-  servername: vangoghhh.info
-  tls: true
-  type: vless
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: '%2Frdfgtws'
-- alterId: 0
-  cipher: auto
-  name: 14|🇺🇸 US 17
-  network: tcp
-  port: '18000'
-  server: 67.220.95.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: aes-256-cfb
   name: 16,17|199_美国-2.43MB
   password: amazonskr05
@@ -2325,27 +2324,25 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
-- client-fingerprint: chrome
-  name: '21|美国+CloudFlare节点 #5'
+- name: '21|美国+CloudFlare #1'
   network: ws
+  password: humanity
   port: 443
-  server: adf.ly
-  servername: rAyAn-007.pArViN.DpDnS.OrG
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1679af35-6dd6-4c09-ae3b-18f239217f3e
+  server: 162.159.17.189
+  skip-cert-verify: false
+  sni: www.multiplydose.com
+  type: trojan
   ws-opts:
     headers:
-      Host: rayan-007.parvin.dpdns.org
-    path: /?ed%3D2560
+      Host: www.multiplydose.com
+    path: /assignment
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '21|美国+CloudFlare节点 #6'
+  name: '21|美国+CloudFlare节点 #7'
   network: ws
   port: 443
-  server: nebulonix.online
+  server: freesocks.work
   servername: ap.mozestanman.dpdns.org
   skip-cert-verify: false
   tls: true
@@ -2355,59 +2352,79 @@ proxies:
     headers:
       Host: ap.mozestanman.dpdns.org
     path: /Novex
-- name: '21|美国+CloudFlare节点 #7'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
-- client-fingerprint: chrome
-  name: '21|美国+CloudFlare节点 #8'
-  network: ws
-  port: 443
-  server: 104.16.72.2
-  servername: vangoghhh.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  ws-opts:
-    headers:
-      Host: vangoghhh.info
-    path: /rdfgtws
 - alpn:
   - http/1.1
-  name: 21|美国+RF+Engineering
+  name: '21|美国+V2CROSS.COM #2'
   network: ws
   password: humanity
   port: 443
-  server: 141.193.213.21
-  skip-cert-verify: false
+  server: 199.181.197.169
   sni: www.calmloud.com
   type: trojan
   ws-opts:
     headers:
       Host: www.calmloud.com
-    path: /assignment
-- client-fingerprint: chrome
-  name: '21|美国+CloudFlare节点 #9'
+    path: '%2Fassignment'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '21|美国+V2CROSS.COM #3'
   network: ws
   port: 443
-  server: cloudflare-ip.mofashi.ltd
+  server: x4g-production-5035.up.railway.app
+  servername: x4g-production-5035.up.railway.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9ca207e9-40ba-213b-3388-5b046bf866b9
+  ws-opts:
+    headers:
+      Host: x4g-production-5035.up.railway.app
+    path: /ws/9ca207e9-40ba-213b-3388-5b046bf866b9
+- client-fingerprint: chrome
+  name: '21,68|美国(yudou789.top 玉豆免费节点) #60'
+  network: ws
+  port: 8443
+  server: 162.159.4.221
   servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
-    path: /
+    path: '%2F'
+- alpn:
+  - http/1.1
+  name: '21|美国+V2CROSS.COM #4'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.0
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '21|美国+CloudFlare节点 #9'
+  network: ws
+  port: 443
+  server: 162.159.38.119
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: '%2Fudfyfws'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '21|美国+V2CROSS.COM #2'
+  name: '21|美国+V2CROSS.COM #5'
   network: tcp
   port: 443
   reality-opts:
@@ -2418,50 +2435,6 @@ proxies:
   tls: false
   type: vless
   uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '21|美国+V2CROSS.COM #3'
-  network: ws
-  port: 443
-  server: arg-production-abb8.up.railway.app
-  servername: arg-production-abb8.up.railway.app
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: bd3dde98-b8a7-3c0d-6bf3-f3b41d9dd988
-  ws-opts:
-    headers:
-      Host: arg-production-abb8.up.railway.app
-    path: /ws/bd3dde98-b8a7-3c0d-6bf3-f3b41d9dd988
-- client-fingerprint: chrome
-  name: '21,68|美国(yudou789.top 玉豆免费节点) #84'
-  network: ws
-  port: 443
-  server: 172.64.52.240
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '21|美国+CloudFlare节点 #11'
-  network: ws
-  port: 443
-  server: 104.17.28.104
-  servername: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 6680846a-8a57-4dfd-9a0e-63209cfc8535
-  ws-opts:
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-    path: '%2Fsg-amz'
 - name: '25,37,61|美国2 #2'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
@@ -5526,37 +5499,293 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
-- name: 61|🇺🇸US_5|1.8MB/s
+- name: '61|A - 🇺🇸 US 02 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 108.162.193.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+    path: /
+- name: '61|A - 🇺🇸 US 03 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 104.129.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /
+- name: '61|A - 🇺🇸 US 05 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.151.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /
+- name: '61|A - 🇺🇸 US 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 160.153.138.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: /
+- name: '61|A - 🇺🇸 US 11 TG: @nodpai'
+  network: ws
+  port: 80
+  server: 198.41.208.203
+  tls: false
+  type: vless
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  ws-opts:
+    headers:
+      Host: index.harmony715.workers.dev
+    path: /mpmva3e8rtr6v7qq
+- name: '61|A - 🇺🇸 US 13 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.40.153.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /
+- name: '61|A - 🇺🇸 US 15 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 173.245.49.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /
+- name: '61|B - 🇺🇸 US 16 TG: @nodpai'
+  port: 443
+  server: 155.117.127.137
+  tls: false
+  type: vless
+  uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
+- alterId: 0
+  cipher: auto
+  name: 61,68|英國
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '61,68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #5'
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: chrome
+  name: '61|B - 🇺🇸 US 20 TG: @nodpai'
+  network: ws
+  port: 2083
+  server: 172.66.44.211
+  servername: wk1.f1w.de5.net
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: wk1.f1w.de5.net
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '61,68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #4'
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '61|B - 🇺🇸 US 24 TG: @nodpai'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  sni: support.zoom.us.blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+    path: /195.123.218.174-443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '61|B - 🇺🇸 US 25 TG: @nodpai'
+  port: 54254
+  server: 134.33.73.249
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: acba684c-4098-4eca-f519-828b09f96464
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+  name: '61|B - 🇺🇸 US 27 TG: @nodpai'
+  network: grpc
+  port: 443
+  server: usr.moktana.app
+  servername: us.moktana.app
+  tls: true
+  type: vless
+  uuid: 7841aff6-8552-4f8e-ad0c-06c3b73e6440
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '61|B - 🇺🇸 US 28 TG: @nodpai'
+  port: 12443
+  server: 31.58.87.71
+  servername: sun6-21.userapi.com
+  tls: true
+  type: vless
+  uuid: ea484535-0170-4ec8-bb3c-a9dbaa7412d7
+- name: '61|B - 🇺🇸 US 30 TG: @nodpai'
+  network: ws
+  port: 80
+  server: srv1.khatibirepair.ir
+  tls: false
+  type: vless
+  uuid: 73d17f62-d0c0-4c90-903c-a2b3f3806cca
+  ws-opts:
+    headers:
+      Host: fragrant-tooth-a5b7.cajeba6448.workers.dev
+    path: /
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '61,68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #3'
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '61|B - 🇺🇸 US 32 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: '61,68|🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆 #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- name: '61|B - 🇺🇸 US 34 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: '61,68|🇺🇸_US_美国 #32'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: '61|B - 🇺🇸 US 36 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '61|B - 🇺🇸 US 37 TG: @nodpai'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: '61|B - 🇺🇸 US 39 TG: @nodpai'
+  network: ws
+  port: 2052
+  server: www.visa.com.sg
+  tls: false
+  type: vless
+  uuid: 363a6072-05d7-48d5-8f19-312b05fdd9cd
+  ws-opts:
+    headers:
+      Host: chosenflyesqt-q3y28ipf-v3.chosen-fly-esqt.workers.dev
+    path: /
+- name: '61|B - 🇺🇸 US 42 TG: @nodpai'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  sni: vpn.rnmcnm.com
+  type: trojan
+  ws-opts:
+    path: /trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443-udp443
+  name: '61|B - 🇺🇸 US 44 TG: @nodpai'
+  port: 443
+  server: s881.ccgfw.top
+  servername: s881.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 7402e534-54dc-34cc-ac5b-c85ac6e236fd
+- name: '61|C - 🇺🇸 US 45 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 172.64.146.127
+  tls: false
+  type: vless
+  uuid: 7890ce31-9a25-4fd4-90e7-80e5823ff510
+  ws-opts:
+    headers:
+      Host: frejd.11258.workers.dev
+    path: /telegram🇨🇳@wangcai2/
+- alterId: 0
+  cipher: auto
+  name: '61|C - 🇺🇸 US 46 TG: @nodpai'
+  network: ws
+  port: 52620
+  server: 38.60.176.80
+  tls: false
+  type: vmess
+  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
+  ws-opts:
+    path: /8704a4ad
+- name: 61|🇺🇸US_3|2.1MB/s
   network: ws
   password: '!!str 666'
   port: 443
-  server: 149.248.7.25
+  server: 45.63.89.102
   skip-cert-verify: false
   sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
   type: trojan
   ws-opts:
     path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇺🇸US_6|2.1MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 207.246.97.245
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇺🇸US_7|1.6MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 149.28.89.69
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇺🇸US_8|2.7MB/s
+- name: 61|🇺🇸US_4|2.1MB/s
   obfs: salamander
   obfs-password: gazf7r9a0d4hc5nz
   password: elknam6l7izf3z71
@@ -7662,14 +7891,6 @@ proxies:
     headers:
       Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI'
     path: '%2F'
-- name: '68|美国(yudou789.top 玉豆免费节点) #119'
-  password: 35415e5e-3666-4454-8c45-903af0fcddf4
-  port: 47257
-  server: 85.120.228.208
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '68|美国(yudou789.top 玉豆免费节点) #109'
   network: ws
   password: humanity
@@ -7870,13 +8091,6 @@ proxies:
   tls: false
   type: vless
   uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-- name: '68|🇺🇸_US_美国 #32'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
 - name: 68|US VLESS-129 | free-nodes
   network: ws
   port: 12068

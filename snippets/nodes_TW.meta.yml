@@ -57,6 +57,19 @@ proxies:
   type: vless
   udp: true
   uuid: 52faee73-e0fe-4661-992d-67259257170f
+- alterId: 0
+  cipher: auto
+  name: '61|B - 🇹🇼 TW 02 TG: @nodpai'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
 - client-fingerprint: random
   name: 67|TG@ZDYZ2 -TW3
   network: ws

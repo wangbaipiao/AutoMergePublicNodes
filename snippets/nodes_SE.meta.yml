@@ -21,16 +21,6 @@ proxies:
   port: 22222
   server: 13.49.54.20
   type: trojan
-- name: 61|🇸🇪SE_1|2.2MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 443
-  server: sh02.auragg.org
-  skip-cert-verify: false
-  sni: sh02.auragg.org
-  tls: false
-  type: hysteria2
 - name: 68|瑞典節點丨yoyapai.com
   network: tcp
   port: 8443

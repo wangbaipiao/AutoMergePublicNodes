@@ -323,13 +323,74 @@ proxies:
   port: 443
   server: 139.59.119.143
   type: trojan
-- name: 61|🇸🇬SG_9|3.7MB/s
-  password: BxceQaOe
-  port: 45744
-  server: 16.162.191.181
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+- alterId: 0
+  cipher: auto
+  name: '61|A - 🇸🇬 SG 06 TG: @nodpai'
+  network: tcp
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 2
+  cipher: auto
+  name: '61|B - 🇸🇬 SG 16 TG: @nodpai'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 61|🇸🇬SG_10|1.5MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.34.228
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
   type: trojan
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 61|🇸🇬SG_12|4.0MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: nexusmods.com
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 61|🇸🇬SG_14|2.0MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.37.133
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 61|🇸🇬SG_15|4.3MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.33.225
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: 61|🇸🇬SG_17|3.9MB/s
+  network: ws
+  password: '!!str 666'
+  port: 443
+  server: 104.18.43.190
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    path: /glasspanel/guest000_0_5de14443985f/
 - alterId: 0
   cipher: auto
   name: 67|🇸🇬新加坡 01

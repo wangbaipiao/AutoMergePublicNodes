@@ -155,6 +155,14 @@ proxies:
   ws-headers:
     host: vc-fi1.imnibaba.wiki
   ws-path: /tg@sudoxin
+- name: '21,57,58,68|香港(yudou789.top 玉豆免费节点) #1'
+  network: tcp
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  type: trojan
 - name: 25,37,61|🇭🇰 HK
   password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
   port: 443
@@ -293,14 +301,6 @@ proxies:
   uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     path: /blue
-- name: '57,58,68|香港(yudou789.top 玉豆免费节点) #1'
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: true
-  sni: yazhou10.dynu.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: 57,71|新加坡_0712001
@@ -374,6 +374,43 @@ proxies:
   ws-headers:
     Host: 47.76.127.88
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: '61|B - 🇭🇰 HK 04 TG: @nodpai'
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '61|B - 🇭🇰 HK 05 TG: @nodpai'
+  port: 10011
+  server: 103.123.162.50
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
+- alterId: 0
+  cipher: auto
+  name: '61,68|香港 #1'
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 61|🇭🇰HK_1|3.4MB/s
+  port: 32342
+  server: 3696b38bsg.murphyweb.sbs
+  servername: buylite.music.apple.com
+  tls: true
+  type: vless
+  uuid: d44ed678-88ff-4bb4-b170-1a397a2f7ee2
 - alterId: 2
   cipher: auto
   name: '64|🇭🇰 香港|@ripaojiedian #2'
@@ -838,6 +875,14 @@ proxies:
     headers:
       Host: plain-darkness-90ea.259.workers.dev
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- name: '68|香港(yudou789.top 玉豆免费节点) #2'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  skip-cert-verify: true
+  sni: argg3.auragg.org
+  tls: false
+  type: hysteria2
 - name: '68|香港(yudou789.top 玉豆免费节点) #3'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
