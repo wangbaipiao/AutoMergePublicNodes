@@ -1,4 +1,12 @@
 proxies:
+- name: 14,71|英国_0710019
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
 - name: '25,37,61|DE #1'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -25,6 +33,16 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '26,37,61|@GozargahAzad|🇩🇪 #1'
+  obfs: salamander
+  obfs-password: ngljeqgna3hmfr2s
+  password: 91uokb9ud7raz0fk
+  port: 56845
+  server: qg.easyiran.org
+  skip-cert-verify: false
+  sni: ''
   tls: false
   type: hysteria2
 - name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪 #1'
@@ -210,64 +228,39 @@ proxies:
   port: 443
   server: patient-ghost.treefrog761.one
   type: trojan
-- name: 61|🇩🇪DE_3|2.9MB/s
-  obfs: ''
-  obfs-password: ''
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
-  skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 61|🇩🇪DE_4|3.4MB/s
-  port: 2087
-  server: 172.67.69.211
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: 61|🇩🇪DE_5|1.7MB/s
-  network: ws
-  port: 80
-  server: 151.101.196.11
-  tls: false
-  type: vless
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
-  ws-opts:
-    headers:
-      Host: Fastapi.Org
-    path: /
-- name: 61|🇩🇪DE_6|2.2MB/s
-  network: ws
-  port: 80
-  server: 199.232.236.11
-  tls: false
-  type: vless
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
-  ws-opts:
-    headers:
-      Host: Fastapi.Org
-    path: /
-- client-fingerprint: chrome
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 61|🇩🇪DE_7|2.5MB/s
+  name: 61|🇩🇪DE_4|2.3MB/s
   port: 443
-  server: netcap.oblakoapp.com
-  servername: live.oblakoapp.com
+  server: 157.173.27.150
+  servername: travel.yandex.ru
   tls: true
   type: vless
   uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
-- alterId: 0
-  cipher: auto
-  name: 61|🇩🇪DE_8|2.6MB/s
-  network: raw
-  port: '80'
-  server: 94.103.167.116
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 61|🇩🇪DE_5|2.7MB/s
+  port: 443
+  server: 91.244.71.227
+  servername: travel.yandex.ru
+  tls: true
+  type: vless
+  uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 61|🇩🇪DE_6|3.0MB/s
+  port: 443
+  server: 45.155.70.1
+  servername: dolores.api.dznn.net
+  tls: true
+  type: vless
+  uuid: 83ceabec-a0ee-4d38-94c1-cbb2d6cbdf1a
+- name: 61|🇩🇪DE_8|2.1MB/s
+  port: 8882
+  server: 95.182.98.231
   tls: false
-  type: vmess
-  uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
 - alterId: 0
   cipher: auto
   name: 67|🇩🇪DE-194.87.71.23-0109

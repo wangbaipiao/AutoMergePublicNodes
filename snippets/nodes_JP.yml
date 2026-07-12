@@ -554,24 +554,21 @@ proxies:
   ws-headers:
     Host: k.hehedada.tk
   ws-path: /bpyhvws
-- name: '37,58,61,64,65|日本|@ripaojiedian #1'
-  network: tcp
+- name: 37,58|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 10624
   server: 43.199.31.196
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '37,58,61,64,65|日本2|@ripaojiedian #1'
-  network: tcp
+- name: 37,58|🇯🇵 日本2|@ripaojiedian
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
   server: 16.163.56.186
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '37,58,61,64,65|日本3|@ripaojiedian #1'
-  network: tcp
+- name: 37,58|🇯🇵 日本3|@ripaojiedian
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
   server: 18.166.63.229
@@ -616,6 +613,30 @@ proxies:
   password: '!!str 3747000103274291200'
   port: 443
   server: 94.177.131.199
+  type: trojan
+- name: '61,64,65|日本|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 54411
+  server: 43.199.29.120
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '61,64,65|日本2|@ripaojiedian #1'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 16.163.109.165
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '61,64,65|日本3|@ripaojiedian #1'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 24370
+  server: 16.163.109.165
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - alterId: 0
   cipher: auto

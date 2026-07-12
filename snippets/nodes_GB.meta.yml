@@ -41,6 +41,37 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 61|🇬🇧GB_1|2.5MB/s
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: argg3.auragg.org
+  skip-cert-verify: false
+  sni: argg3.auragg.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 61|🇬🇧GB_2|2.5MB/s
+  port: 8443
+  server: xnod3x.artemida.live
+  servername: xnod3x.artemida.live
+  tls: true
+  type: vless
+  uuid: 5e9709cb-bfc3-0152-a8e1-7beea7dd72d8
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: media.session.poll
+  name: 61|🇬🇧GB_3|3.2MB/s
+  network: grpc
+  port: 443
+  server: upgg2ge.auragg.org
+  servername: upgg2ge.auragg.org
+  tls: true
+  type: vless
+  uuid: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
 - name: 67|🇬🇧+GB+英国+3
   network: ws
   port: 8443
@@ -276,26 +307,12 @@ proxies:
   type: http
   udp: true
   username: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-- name: 71|英国_0710019
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
 - name: 71|英国_0710036
   password: MITIVPN
   port: 443
   server: 164.38.155.135
   skip-cert-verify: false
   sni: 95r.ir
-  type: trojan
-- name: 71|英国_0710037
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.135
-  skip-cert-verify: false
-  sni: ''
   type: trojan
 - name: 71|英国_0710038
   password: MiTiVPN
@@ -367,13 +384,6 @@ proxies:
     headers:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
-- name: 71|英国_0710044
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.151
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
 - name: 71|英国_0710045
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443

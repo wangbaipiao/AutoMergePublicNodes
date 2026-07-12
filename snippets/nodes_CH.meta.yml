@@ -1,13 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  name: 61|🇨🇭CH_1|3.2MB/s
-  port: 2087
-  server: switzerland.nicqy.com
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  uuid: 0dbfdd92-a166-4852-9a5b-7cf508d196ab
-- client-fingerprint: chrome
   name: 68|瑞士丨yoyapai.com
   network: tcp
   port: 443

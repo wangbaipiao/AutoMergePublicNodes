@@ -1,4 +1,17 @@
 proxies:
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: 14|🟢🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Jm01tR0iF7im4V0z6-yUeqI889JLC5YF7bXV6el_miY
+    short-id: f91003034ebfad8d
+  server: 116.206.93.79
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: a7638f72-7bef-4eac-9e7c-b5f525b83240
 - alterId: 0
   cipher: auto
   name: 14,68|未知 VMESS-558 | free-nodes
@@ -13,25 +26,26 @@ proxies:
     headers:
       Host: www.bing.com
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
+- client-fingerprint: firefox
+  name: 14|🇯🇵+JP+7
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aW52dpxW-umVvMOHPRCDsnHnJjuM8_S1FScLJQrVrG8
+    short-id: a32e8c4a
+  server: 43.165.186.226
+  servername: www.sony.com
+  tls: false
+  type: vless
+  uuid: 3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be
+  ws-opts:
+    path: '%2F'
 - name: 14|🇯🇵+JP+3
   network: tcp
   password: PI36027154
   port: 443
   server: rich-mule.rooster465.autos
   type: trojan
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 14|🟢🇯🇵[🎬🤖📺🎭]_github.com/Ruk1ng001...
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Jm01tR0iF7im4V0z6-yUeqI889JLC5YF7bXV6el_miY
-    short-id: f91003034ebfad8d
-  server: 116.206.93.79
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: a7638f72-7bef-4eac-9e7c-b5f525b83240
 - name: 14|🇯🇵JP-52.199.163.138-0105
   network: tcp
   password: HW85960347
@@ -52,20 +66,6 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- client-fingerprint: firefox
-  name: 14|🇯🇵+JP+7
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aW52dpxW-umVvMOHPRCDsnHnJjuM8_S1FScLJQrVrG8
-    short-id: a32e8c4a
-  server: 43.165.186.226
-  servername: www.sony.com
-  tls: false
-  type: vless
-  uuid: 3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be
-  ws-opts:
-    path: '%2F'
 - cipher: aes-256-gcm
   name: 16,17|360_日本-2.28MB
   password: TEzjfAYq2IjtuoS
@@ -588,24 +588,21 @@ proxies:
   ws-headers:
     Host: k.hehedada.tk
   ws-path: /bpyhvws
-- name: '37,58,61,64,65|日本|@ripaojiedian #1'
-  network: tcp
+- name: 37,58|🇯🇵 日本|@ripaojiedian
   password: BxceQaOe
   port: 10624
   server: 43.199.31.196
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '37,58,61,64,65|日本2|@ripaojiedian #1'
-  network: tcp
+- name: 37,58|🇯🇵 日本2|@ripaojiedian
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
   server: 16.163.56.186
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '37,58,61,64,65|日本3|@ripaojiedian #1'
-  network: tcp
+- name: 37,58|🇯🇵 日本3|@ripaojiedian
   password: b1a42ca60884057bf527d8d38b618cfb
   port: 40138
   server: 18.166.63.229
@@ -680,6 +677,30 @@ proxies:
   password: '!!str 3747000103274291200'
   port: 443
   server: 94.177.131.199
+  type: trojan
+- name: '61,64,65|日本|@ripaojiedian #1'
+  network: tcp
+  password: BxceQaOe
+  port: 54411
+  server: 43.199.29.120
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '61,64,65|日本2|@ripaojiedian #1'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 16.163.109.165
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '61,64,65|日本3|@ripaojiedian #1'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 24370
+  server: 16.163.109.165
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: 67|🇯🇵+JP+日本+78
   network: ws

@@ -67,26 +67,12 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: 71|英国_0710019
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
 - name: 71|英国_0710036
   password: MITIVPN
   port: 443
   server: 164.38.155.135
   skip-cert-verify: false
   sni: 95r.ir
-  type: trojan
-- name: 71|英国_0710037
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.135
-  skip-cert-verify: false
-  sni: ''
   type: trojan
 - name: 71|英国_0710038
   password: MiTiVPN
@@ -158,13 +144,6 @@ proxies:
     headers:
       Host: e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com
     path: /
-- name: 71|英国_0710044
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.151
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
 - name: 71|英国_0710045
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
