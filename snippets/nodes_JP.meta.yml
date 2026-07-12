@@ -13,13 +13,21 @@ proxies:
     headers:
       Host: www.bing.com
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
-- name: 14,68,71|日本_0712001
+- name: 14,57,58,68,71|日本_0712018
   network: tcp
-  password: HW85960347
+  password: PI36027154
   port: 443
-  server: happy-monkfish.rooster465.autos
+  server: busy-lab.rooster465.autos
   skip-cert-verify: false
-  sni: ''
+  sni: busy-lab.rooster465.autos
+  type: trojan
+- name: 14,57,58,68,71|日本_0712016
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: faithful-clam.rooster465.autos
+  skip-cert-verify: false
+  sni: faithful-clam.rooster465.autos
   type: trojan
 - alterId: 0
   cipher: auto
@@ -35,13 +43,21 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- name: 14,68,71|日本_0712002
+- name: 14,57,58,68,71|日本_0712017
   network: tcp
   password: PI36027154
   port: 443
-  server: rich-mule.rooster465.autos
+  server: stirred-buck.rooster465.autos
   skip-cert-verify: false
-  sni: ''
+  sni: stirred-buck.rooster465.autos
+  type: trojan
+- name: 14,57,58,68,71|日本_0712015
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: exciting-grizzly.rooster465.autos
+  skip-cert-verify: false
+  sni: exciting-grizzly.rooster465.autos
   type: trojan
 - client-fingerprint: firefox
   name: 14|🇯🇵+JP+7
@@ -672,87 +688,6 @@ proxies:
   port: 443
   server: 94.177.131.199
   type: trojan
-- name: 57,58,68,71|日本_0712015
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: exciting-grizzly.rooster465.autos
-  skip-cert-verify: false
-  sni: exciting-grizzly.rooster465.autos
-  type: trojan
-- name: 57,58,68,71|日本_0712016
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: faithful-clam.rooster465.autos
-  skip-cert-verify: false
-  sni: faithful-clam.rooster465.autos
-  type: trojan
-- name: 57,58,68,71|日本_0712017
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: stirred-buck.rooster465.autos
-  skip-cert-verify: false
-  sni: stirred-buck.rooster465.autos
-  type: trojan
-- name: 57,58,68,71|日本_0712018
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: busy-lab.rooster465.autos
-  skip-cert-verify: false
-  sni: busy-lab.rooster465.autos
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: '61|A - 🇯🇵 JP 04 TG: @nodpai'
-  network: tcp
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '61|A - 🇯🇵 JP 05 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 176.124.223.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime38.workers.dev
-- name: 61|🇯🇵JP_2|3.5MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: cloudflare-ip.mofashi.ltd
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇯🇵JP_3|3.6MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: cf.090227.xyz
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇯🇵JP_9|4.0MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: saas.sin.fan
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
 - name: 67|🇯🇵+JP+日本+78
   network: ws
   port: 2053

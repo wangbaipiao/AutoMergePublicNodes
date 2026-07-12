@@ -1,9 +1,9 @@
 proxies:
-- name: 14,57,58,71|英国_0712038
+- name: 14,71|英国_0712039
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
-  server: 185.137.157.142
+  server: 185.137.157.128
   skip-cert-verify: false
   sni: ''
   type: trojan
@@ -121,6 +121,13 @@ proxies:
   password: '!!str 3782591447421952000'
   port: 443
   server: patient-ghost.treefrog761.one
+  type: trojan
+- name: 57,58,71|英国_0712025
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  skip-cert-verify: false
+  sni: ''
   type: trojan
 - cipher: aes-256-cfb
   name: '57,64|tg频道:@ripaojiedian #2'

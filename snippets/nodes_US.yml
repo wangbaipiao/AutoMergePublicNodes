@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 14|🇺🇸 US 4
+  network: tcp
+  port: '48111'
+  server: 129.146.143.80
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 0
+  cipher: auto
   name: 14|🇺🇸 US 5
   network: ws
   port: '39495'
@@ -15,16 +25,6 @@ proxies:
     path: /cctv13.m3u8
 - alterId: 0
   cipher: auto
-  name: 14|🇺🇸 US 4
-  network: tcp
-  port: '48111'
-  server: 129.146.143.80
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-- alterId: 0
-  cipher: auto
   name: '14,68|🇺🇸_US_美国 #30'
   network: tcp
   port: 180
@@ -35,38 +35,14 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 14|US 🇺🇸 | @Raydikalx | 3062
+  name: 14|👉🆔@v2ray_configs_pool📡🇺🇸®️Unit...
   network: tcp
   port: '180'
-  server: 82.198.246.9
+  server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 14,57,58,71|美国_0712017
-  network: tcp
-  port: '443'
-  server: guanwang.awsno.com
-  servername: gw.alicdn.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  ws-headers:
-    Host: guanwang.awsno.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 14,68|未知 VMESS-580 | free-nodes
-  network: tcp
-  port: '443'
-  server: 165.140.216.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - alterId: 0
   cipher: auto
   name: 14|🇺🇸US-173.249.209.146-0109
@@ -81,6 +57,16 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 14,68|未知 VMESS-580 | free-nodes
+  network: tcp
+  port: '443'
+  server: 165.140.216.142
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - name: 14,68,71|美国_0712029
   network: tcp
   password: lcGo9bOwOB8yC7oAAI.TC=rBFs6PfVgCeF
@@ -91,21 +77,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|🇺🇸 US 17
+  name: '14|🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸 #1'
   network: tcp
   port: '18000'
-  server: 67.220.95.3
+  server: 38.91.107.49
   servername: ''
   tls: false
   type: vmess
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- name: '14|美国+V2CROSS.COM #1'
-  network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.169
-  sni: www.calmloud.com
-  type: trojan
 - name: 14|🇺🇸+30+-+US+-+Trojan/WS/TLS+-+4...
   network: ws
   password: humanity
@@ -113,32 +92,18 @@ proxies:
   server: 104.18.12.149
   sni: www.calmlunch.com
   type: trojan
-- name: 14|🇺🇸+US+31
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  sni: www.multiplydose.com
-  type: trojan
-- name: 14|美国+CloudFlare
-  network: ws
-  password: humanity
-  port: 443
-  server: 162.159.17.189
-  sni: www.multiplydose.com
-  type: trojan
-- name: 14|🇺🇸+65+-+US+-+Trojan/WS/TLS+-+4...
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.67.180.92
-  sni: www.multiplydose.com
-  type: trojan
 - name: 14|🇺🇸+26+-+US+-+Trojan/WS/TLS+-+4...
   network: ws
   password: humanity
   port: 443
   server: 104.18.11.110
+  sni: www.multiplydose.com
+  type: trojan
+- name: 14|🇺🇸+US+31
+  network: ws
+  password: humanity
+  port: 443
+  server: www.multiplydose.com
   sni: www.multiplydose.com
   type: trojan
 - name: 14|🇺🇸+83+-+US+-+Trojan/WS/TLS/UTL...
@@ -156,6 +121,16 @@ proxies:
   skip-cert-verify: true
   sni: www.gossipglove.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 14|🇺🇸 US 17
+  network: tcp
+  port: '18000'
+  server: 67.220.95.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
 - cipher: aes-256-cfb
   name: 16,17|199_美国-2.43MB
   password: amazonskr05
@@ -2152,44 +2127,13 @@ proxies:
   skip-cert-verify: true
   sni: data.steamdownload.top
   type: trojan
-- name: '21|美国+CloudFlare #1'
-  network: ws
-  password: humanity
+- name: 21,57,58,71|美国_0712034
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
   port: 443
-  server: 162.159.17.189
+  server: 38.54.64.247
   skip-cert-verify: false
-  sni: www.multiplydose.com
+  sni: ''
   type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- alpn:
-  - http/1.1
-  name: '21|美国+V2CROSS.COM #2'
-  network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.169
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
-- alpn:
-  - http/1.1
-  name: '21|美国+V2CROSS.COM #4'
-  network: ws
-  password: humanity
-  port: 443
-  server: 45.130.125.0
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
 - name: 30|美国 NTT 01
   password: fc48194800.wns.windows.com
   port: 8443
@@ -2923,13 +2867,6 @@ proxies:
     headers:
       Host: t033.ylks.link
     path: /
-- name: 57,58,71|美国_0712034
-  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
-  port: 443
-  server: 38.54.64.247
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
 - name: 57,58,71|美国_0712045
   password: humanity
   port: 443
@@ -3008,99 +2945,15 @@ proxies:
     headers:
       host: mm3.shabijichang.com
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 61,68|英國
+  name: 61|🇺🇸US_1|3.9MB/s
   network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
+  port: 30845
+  server: v45.hdacd.com
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '61|B - 🇺🇸 US 24 TG: @nodpai'
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  sni: support.zoom.us.blackshadow.dpdns.org
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /195.123.218.174-443
-- name: '61|B - 🇺🇸 US 32 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-- name: '61,68|🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆 #1'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  type: trojan
-- name: '61|B - 🇺🇸 US 34 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- name: '61,68|🇺🇸_US_美国 #32'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  type: trojan
-- name: '61|B - 🇺🇸 US 36 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-- name: '61|B - 🇺🇸 US 37 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  type: trojan
-- name: '61|B - 🇺🇸 US 42 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  sni: vpn.rnmcnm.com
-  type: trojan
-  ws-opts:
-    path: /trojan
-- alterId: 0
-  cipher: auto
-  name: '61|C - 🇺🇸 US 46 TG: @nodpai'
-  network: ws
-  port: 52620
-  server: 38.60.176.80
-  tls: false
-  type: vmess
-  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
-  ws-opts:
-    path: /8704a4ad
-- name: 61|🇺🇸US_3|2.1MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 45.63.89.102
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '67|🇺🇸_US_美国 #1'
@@ -4313,6 +4166,13 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '68|🇺🇸_US_美国 #32'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
 - name: 70|US_speednode_0063
   network: ws
   password: Mitivpn

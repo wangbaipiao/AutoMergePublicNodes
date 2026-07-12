@@ -155,14 +155,6 @@ proxies:
   ws-headers:
     host: vc-fi1.imnibaba.wiki
   ws-path: /tg@sudoxin
-- name: '21,57,58,68|香港(yudou789.top 玉豆免费节点) #1'
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: true
-  sni: yazhou10.dynu.net
-  type: trojan
 - name: 30|香港 NTT 03
   password: fc48194800.wns.windows.com
   port: 8443
@@ -264,6 +256,14 @@ proxies:
     headers:
       Host: hk80-2.af49c4e4c2ef.sanfen001.pics
     path: /zh-cn/
+- name: '57,58,68|香港(yudou789.top 玉豆免费节点) #1'
+  network: tcp
+  password: OccIqeORGQwiNkwS
+  port: 19128
+  server: jpbgp.netvigor.cc
+  skip-cert-verify: true
+  sni: yazhou10.dynu.net
+  type: trojan
 - alterId: 0
   cipher: auto
   name: 57,71|新加坡_0712001
@@ -337,25 +337,14 @@ proxies:
   ws-headers:
     Host: 47.76.127.88
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: '61|B - 🇭🇰 HK 04 TG: @nodpai'
+- name: 61,68|香港(yudou789.top 玉豆免费节点)
   network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '61,68|香港 #1'
-  network: tcp
-  port: '51556'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
+  type: trojan
 - alterId: 2
   cipher: auto
   name: '64|🇭🇰 香港|@ripaojiedian #2'
@@ -450,14 +439,6 @@ proxies:
   port: 443
   server: au-4.tr202605.com
   skip-cert-verify: false
-  type: trojan
-- name: 68|香港(yudou789.top 玉豆免费节点)
-  network: tcp
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: 114.80.8.128
   type: trojan
 - name: 71|香港_0712002
   password: XG59623478

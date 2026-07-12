@@ -63,16 +63,6 @@ proxies:
   sni: alibaba-node.cn
   type: trojan
   udp: true
-- name: 61|♾️Join->🆔️@ATLAS_V2VPN🆓️🛜🔷️432...
-  obfs: salamander
-  obfs-password: 3sv5vpdl9xr84lyb
-  password: 653m8mmiy7048p0f
-  port: 443
-  server: 2.26.49.16
-  skip-cert-verify: false
-  sni: social.klipp.su
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '67|🇺🇸_US_美国 #18'
@@ -178,3 +168,37 @@ proxies:
     headers:
       Host: nest-emily-healing-h.trycloudflare.com
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #3'
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #4'
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #5'
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- name: '68|🇺🇸_US_美国->🇦🇿_AZ_阿塞拜疆 #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan

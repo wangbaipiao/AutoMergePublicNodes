@@ -331,117 +331,13 @@ proxies:
   port: 443
   server: 139.59.119.143
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '61|A - 🇸🇬 SG 06 TG: @nodpai'
-  network: tcp
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '61|A - 🇸🇬 SG 08 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.131.4.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: '61|A - 🇸🇬 SG 09 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 114.129.43.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime04.workers.dev
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '61|A - 🇸🇬 SG 10 TG: @nodpai'
-  port: 443
-  server: 46.149.71.46
-  servername: www.avito.ru
-  tls: true
-  type: vless
-  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
-- alterId: 2
-  cipher: auto
-  name: '61|B - 🇸🇬 SG 16 TG: @nodpai'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '61|B - 🇸🇬 SG 17 TG: @nodpai'
-  port: 443
-  server: 46.149.71.46
-  servername: www.avito.ru
-  tls: true
-  type: vless
-  uuid: d511e429-e32b-46a7-ac07-a0fffa9b634c
-- name: 61|🇸🇬SG_10|1.5MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 104.18.34.228
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+- name: 61|🇸🇬SG_9|1.5MB/s
+  password: BxceQaOe
+  port: 45744
+  server: 16.162.191.181
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇸🇬SG_12|4.0MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: nexusmods.com
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇸🇬SG_14|2.0MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 104.18.37.133
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇸🇬SG_15|4.3MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 104.18.33.225
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: 61|🇸🇬SG_17|3.9MB/s
-  network: ws
-  password: '!!str 666'
-  port: 443
-  server: 104.18.43.190
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  ws-opts:
-    path: /glasspanel/guest000_0_5de14443985f/
 - client-fingerprint: random
   name: 67|TG@ZDYZ2 -SG-Singapore1
   network: ws

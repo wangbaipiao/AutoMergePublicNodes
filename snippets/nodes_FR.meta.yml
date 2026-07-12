@@ -1,4 +1,12 @@
 proxies:
+- name: 14|>>@oneclickvpnkeys::FR
+  password: dongtaiwang.com
+  port: 22000
+  server: 62.210.124.146
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - alterId: '64'
   cipher: auto
   name: 16,17|482_法国-883.9KB
@@ -99,7 +107,7 @@ proxies:
   server: 35.180.122.124
   type: ss
 - cipher: aes-256-cfb
-  name: '57|🇫🇷FR-13.36.168.114-48 #1'
+  name: 57|🇫🇷FR-13.36.168.114-48
   password: amazonskr05
   port: 443
   server: 13.36.168.114
@@ -113,25 +121,6 @@ proxies:
   sni: trj.rollingnext.co.uk
   type: trojan
   udp: true
-- name: '61|A - 🇫🇷 FR 01 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '61|A - 🇫🇷 FR 03 TG: @nodpai'
-  port: 7443
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
 - name: 67|🇫🇷FR-52.47.174.48-1299
   password: telegram-id-directvpn
   port: 22222

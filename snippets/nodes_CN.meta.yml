@@ -1883,7 +1883,7 @@ proxies:
   ws-headers:
     Host: v36.hdacd.com
   ws-path: /
-- name: 57,58,68|美国(yudou789.top 玉豆免费节点)
+- name: 57,58,61,68|美国(yudou789.top 玉豆免费节点)
   network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: 39001
