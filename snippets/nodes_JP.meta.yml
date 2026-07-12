@@ -13,13 +13,21 @@ proxies:
     headers:
       Host: www.bing.com
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
-- name: 14,57,58,68,71|日本_0712018
+- name: 14,57,58,68,71|日本_0712015
   network: tcp
   password: PI36027154
   port: 443
-  server: busy-lab.rooster465.autos
+  server: exciting-grizzly.rooster465.autos
   skip-cert-verify: false
-  sni: busy-lab.rooster465.autos
+  sni: exciting-grizzly.rooster465.autos
+  type: trojan
+- name: 14,57,58,68,71|日本_0712017
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: stirred-buck.rooster465.autos
+  skip-cert-verify: false
+  sni: stirred-buck.rooster465.autos
   type: trojan
 - name: 14,57,58,68,71|日本_0712016
   network: tcp
@@ -29,9 +37,17 @@ proxies:
   skip-cert-verify: false
   sni: faithful-clam.rooster465.autos
   type: trojan
+- name: 14,57,58,68,71|日本_0712018
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: busy-lab.rooster465.autos
+  skip-cert-verify: false
+  sni: busy-lab.rooster465.autos
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 14|🇯🇵JP-140.83.51.161-1388
+  name: 14|🇯🇵JP-140.83.51.161-1446
   network: ws
   port: '25686'
   server: 140.83.51.161
@@ -43,34 +59,19 @@ proxies:
     headers:
       Host: jp02.a0a.xyz
     path: /cctv13.m3u8
-- name: 14,57,58,68,71|日本_0712017
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: stirred-buck.rooster465.autos
-  skip-cert-verify: false
-  sni: stirred-buck.rooster465.autos
-  type: trojan
-- name: 14,57,58,68,71|日本_0712015
-  network: tcp
-  password: PI36027154
-  port: 443
-  server: exciting-grizzly.rooster465.autos
-  skip-cert-verify: false
-  sni: exciting-grizzly.rooster465.autos
-  type: trojan
-- client-fingerprint: firefox
-  name: 14|🇯🇵+JP+7
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '14,68|日本(yudou789.top 玉豆免费节点) #2'
   network: tcp
   port: 443
   reality-opts:
-    public-key: aW52dpxW-umVvMOHPRCDsnHnJjuM8_S1FScLJQrVrG8
-    short-id: a32e8c4a
-  server: 43.165.186.226
-  servername: www.sony.com
+    public-key: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
+    short-id: dfde4e821472fb98
+  server: 116.206.92.167
+  servername: www.apple.com
   tls: false
   type: vless
-  uuid: 3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be
+  uuid: 6c8a1ad4-0c04-460d-87e2-507a952ba902
   ws-opts:
     path: '%2F'
 - cipher: aes-256-gcm
@@ -933,19 +934,6 @@ proxies:
   tls: false
   type: vless
   uuid: a7638f72-7bef-4eac-9e7c-b5f525b83240
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '68|日本(yudou789.top 玉豆免费节点) #2'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: LP_JNPrfHbQnMK5dYoKr4D6Q8I8yKHK5ygHffJb1hzw
-    short-id: dfde4e821472fb98
-  server: 116.206.92.167
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 6c8a1ad4-0c04-460d-87e2-507a952ba902
 - client-fingerprint: chrome
   grpc-opts:
     grpc-service-name: ljfxz

@@ -35,6 +35,12 @@ proxies:
   ws-headers:
     host: er3.mybestjj.com
   ws-path: /2
+- cipher: chacha20-ietf-poly1305
+  name: 57|TW-125.224.228.153-33
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
 - alterId: 0
   cipher: auto
   name: 67|🇹🇼台湾 01

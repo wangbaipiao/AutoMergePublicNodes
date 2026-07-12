@@ -331,13 +331,20 @@ proxies:
   port: 443
   server: 139.59.119.143
   type: trojan
-- name: 61|🇸🇬SG_9|1.5MB/s
-  password: BxceQaOe
-  port: 45744
-  server: 16.162.191.181
+- cipher: aes-256-gcm
+  name: 57|SG-56.10.43.137-37
+  password: a338A9
+  port: 8888
+  server: aw-sg.vndmall.pro
+  type: ss
+- name: 61|🇸🇬SG_2|3.7MB/s
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 54.255.102.19
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+  sni: https://t.me/WangCai2🇨🇳
+  tls: false
+  type: hysteria2
 - client-fingerprint: random
   name: 67|TG@ZDYZ2 -SG-Singapore1
   network: ws

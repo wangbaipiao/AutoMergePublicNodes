@@ -1,12 +1,31 @@
 proxies:
-- name: 14,71|英国_0712039
+- name: 14|🇩🇪+德国+|+DEU+6
   network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.128
-  skip-cert-verify: false
-  sni: ''
-  type: trojan
+  port: 22222
+  server: 63.186.108.111
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: 14|🇩🇪+DE+53
+  network: tcp
+  port: 22222
+  server: 52.29.209.18
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts:
+    path: '%2F'
+- name: 21,68|未知 VLESS-537 | free-nodes
+  network: tcp
+  port: 8882
+  server: gr1.fifapes.monster
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    headers:
+      Host: '%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI'
+    path: '%2F'
 - name: '25,37,61|DE #1'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -43,6 +62,16 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: '26,37,61|🇩🇪108906 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: JxCHTtg2gX
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -51,6 +80,15 @@ proxies:
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '26,37,61|🇩🇪108966 | ⚡️Telegram = t.me/S... #1'
+  obfs: salamander
+  obfs-password: pqvmx29fokvh8ubb
+  password: TELEgRAM-ID-conf0088
+  port: 2053
+  server: cuetara.name.cuetara.name
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '26,37,61|🇩🇪@V2RayyNGvpn🇩🇪hy #1'
@@ -217,13 +255,6 @@ proxies:
   password: '!!str 3782591447421952000'
   port: 443
   server: patient-ghost.treefrog761.one
-  type: trojan
-- name: 57,58,71|英国_0712025
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.138
-  skip-cert-verify: false
-  sni: ''
   type: trojan
 - cipher: aes-256-cfb
   name: '57,64|tg频道:@ripaojiedian #2'

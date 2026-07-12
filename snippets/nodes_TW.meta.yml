@@ -57,6 +57,12 @@ proxies:
   type: vless
   udp: true
   uuid: 52faee73-e0fe-4661-992d-67259257170f
+- cipher: chacha20-ietf-poly1305
+  name: 57|TW-125.224.228.153-33
+  password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
 - client-fingerprint: random
   name: 67|TG@ZDYZ2 -TW3
   network: ws

@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 58|🇺🇸_US_美国->🇯🇵_JP_日本
+  network: ws
+  port: 443
+  server: vps123.kbxa.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd07d6e6-f631-4757-a03c-b8727c568c85
+  ws-opts:
+    headers:
+      Host: vps123.kbxa.top
+    path: /123
+- alterId: 0
+  cipher: auto
   name: 60|_SG_->🇺🇸_US_美国
   network: ws
   port: 80
@@ -186,6 +200,15 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- alterId: 2
+  cipher: auto
+  name: '68|🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 #1'
+  network: tcp
+  port: 30835
+  server: v35.hdacd.com
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #5'
@@ -202,3 +225,13 @@ proxies:
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 68,71|中国_0712001
+  network: tcp
+  port: '30836'
+  server: v36.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

@@ -1847,6 +1847,14 @@ proxies:
   ws-headers:
     host: 2f36c18cfe75.sanfen001.pics
   ws-path: /
+- name: 21,68|韩国(yudou789.top 玉豆免费节点)
+  password: d5m-5bGOsVbFgRlxsEyO3pCF
+  port: 55020
+  server: 8.148.4.25
+  skip-cert-verify: true
+  sni: 8.148.4.25
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '44,67|github.com/freefq - 广东省移动 7 #1'
@@ -1869,42 +1877,6 @@ proxies:
   skip-cert-verify: true
   sni: www.yrtok.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 57,58,68,71|中国_0712001
-  network: tcp
-  port: '30836'
-  server: v36.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v36.hdacd.com
-  ws-path: /
-- name: 57,58,61,68|美国(yudou789.top 玉豆免费节点)
-  network: tcp
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '57,58,68|🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 #1'
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-headers:
-    Host: v35.hdacd.com
-  ws-path: /
 - name: 67|TG频道:@hkaa0▓中国
   network: tcp
   password: 2fadf1dc-f401-4225-ac95-da030118eaef
