@@ -1,19 +1,5 @@
 proxies:
-- name: 14|🇩🇪+DE+36
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.128
-  sni: 185.137.157.128
-  type: trojan
-- name: 14|🇩🇪+DE+7
-  network: tcp
-  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
-  port: 443
-  server: 185.137.157.142
-  sni: 185.137.157.142
-  type: trojan
-- name: 14,58,71|英国_0712037
+- name: 14,71|英国_0712037
   network: tcp
   password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
   port: 443
@@ -21,6 +7,50 @@ proxies:
   skip-cert-verify: false
   sni: ''
   type: trojan
+- name: 14|🇩🇪+DE+33
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.140
+  sni: 185.137.157.140
+  type: trojan
+- name: 14,21,57,58,71|英国_0712026
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.149
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 14,71|英国_0712039
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.128
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 14,71|英国_0712040
+  network: tcp
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.135
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- client-fingerprint: chrome
+  name: 14|德国+V2CROSS.COM
+  network: ws
+  port: 443
+  server: 5.10.214.151
+  servername: octopusss5.info
+  tls: true
+  type: vless
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: '%2Fudfyfws'
 - name: '25,37,61|DE #1'
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -232,6 +262,26 @@ proxies:
   port: 443
   server: patient-ghost.treefrog761.one
   type: trojan
+- name: 57,58,71|英国_0712038
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.142
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- name: 57,58,71|英国_0712025
+  password: dh-Ws-YoJIgTYLZ-A5VljeduVse-vhDl7Q
+  port: 443
+  server: 185.137.157.138
+  skip-cert-verify: false
+  sni: ''
+  type: trojan
+- cipher: aes-256-cfb
+  name: '57,64|tg频道:@ripaojiedian #2'
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
 - alterId: 0
   cipher: auto
   name: 67|🇩🇪DE-194.87.71.23-0109

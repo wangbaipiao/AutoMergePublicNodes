@@ -21,12 +21,6 @@ proxies:
   port: 22222
   server: 13.49.54.20
   type: trojan
-- name: 58|瑞典丨yoyapai.com\r
-  password: Mitivpn
-  port: 80
-  server: 146.75.116.190
-  skip-cert-verify: true
-  type: trojan
 - name: 61|🇸🇪SE_1|2.2MB/s
   obfs: ''
   obfs-password: ''

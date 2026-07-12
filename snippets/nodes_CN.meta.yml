@@ -1861,26 +1861,50 @@ proxies:
     headers:
       Host: data-us-v1.shwjfkw.cn
     path: /debian
+- name: 57,58,68|印度(yudou789.top 玉豆免费节点)
+  network: tcp
+  password: ef73ca2cf3d9cd0f04c8f448da8125c6
+  port: 39001
+  server: 106.75.160.27
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: 58|🇨🇳_CN_中国
+  name: 57,58,68,71|中国_0712001
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
+  port: '30836'
+  server: v36.hdacd.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v36.hdacd.com
+  ws-path: /
+- name: 57,58,68|美国(yudou789.top 玉豆免费节点)
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: '58|🇨🇳_CN_中国 #1'
+  name: '57,58,68|🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 #1'
   network: tcp
-  port: 30833
-  server: v33.hdacd.com
+  port: 30835
+  server: v35.hdacd.com
   servername: ''
+  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-headers:
+    Host: v35.hdacd.com
+  ws-path: /
 - name: 67|TG频道:@hkaa0▓中国
   network: tcp
   password: 2fadf1dc-f401-4225-ac95-da030118eaef

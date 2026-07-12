@@ -186,15 +186,6 @@ proxies:
   tls: true
   type: vless
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alterId: 2
-  cipher: auto
-  name: '68|🇮🇩_ID_印度尼西亚->🇫🇷_FR_法国 #1'
-  network: tcp
-  port: 30835
-  server: v35.hdacd.com
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '68|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 #5'
@@ -211,13 +202,3 @@ proxies:
   skip-cert-verify: true
   sni: az.01.naiun.bilibili.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 68,71|中国_0712001
-  network: tcp
-  port: '30836'
-  server: v36.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484

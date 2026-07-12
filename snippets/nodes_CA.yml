@@ -1,16 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 14|CA 🇨🇦 | @Raydikalx | 2706
-  network: tcp
-  port: '18000'
-  server: 23.162.200.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-- alterId: 0
-  cipher: auto
   name: '45,55|www.youneed.win #839'
   network: ws
   port: '443'
